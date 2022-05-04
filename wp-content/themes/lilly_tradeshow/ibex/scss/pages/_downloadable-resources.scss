@@ -1,0 +1,137 @@
+.page-template-downloadable_resources {
+  background: url(ibex/svg/x-bg.svg) no-repeat top center;
+  background-size: 100%;
+}
+
+.downloadable-resources {
+  @include sitePadding;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  background: rgba(214, 209, 209, 0.31);
+}
+
+.cardBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &::after {
+    content: "";
+    display: block;
+    flex: 0 0 calc((100% / 3) - 13px);
+  }
+
+  h2 {
+    flex: 0 0 100%;
+    font-size: 21px;
+    font-family: "FFDINWebProBold";
+  }
+
+  &__card {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+    background: $white;
+    padding: 20px 20px 0;
+
+    @media screen and (min-width: 768px) {
+      flex: 0 0 calc((100% / 2) - 10px);
+    }
+
+    @media screen and (min-width: 1000px) {
+      flex: 0 0 calc((100% / 3) - 13px);
+    }
+
+    &:hover {
+      box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.25);
+    }
+
+    &--large {
+      .card__title {
+        font-size: 28px;
+        font-family: "FFDINWebProRegular";
+      }
+
+      .card__links {
+        width: 350px;
+      }
+
+      img {
+        float: right;
+        width: 377px;
+        height: 300px;
+        margin-bottom: -40px;
+      }
+    }
+  }
+
+  img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.card {
+  &__title {
+    font-family: "FFDINWebProBold";
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+
+  &__subTitle {
+    font-family: "FFDINWebProMedium";
+    font-size: 18px;
+    color: $lilly-red;
+    margin: 0;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    clear: both;
+
+    a {
+      color: $dark-gray;
+      padding: 15px 0;
+      text-indent: 24px;
+
+      &:hover {
+        color: $lilly-red;
+      }
+    }
+  }
+
+  &__view {
+    background: url(ibex/svg/specs.svg) no-repeat left center;
+
+    &:hover {
+      background: url(ibex/svg/specs--red.svg) no-repeat left center;
+    }
+  }
+
+  &__add {
+    text-indent: 26px;
+    background: url(ibex/svg/bcase-small.svg) no-repeat left center;
+
+    &:hover {
+      background: url(ibex/svg/bcase-small--red.svg) no-repeat left center;
+    }
+  }
+}
+
+.whiteBG {
+  background: $white;
+}
+
+.retBG {
+  background: rgba(199, 194, 184, 0.38);
+}
+
+.extraMargin {
+  margin-bottom: 80px;
+}

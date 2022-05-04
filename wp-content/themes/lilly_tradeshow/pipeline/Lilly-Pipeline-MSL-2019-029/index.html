@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lilly Pipeline</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="author" content="Pulse Digital">
+
+  <link rel="preload" href="../shared/img/buttons/hamburger_menu@2x.png" as="image">
+  <link rel="preload" href="../shared/img/buttons/doc.png" as="image">
+  <link rel="preload" href="../shared/img/buttons/home.png" as="image">
+  <link rel="preload" href="../shared/img/logo.png" as="image">
+
+  <link rel="preload" href="../shared/img/bg-pipeline-2.png" as="image">
+  <link rel="preload" href="img/content/pd-1-pipeline-molecule-1@2x.png" as="image">
+  <link rel="preload" href="img/PD-1_Glow.png" as="image">
+  <link rel="preload" href="../shared/img/headers/pd-1@2x.png" as="image">
+
+  <link rel="stylesheet" href="../shared/css/normalize.css">
+  <link rel="stylesheet" href="../shared/css/swiper.min.css">
+  <link rel="stylesheet" href="../shared/css/shared.css">
+  <link rel="stylesheet" href="css/slide.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-192772895-54"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-192772895-54');
+</script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-192772895-54');
+  gtag('event', 'Molecule State Modal', {
+    'event_label': 'PD-1 (Phase-2) - Pipeline Molecule',
+    'event_category': 'Medical Affairs',
+    'non_interaction': true
+    });
+</script>
+
+</head>
+<body>
+<div class="g-background">
+  <img class="s-background__image" src="../shared/img/bg-pipeline-2.png">
+</div>
+
+<section class="g-content">
+  <div class="g-header">
+    <div class="g-heading__menu"></div>
+  </div>
+
+  <div id="g-carousel__outer" class="g-carousel">
+
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <video autoplay loop preload="none" muted>
+                <source src="video/PD-1_Glow.mp4" type='video/mp4'>
+              </video>
+              <img id="f-video-overlay" src="img/PD-1_Glow.png">
+              <img class="s-background__image" src="img/content/pd-1-pipeline-molecule-1@2x.png">
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev swiper-button-disabled"></div>
+        <div class="swiper-button-next swiper-button-disabled"></div>
+
+    </div>
+
+  </div>
+
+  <div class="g-tabs -add-clinical">
+    <div data-slide=""></div>
+    <div data-slide="Lilly-Pipeline-MSL-2019-030"></div>
+    <div data-slide="Lilly-Pipeline-MSL-2019-031"></div>
+    <div data-slide="Lilly-Pipeline-MSL-2019-0311"></div>
+  </div>
+
+  <div class="g-footer">
+    <div class="g-button g-button__references" data-dialog="g-dialog__content-1"></div>
+    <div class="g-button g-button__home" data-slide="Lilly-Pipeline-MSL-2019-001"></div>
+    <div class="g-logo"></div>
+  </div>
+</section>
+
+<div id="g-dialog">
+  <div class="g-dialog__content g-dialog__content-1"><img class="s-background__image" src="img/popup/pd-1-pipeline-molecule-1-@2x.png"></div>
+  <div class="g-dialog__content g-dialog__content-2"></div>
+  <div class="g-dialog__content g-dialog__content-3"></div>
+  <div class="g-dialog__content g-dialog__content-4"></div>
+</div>
+
+<script src="../shared/js/hammer.min.js"></script>
+<script src="../shared/js/swiper.min.js"></script>
+<script src="../shared/js/presentation.js"></script>
+<script src="js/slide.js"></script>
+<script src="../js/pipeline_analytics.js"></script>
+</body>
+</html>

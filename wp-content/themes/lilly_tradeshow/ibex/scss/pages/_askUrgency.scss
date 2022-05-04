@@ -1,0 +1,65 @@
+.ask {
+
+    .cta__container--left {
+        background-image: url('ibex/images/ask-cta.png');
+    }
+    .cta__container--right {
+        h3 {
+            max-width: 405px;
+        }
+    }
+
+    .color_block {
+        text-align: center;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        padding: 25px 30px;
+        display: block;
+
+        * {
+            color: $white;
+        }
+    
+        a {
+            display: block;
+            font-family: $antonioLight;
+            font-size: 41px;
+            text-decoration: none;
+            margin-bottom: 60px;
+
+            span {
+                font-family: $antonioBold;
+                text-decoration: underline;
+            }
+            svg {
+                width: 27px;
+                margin-left: 5px;
+            }
+        }
+
+        h1 {
+            font-family: $antonioLight;
+            font-size: 58px;
+            line-height: 60px;
+            margin-bottom: 60px;
+        }
+    
+        .references {
+            font-family: $dinregular;
+            font-size: 14px;
+            line-height: 20px;
+            max-width: 1215px;
+            margin: 2rem auto;
+        }
+    
+        &.green {
+            background-color: #1D9D7E;
+        }
+        
+        &.orange {
+            background-color: #E18140;
+        }  
+    }
+    
+}

@@ -1,0 +1,373 @@
+// ======================================
+// Header
+// ======================================
+
+.header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: $urgency-gray;
+  // background-color: $lilly-red;
+  z-index: 12;
+
+  &__container {
+    position: relative;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+    height: 100%;
+    padding: 10px 15px 0px;
+    overflow: hidden;
+    @include respond-to('landscape'){
+      overflow: visible;
+    }
+    //@include responsive-width ($max-width);
+
+    .logoBackground {
+      width: 245px;
+      position: absolute;
+      pointer-events: none;
+      z-index: 0;
+      right: 275px;
+      top: 0;
+      margin-top: 10px;
+      height: 96px;
+      overflow: hidden;
+
+      svg {
+        // fill: lighten($orange, 5%);//#DF5745;
+        fill: $lilly-red;
+        // fill: $white;
+        opacity: .15;
+        height: 136px;
+        // width: unset;
+        // height: unset;
+      }
+    }
+
+    .desktop {
+      display: none;
+
+      @include respond-to('tablet') {
+        display: block;
+        text-decoration: underline;
+        font-size: 17px;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: -0.32px;
+        color: #0078A3;
+        font-weight: 500;
+        margin-left: 26px;
+      }
+    }
+
+    .mob {
+      display: block;
+
+      @include respond-to('tablet') {
+        display: none;
+      }
+    }
+
+  }
+}
+
+.logo {
+  display: flex;
+  text-decoration: none;
+  z-index: 1;
+
+  img {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 100px;
+    padding: 0 20px 0 0;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+
+  }
+
+  &__title {
+    position: relative;
+    display: block;
+    // color: $white;
+    // font-family: $heading-font-family;
+    // text-decoration: none;
+    // text-transform: capitalize;
+    // white-space: nowrap;
+    // @include fluid-type (30px, 60px);
+    // line-height: 1em;
+
+    svg {
+      // fill: $white;
+      fill: $lilly-red;
+      width: 115px;
+    }
+  }
+
+  &__subtitle {
+    position: relative;
+    display: block;
+    color: #383838;
+    // color: $white;
+    font-family: $dinmedium;//$primary-font-family;
+    font-size: 21px;
+    margin-right: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 0 10px 0 20px;
+   text-transform: uppercase;
+    //margin-left: auto;
+  }
+
+  &--red {
+    svg {
+      fill: $orange;
+    }
+
+    .logo__subtitle {
+      // color: #B1AFAB;
+      color: $lilly-red;
+    }
+  }
+
+}
+
+.alert {
+  display: block;
+  background-color: $red;
+  width: 100%;
+  text-decoration: none;
+
+  p {
+    color: white;
+    max-width: $max-width;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 auto; 
+  }
+}
+
+a.alert {
+  transition: $transition;
+  &:hover {
+    @include button-hover-dark($red, 20);
+  }
+}
+
+
+//make header sticky (override)
+.header {
+  position:fixed;
+  top:0;
+}
+#site-content {
+  margin-top: 110px;
+  @include respond-to('1025') {
+    margin-top: 106px;
+  }
+}
+.productTop {
+  position: fixed;
+  top:110px;
+  width:100%;
+  z-index: 10;
+  background:#ffffff;
+  @include respond-to('1025'){
+    top: 106px;
+  }
+}
+
+.admin-bar {
+  .header {
+    top:32px;
+  }
+  .productTop {
+    top:138px;
+  }
+}
+
+.page-template-approved_product,
+.page-template-approved_product_landing {
+  #site-content {
+    margin-top: 158px;
+  }
+}
+
+.page-template-approved_products_home {
+  #site-content {
+    margin-top: 182px;
+  }
+}
+
+.mobileModal {
+  position: fixed;
+  top:0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999999;
+  background-color: rgba(255,255,255,0.8);
+  backdrop-filter: blur(15px);
+  display: none;
+
+  @include respond-to('tablet'){
+    display: none;
+  }
+
+  &.active {
+    display: block;
+    @include respond-to('tablet'){
+      display: none;
+    }
+  }
+
+  &__inner {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      margin: 15px auto;
+      text-align: center;
+      font-family: $dinregular;
+      font-size: 22px;
+      text-transform: uppercase;
+      width: 100%;
+    }
+  }
+
+  .formModal__close {
+    color: #000;
+  }
+}
+
+.contactUsMenu {
+  position:absolute;
+  width: 242px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000029;
+  top: 60px;
+  right: 60px;
+
+  transition:0.2s ease opacity;
+  opacity: 0;
+  pointer-events: none;
+
+  &.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  &__header {
+    background: #AF9D9433;
+    padding: 17px 16px 10px;
+    position: relative;
+
+    h6 {
+      font-size: 19px;
+      line-height: 21px;
+      font-family: $dinbold;
+      color: #7D716D;
+      display: flex;
+      align-items: center;
+      margin: 0;
+
+      svg {
+        fill: $lilly-red;
+        max-width: 63px;
+        margin-left: 8px;
+      }
+    }
+
+    p {
+      letter-spacing: -0.24px;
+      color: #7D716D;
+      font-family: $dinbold;
+      font-size: 12px;
+      line-height: 21px;
+      margin: 0;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 15px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: serif;
+    color: #000;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 0px 0 #000;
+  }
+
+  &__links {
+    list-style: none;
+    margin:0;
+    padding: 5px 16px 10px;
+  }
+
+  &__link {
+    position: relative;
+
+    h6 {
+      font: normal normal bold 16px/21px Roboto;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: -0.32px;
+      color: #383838;
+
+      img {
+        display: inline;
+        position: relative;
+        top: 3px;
+        margin-right: 7px;
+      }
+    }
+
+    p {
+      white-space: normal;
+      font-family: 'Roboto', sans-serif;
+      line-height:15px;
+      font-size: 12px;
+      letter-spacing: 0px;
+      color: #707070;
+      margin: 2px 0px 2px 26px;
+    }
+
+    a {
+      text-decoration: underline;
+      font: normal normal medium 16px/21px Roboto;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: -0.32px;
+      color: #0078A3;
+      font-weight: 500;
+      margin-left: 26px;
+
+      img {
+        position: relative;
+        top: 3px;
+        margin-right: 6px;
+      }
+    }
+
+  }
+
+}

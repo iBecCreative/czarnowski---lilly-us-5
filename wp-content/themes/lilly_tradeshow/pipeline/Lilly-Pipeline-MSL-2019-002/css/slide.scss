@@ -1,0 +1,90 @@
+.g-header {
+  background: #fff url('../../shared/img/headers/il-13@2x.png') 100px 0 no-repeat;
+  background-size: 1366px 78px;
+}
+
+.swiper-button-next {
+  right: 0px;
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png");
+}
+
+.swiper-button-prev {
+  left: 0px;
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png");
+}
+
+.g-dialog__content-inner-wrapper {
+  background-image: url("../img/popup.png");
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #00a1de;
+}
+
+.g-dialog__content.g-dialog__content-1 img {
+  bottom: 0;
+  position: absolute;
+  left: 20px;
+}
+
+.swiper-slide img {
+  left: 50%;
+  height: 85%;
+  margin-left: 0%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.swiper-slide:nth-child(1) video,
+#f-video-overlay {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  width: 386px;
+  height: 386px;
+  margin-left: 0%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+$scale_modifier-pro: 834 / 1024;
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/il-13@2x.png') 82px 0 no-repeat;
+    background-size: 1112px 78px * $scale_modifier-pro;
+  }
+
+  .g-dialog__content.g-dialog__content-1 img {
+    left: 20px * $scale_modifier-pro;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    width: 386px * $scale_modifier-pro;
+    height: 386px * $scale_modifier-pro;
+  }
+}
+
+$scale_modifier: 768 / 1024;
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/il-13@2x.png') 75px 0 no-repeat;
+    background-size: 1024px 78px * $scale_modifier;
+  }
+
+  .g-dialog__content.g-dialog__content-1 img {
+    left: 20px * $scale_modifier;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    width: 386px * $scale_modifier;
+    height: 386px * $scale_modifier;
+  }
+}

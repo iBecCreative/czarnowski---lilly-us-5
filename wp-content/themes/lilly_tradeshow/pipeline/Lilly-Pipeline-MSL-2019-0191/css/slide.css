@@ -1,0 +1,82 @@
+.g-header {
+  background: #fff url("../../shared/img/headers/cxc@2x.png") 100px 0 no-repeat;
+  background-size: 93% 78px; }
+
+.swiper-button-next {
+  right: 0;
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png"); }
+
+.swiper-button-prev {
+  left: 0;
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png"); }
+
+.g-dialog__content-inner-wrapper {
+  background-image: url("../img/popup.png"); }
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #00b040; }
+
+.g-dialog__content.g-dialog__content-1 img {
+  bottom: 13px;
+  position: absolute;
+  left: 64px;
+  width: 585px;
+  margin-left: 0; }
+
+.swiper-slide:nth-child(1) video,
+#f-video-overlay {
+  display: none;
+  position: absolute;
+  left: 525px;
+  top: 320px;
+  width: 310px;
+  height: 310px;
+  z-index: -1;
+  max-width: 340px; }
+
+.swiper-wrapper img {
+  left: 64px; }
+
+.study-link-1 {
+  margin-top: 185px; }
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url("../../shared/img/headers/cxc@2x.png") 82px 0 no-repeat;
+    background-size: 93% 63.52734px; }
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 10.58789px;
+    left: 36.65039px;
+    width: 476.45508px; }
+  .swiper-wrapper img {
+    left: 52.125px; }
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 427.58789px;
+    top: 260.625px;
+    width: 252.48047px;
+    height: 252.48047px;
+    max-width: 276.91406px; }
+  .study-link-1 {
+    margin-top: 150.67383px; } }
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url("../../shared/img/headers/cxc@2x.png") 75px 0 no-repeat;
+    background-size: 93% 58.5px; }
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 9.75px;
+    left: 33.75px;
+    width: 438.75px; }
+  .swiper-wrapper img {
+    left: 48px; }
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 393.75px;
+    top: 240px;
+    width: 232.5px;
+    height: 232.5px;
+    max-width: 255px; }
+  .study-link-1 {
+    margin-top: 138.75px; } }

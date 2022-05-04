@@ -1,0 +1,193 @@
+// ======================================
+// Schedule Meeting
+// ======================================
+
+.schedule_page {
+    width: 100%;
+    margin: auto;
+    max-width: 1250px;
+    padding: 20px;
+
+    .intro-paragraph {
+        width: 100%;
+        max-width: 550px;
+        width: 100%;
+        max-width: 690px;
+        font-size: 27px;
+        line-height: 32px;
+        font-family:$dinlight;
+
+    }
+    h1 {
+        font-family:$dinlight;
+        letter-spacing: .48px;
+        text-align: left;
+        letter-spacing: -0.48px;
+        color: #000000E6;
+        opacity: 1;
+    }
+}
+
+/* Columns */
+.column-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 75px;
+    margin-bottom: 100px;
+
+    @media screen and (max-width:$bp-tablet) {
+        flex-wrap: wrap; 
+        margin-top: unset;
+    }
+
+    &.column-container-1 {
+        margin-bottom: 0;
+    }
+    &.column-container-2 {
+        margin-top: 0;
+    }  
+    .column {
+        padding: 0px 25px;//25px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-right: 1px solid #707070;
+
+        @media screen and (max-width:$bp-tablet) {
+            width: 50%;
+        }
+
+        @media screen and (max-width:$bp-small) {
+            width: 100%;
+            border-right: unset;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            padding: 0 25px;
+            width: 100%;
+
+            .doctor-block:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+        .row-1 {
+            border-bottom: 1px solid #707070;
+
+            @media screen and (max-width:$bp-small) {
+                border-bottom: unset;
+            }
+
+            .doctor-block:last-of-type {
+                margin-bottom: 40px;
+            }
+        }
+        .row-2 {
+            .schedule_type {
+                margin-top: 56px;
+            }
+        }
+    }
+    .column-0 {
+        margin-left: 0px;
+        padding-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #707070;
+    }
+    .column-1 {
+        margin-left: 0px;
+        padding-left: 0;
+    }
+    .column-3 {
+        border-right: unset;
+        padding: 0px;//25px 0px 0px;
+    }
+}
+
+.schedule_type {
+    font-family:$dinlight;
+    font-size: 30px;
+    letter-spacing: .3px;
+    color: $font-gray;
+    margin-bottom: 40px;
+
+    @media screen and (max-width:$bp-small) {
+        margin-bottom: unset;
+    }
+}
+
+/* Doctor Block Styles */
+.doctor-block {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0;
+    width: 100%;
+
+    .doctor-image-container {
+        margin-right: 16px;
+
+        .image-link {
+            &:hover {
+                img {
+                    mix-blend-mode: normal;
+                    filter: grayscale(0);
+                }
+            }
+        }
+        img {
+            mix-blend-mode: luminosity; 
+            filter: grayscale(1);
+            width: 94px;
+            height: 94px;
+
+            &.active {
+                mix-blend-mode: normal;
+                filter: grayscale(0);
+            }
+        }
+
+        &:hover img {
+            mix-blend-mode: normal;
+            filter: grayscale(0);
+        }
+
+        &:hover + .doctor-content .doctor-btn {
+            //text-decoration: underline;
+        }
+    }
+    .doctor-content {
+
+        .doctor-title {
+            color: $font-gray;
+            font-family: $dinmedium;
+            font-size: 20px;
+            margin-top: unset;
+            margin-bottom: 20px;
+            line-height: 36px;
+            font-weight: normal;
+        }
+        .doctor-btn {
+            background-color: $royal-blue;
+            font-family: $dinmedium;
+            color: $white;
+            display: block;
+            border-radius: 6px;
+            font-size: 14px;
+            width: 120px;
+            text-decoration: none;
+            text-align: center;
+            padding: 2px 0;
+
+            &:hover {
+                //text-decoration: underline;
+            }
+        }
+    }
+}

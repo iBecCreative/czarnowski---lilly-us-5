@@ -1,0 +1,106 @@
+.g-header {
+  background: #fff url('../../shared/img/headers/pd-1@2x.png') 100px 0 no-repeat;
+  background-size: 1366px 78px;
+}
+
+.swiper-button-next {
+  right: 0px;
+  background-image: url("../../shared/img/buttons/swipe-right-purple@2x.png");
+}
+
+.swiper-button-prev {
+  left: 0px;
+  background-image: url("../../shared/img/buttons/swipe-left-purple@2x.png");
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #b1059d;
+}
+
+.swiper-slide:nth-child(1) video,
+#f-video-overlay {
+  display: none; // Need video
+  position: absolute;
+  left: 560px;
+  top: 205px;
+  width: 310px;
+  height: 310px;
+  z-index: -1;
+  max-width: 340px;
+}
+
+.swiper-wrapper img {
+  position: absolute;
+  top: 50px;
+  left: 43px;
+  width: auto;
+  height: 86%;
+  margin-left: 0;
+}
+.swiper-slide:nth-of-type(2n) img {
+  left: 70px;
+}
+.swiper-slide:nth-of-type(3n) img {
+  left: 90px;
+}
+
+$scale_modifier-pro: 834 / 1024;
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/pd-1@2x.png') 82px 0 no-repeat;
+    background-size: 1112px 78px * $scale_modifier-pro;
+  }
+
+  .swiper-wrapper img {
+    top: 50px * $scale_modifier-pro;
+    left: 43px * $scale_modifier-pro;
+  }
+
+  .swiper-slide:nth-of-type(2n) img {
+    left: 70px * $scale_modifier-pro;
+  }
+  .swiper-slide:nth-of-type(3n) img {
+    left: 90px * $scale_modifier-pro;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 560px * $scale_modifier-pro;
+    top: 205px * $scale_modifier-pro;
+    width: 310px * $scale_modifier-pro;
+    height: 310px * $scale_modifier-pro;
+    max-width: 340px * $scale_modifier-pro;
+  }
+}
+
+$scale_modifier: 768 / 1024;
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/pd-1@2x.png') 75px 0 no-repeat;
+    background-size: 1024px 78px * $scale_modifier;
+  }
+
+  .swiper-wrapper img {
+    top: 50px * $scale_modifier;
+    left: 43px * $scale_modifier;
+  }
+
+  .swiper-slide:nth-of-type(2n) img {
+    left: 70px * $scale_modifier;
+  }
+  .swiper-slide:nth-of-type(3n) img {
+    left: 90px * $scale_modifier;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 560px * $scale_modifier;
+    top: 205px * $scale_modifier;
+    width: 310px * $scale_modifier;
+    height: 310px * $scale_modifier;
+    max-width: 340px * $scale_modifier;
+  }
+}

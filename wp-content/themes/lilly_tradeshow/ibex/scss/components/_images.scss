@@ -1,0 +1,78 @@
+// ======================================
+// Images
+// ======================================
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+  p & {
+    margin: 1rem 0;
+  }
+}
+
+p.clearfix {
+  clear: both;
+}
+
+// Default WYSIWYG Images
+// =============================
+img.alignright {
+  @media (min-width: 460px) {
+    margin: 0 0 15px 15px;
+    display: inline;
+    float: right;
+  }
+}
+
+img.alignleft {
+  @media (min-width: 460px) {
+    display: inline;
+    margin: 0 15px 15px 0;
+    float: left;
+  }
+}
+
+img.aligncenter {
+  display: block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto
+}
+
+a img.alignright {
+  @media (min-width: 460px) {
+    display: inline;
+    margin: 0 0 15px 15px;
+    float: right;
+  }
+}
+
+a img.alignleft {
+  @media (min-width: 460px) {
+    display: inline;
+    margin: 0 15px 15px 0;
+    float: left;
+  }
+}
+
+a img.aligncenter {
+  display: block;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.overlay {
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: $black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    opacity: $opacity;
+  }
+}

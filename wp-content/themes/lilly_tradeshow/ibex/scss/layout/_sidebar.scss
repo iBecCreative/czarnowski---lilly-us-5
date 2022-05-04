@@ -1,0 +1,87 @@
+// ======================================
+// Sidebar
+// ======================================
+.clippy {
+    opacity: 0 ;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+    @media only screen and (min-width: 1165px) { 
+        opacity: 1;
+        overflow: visible;
+        height: auto;
+        width: 200px;
+    }
+    position: sticky;
+    top: 470px;
+    align-self: flex-start;
+    transform: translate(0, 30px);
+    
+    p {
+        color: #D52B1E ;
+        font-size: 22px;
+        font-family: $dincondbold;
+        font-size: 22px;
+    }
+    &--left {
+        left: 97px;
+    }
+    &--right {
+        right: 97px;
+    }
+    &--buttons {
+        display: flex;
+        flex-wrap: wrap;
+        top: 455px;
+        @media only screen and (min-width: 1165px) { 
+            width: 300px;
+        }
+
+        img {
+            width: 80px;
+            height: 100px;
+        }
+        .clippy-buttons {
+            width: 100%;
+            margin: 0 20px;
+            .button {
+                color: #D52B1E;
+                width: auto;//85%;
+                font-size: 15px;
+                font-family: $dincondbold;
+                padding: 5px;
+                display: block;
+                margin: 4px 0;
+                background: transparent;
+                border: solid 2px #D52B1E;
+                border-radius: 10px;
+                min-width: 125px;
+                transition: 0.2s;
+                line-height: 12px;
+
+                .font12 {
+                    font-size: 12px;
+                }
+
+                .font14 {
+                    font-size: 14px;
+                }
+
+                &:hover,
+                &.active {
+                    background: #D52B1E;
+                    color: #fff;
+                }
+                &.active {
+                    cursor: default;
+                    pointer-events: none;
+                }
+            }
+        }
+        .sidebar-text {
+            width: 100%;
+            font-family: $dincondbold;
+            font-size: 22px;
+        }
+    }
+}

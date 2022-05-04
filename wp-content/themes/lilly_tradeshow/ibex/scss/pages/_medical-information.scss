@@ -1,0 +1,111 @@
+//program page
+
+.page-template-medical_info {
+
+  &.page-id-1422 {
+    .clippy {
+      display: none;
+    }
+  }
+
+  .x-background--right {
+    background-image: url(ibex/images/x-topRight.jpg);
+  }
+
+  .content {
+    padding-top:90px;
+    flex-wrap: wrap;
+    padding-bottom:90px;
+
+    p {
+      font-size: 17px;
+      font-family: $dinregular;
+      line-height: 22px;
+      max-width:none;
+      width: 100%;
+
+      em {
+        font-family: $dinregularitalic;
+      }
+    }
+
+    h1 {
+      width: 100%;
+      margin-bottom: 0px;
+      font-size: 48px;
+      font-family: $dinlight;
+    }
+    
+    .awYeah {
+
+      a {
+        font-family: $dinmedium;
+        font-size: 18px;
+        line-height: 20px;
+        position: relative;
+        padding: 15px 50px 15px 25px;
+
+        &:after {
+          content: url('ibex/images/squarrow.png');
+          position: absolute;
+          right: 15px;
+          top: 16px;
+        }
+      }
+    }
+
+    .clippy--right {
+      margin-left: auto;
+      width: 250px;
+
+      .sidebar-text {
+        font-family: $dincondbold;
+        font-size: 22px;
+        line-height: 25px;
+      }
+
+      img {
+        margin-left: auto;
+      }
+    }
+
+  }
+
+}
+
+.ratingWrapper {
+  display: flex;
+}
+
+.rating {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:50px;
+
+  &__stars {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size:0;
+  }
+}
+
+.rating__star {
+  display:none;
+  & + label {
+    font-size:25px;
+    padding: 0px 1px;
+  }
+  & + label:before {
+    content:url('ibex/svg/star.svg');//'\2606';
+  }
+  & + label:hover + label:before {
+    content:url('ibex/svg/star--filled.svg');//'\2605';
+  }
+  &:checked ~ label:before,
+  & + label:hover ~ label:before,
+  & + label:hover:before {
+    content:url('ibex/svg/star--filled.svg');//'\2605';
+    color: $lilly-red;
+  }
+}

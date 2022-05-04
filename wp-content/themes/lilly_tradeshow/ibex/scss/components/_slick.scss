@@ -1,0 +1,67 @@
+// ======================================
+// Slick Slider
+// ======================================
+
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-arrow {
+  visibility: hidden;
+  width: 90px;
+  height: 150px;
+  top: 50%;
+  // background-color: rgba(255, 255, 255, 0.12);
+  z-index: 8;
+
+  @include respond-to('tablet') {
+    visibility: visible;
+  }
+
+  // &:hover {
+  //   background-color: rgba(255, 255, 255, 0.25);
+  //   @include box-shadow();
+  // }
+
+  // &:focus {
+  //   background-color: rgba(255, 255, 255, 0.12);
+  //   @include box-shadow();
+  // }
+}
+
+.slick-prev {
+  &:before {
+    // content: url('ibex/svg/arrow-white-left.svg');
+    content: "";
+    background: url('ibex/svg/arrow-right--gray.svg');
+    transform: scaleX(-1);
+    left: 54px;
+    height: 60px !important;
+    width: 30px;
+    position: absolute;
+    background-size: 77%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    filter: drop-shadow(0px 0px 3px black);
+  }
+}
+
+.slick-next {
+  &:before {
+    // content: url('ibex/svg/arrow-white-right.svg');
+    content: "";
+    background: url('ibex/svg/arrow-right--gray.svg');
+    right: 45px;
+    height: 60px !important;
+    width: 30px;
+    position: absolute;
+    background-size: 77%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    filter: drop-shadow(0px 0px 3px black);
+  }
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}

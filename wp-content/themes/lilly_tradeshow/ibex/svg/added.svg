@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.286" height="18.622" viewBox="0 0 25.286 18.622">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_8" data-name="Clip 8" d="M0,18.622H19.953V0H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3274" data-name="Group 3274" transform="translate(-136.714)">
+    <g id="Group_11_Copy" data-name="Group 11 Copy" transform="translate(137)">
+      <path id="Fill_1" data-name="Fill 1" d="M18,13.967H1.028A1.026,1.026,0,0,1,0,12.943V1.024A1.026,1.026,0,0,1,1.028,0H18a1.026,1.026,0,0,1,1.028,1.024V12.943A1.026,1.026,0,0,1,18,13.967" transform="translate(0.464 3.724)" fill="none"/>
+      <path id="Stroke_3" data-name="Stroke 3" d="M18,13.967H1.028A1.026,1.026,0,0,1,0,12.943V1.024A1.026,1.026,0,0,1,1.028,0H18a1.026,1.026,0,0,1,1.028,1.024V12.943A1.026,1.026,0,0,1,18,13.967Z" transform="translate(0.464 3.724)" fill="none" stroke="#ee3a29" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Stroke_5" data-name="Stroke 5" d="M18.561.15,15.307,5.72a.639.639,0,0,1-.561.333H3.505A.64.64,0,0,1,2.934,5.7L0,0" transform="translate(0.928 4.19)" fill="none" stroke="#ee3a29" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Clip_8-2" data-name="Clip 8" d="M0,18.622H19.953V0H0Z" fill="none"/>
+      <g id="Group_11_Copy-2" data-name="Group 11 Copy" clip-path="url(#clip-path)">
+        <path id="Fill_7" data-name="Fill 7" d="M0,2.328H4.64V0H0Z" transform="translate(7.424 8.846)" fill="#fff"/>
+        <path id="Stroke_9" data-name="Stroke 9" d="M0,2.328H4.64V0H0Z" transform="translate(7.424 8.846)" fill="none" stroke="#ee3a29" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Stroke_10" data-name="Stroke 10" d="M0,2.793V1.225A1.214,1.214,0,0,1,1.2,0H5.757a1.214,1.214,0,0,1,1.2,1.225V2.793" transform="translate(6.496 0.931)" fill="none" stroke="#ee3a29" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="Group_3270" data-name="Group 3270" transform="translate(5094 4941)">
+      <g id="Ellipse_49" data-name="Ellipse 49" transform="translate(-4942 -4941)" fill="#fff" stroke="#ee3a29" stroke-width="1.5">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.25" fill="none"/>
+      </g>
+      <path id="Path_4998" data-name="Path 4998" d="M32.651,33.853l-2.066,2.166-1.123-.986a.3.3,0,0,0-.4.457h0l1.338,1.174a.3.3,0,0,0,.418-.018l2.269-2.376a.3.3,0,0,0-.426-.428l-.011.011Z" transform="translate(-4967.962 -4971.246)" fill="#ee3a29" stroke="#ee3a29" stroke-width="0.4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,460 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4082061, 2021-05-05T11:38:05-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FF DIN Std Thin by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/thin/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Thin Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/thin-italic/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Thin Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-thin-ita/
+ * Copyright: 2015 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Extra Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-exlight/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Extra Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/exlight/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Extra Light Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/exlight-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Extra Light Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-exlight-ita/
+ * Copyright: 2015 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-light/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-light/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Light Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-light-italic/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Regular by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-regular/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Regular by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-regular/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Regular Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-regular-italic/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Regular Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-regular-italic/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Medium by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-medium/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Medium Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-medium-italic/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Medium Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-medium-italic/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-bold/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-bold/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Bold Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-bold-italic/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Black by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-black/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Black Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-black-italic/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Thin by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-thin/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Thin by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-thin/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Thin Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-thin-ita/
+ * Copyright: 2015 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Thin Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-thin-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Extra Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/cond-exlight/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Extra Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-extralight/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Extra Light Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/cond-exlight-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-light/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Light Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-light-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Light Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-light-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Regular by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-regular/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Regular Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Regular Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Medium by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-medium/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Medium by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-medium/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Medium Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-medi-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Medium Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-medi-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-bold/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-bold/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Bold Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-bold-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Black by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-black/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Condensed Black by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-black/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Std Condensed Black Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/ot-cond-black-ita/
+ * Copyright: 2016 published by Monotype GmbH
+ * 
+ * Webfont: FF DIN Web Pro Thin by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-thin/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Light Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-light-italic/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Medium by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-medium/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Bold Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-bold-italic/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Black by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-black/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Black Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-black-italic/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Condensed Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-light/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Condensed Regular by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-regular/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Condensed Bold Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-bold-ita/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * Webfont: FF DIN Web Pro Condensed Black Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-din/pro-cond-black-ita/
+ * Copyright: Copyright &amp;#x00A9; 1995-2018 Monotype GmbH. All rights reserved
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e498d");
+  
+@font-face {
+  font-family: "FFDINStdThinItalic";
+  src: url('webFonts/FFDINStdThinItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdThin";
+  src: url('webFonts/FFDINStdThin/font.woff2') format('woff2'), url('webFonts/FFDINStdThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProExtraLight";
+  src: url('webFonts/FFDINWebProExtraLight/font.woff2') format('woff2'), url('webFonts/FFDINWebProExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdExtraLight";
+  src: url('webFonts/FFDINStdExtraLight/font.woff2') format('woff2'), url('webFonts/FFDINStdExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedBoldItalic";
+  src: url('webFonts/FFDINWebProCondensedBoldItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedRegular";
+  src: url('webFonts/FFDINWebProCondensedRegular/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProThinItalic";
+  src: url('webFonts/FFDINWebProThinItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedBlackItalic";
+  src: url('webFonts/FFDINWebProCondensedBlackItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedLight";
+  src: url('webFonts/FFDINWebProCondensedLight/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProBlackItalic";
+  src: url('webFonts/FFDINWebProBlackItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProBoldItalic";
+  src: url('webFonts/FFDINWebProBoldItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProBlack";
+  src: url('webFonts/FFDINWebProBlack/font.woff2') format('woff2'), url('webFonts/FFDINWebProBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProLightItalic";
+  src: url('webFonts/FFDINWebProLightItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProMedium";
+  src: url('webFonts/FFDINWebProMedium/font.woff2') format('woff2'), url('webFonts/FFDINWebProMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProThin";
+  src: url('webFonts/FFDINWebProThin/font.woff2') format('woff2'), url('webFonts/FFDINWebProThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedBlackItalic";
+  src: url('webFonts/FFDINStdCondensedBlackItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedBlack";
+  src: url('webFonts/FFDINStdCondensedBlack/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedBlack";
+  src: url('webFonts/FFDINWebProCondensedBlack/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedBold";
+  src: url('webFonts/FFDINStdCondensedBold/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedBold";
+  src: url('webFonts/FFDINWebProCondensedBold/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedMediumItalic";
+  src: url('webFonts/FFDINWebProCondensedMediumItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedMedium";
+  src: url('webFonts/FFDINStdCondensedMedium/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedMediumItalic";
+  src: url('webFonts/FFDINStdCondensedMediumItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedBoldItalic";
+  src: url('webFonts/FFDINStdCondensedBoldItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedMedium";
+  src: url('webFonts/FFDINWebProCondensedMedium/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedRegular";
+  src: url('webFonts/FFDINStdCondensedRegular/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedLightItalic";
+  src: url('webFonts/FFDINStdCondensedLightItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedRegularItalic";
+  src: url('webFonts/FFDINStdCondensedRegularItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedRegularItalic";
+  src: url('webFonts/FFDINWebProCondensedRegularItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedLight";
+  src: url('webFonts/FFDINStdCondensedLight/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedLightItalic";
+  src: url('webFonts/FFDINWebProCondensedLightItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedExtraLightItalic";
+  src: url('webFonts/FFDINWebProCondensedExtraLightItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedExtraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedExtraLight";
+  src: url('webFonts/FFDINStdCondensedExtraLight/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedExtraLight";
+  src: url('webFonts/FFDINWebProCondensedExtraLight/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedThinItalic";
+  src: url('webFonts/FFDINStdCondensedThinItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedThin";
+  src: url('webFonts/FFDINWebProCondensedThin/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedThinItalic";
+  src: url('webFonts/FFDINWebProCondensedThinItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProCondensedThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedThin";
+  src: url('webFonts/FFDINStdCondensedThin/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdBlackItalic";
+  src: url('webFonts/FFDINStdBlackItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdBold";
+  src: url('webFonts/FFDINStdBold/font.woff2') format('woff2'), url('webFonts/FFDINStdBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdBlack";
+  src: url('webFonts/FFDINStdBlack/font.woff2') format('woff2'), url('webFonts/FFDINStdBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProBold";
+  src: url('webFonts/FFDINWebProBold/font.woff2') format('woff2'), url('webFonts/FFDINWebProBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdBoldItalic";
+  src: url('webFonts/FFDINStdBoldItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdMediumItalic";
+  src: url('webFonts/FFDINStdMediumItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProMediumItalic";
+  src: url('webFonts/FFDINWebProMediumItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdMedium";
+  src: url('webFonts/FFDINStdMedium/font.woff2') format('woff2'), url('webFonts/FFDINStdMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdRegularItalic";
+  src: url('webFonts/FFDINStdRegularItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdRegular";
+  src: url('webFonts/FFDINStdRegular/font.woff2') format('woff2'), url('webFonts/FFDINStdRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProRegularItalic";
+  src: url('webFonts/FFDINWebProRegularItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProRegular";
+  src: url('webFonts/FFDINWebProRegular/font.woff2') format('woff2'), url('webFonts/FFDINWebProRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdLight";
+  src: url('webFonts/FFDINStdLight/font.woff2') format('woff2'), url('webFonts/FFDINStdLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdLightItalic";
+  src: url('webFonts/FFDINStdLightItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProLight";
+  src: url('webFonts/FFDINWebProLight/font.woff2') format('woff2'), url('webFonts/FFDINWebProLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProExtraLightItalic";
+  src: url('webFonts/FFDINWebProExtraLightItalic/font.woff2') format('woff2'), url('webFonts/FFDINWebProExtraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedExtraLightItalic";
+  src: url('webFonts/FFDINStdCondensedExtraLightItalic/font.woff2') format('woff2'), url('webFonts/FFDINStdCondensedExtraLightItalic/font.woff') format('woff');
+}
+

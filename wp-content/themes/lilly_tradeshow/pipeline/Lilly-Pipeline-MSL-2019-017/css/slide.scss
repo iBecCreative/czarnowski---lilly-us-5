@@ -1,0 +1,88 @@
+.g-header {
+  background: #fff url('../../shared/img/headers/cxc@2x.png') 100px 0 no-repeat;
+  background-size: 93% 78px;
+}
+
+.swiper-button-next {
+  right: 0px;
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png");
+}
+
+.swiper-button-prev {
+  left: 0px;
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png");
+}
+
+.g-dialog__content-inner-wrapper {
+  background-image: url("../img/popup.png");
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #00a1de;
+}
+
+.g-dialog__content.g-dialog__content-1 img {
+  bottom: 0px;
+  position: absolute;
+  left: 20px;
+}
+
+.swiper-wrapper img {
+  margin-left: 1%;
+}
+
+.swiper-slide:nth-child(1) video,
+#f-video-overlay {
+  position: absolute;
+  left: 515px;
+  top: 285px;
+  width: 340px;
+  height: 340px;
+  z-index: -1;
+  max-width: 340px;
+}
+
+$scale_modifier-pro: 834 / 1024;
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/cxc@2x.png') 82px 0 no-repeat;
+    background-size: 93% 78px * $scale_modifier-pro;
+  }
+
+  .g-dialog__content.g-dialog__content-1 img {
+    left: 20px * $scale_modifier-pro;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 515px * $scale_modifier-pro;
+    top: 285px * $scale_modifier-pro;
+    width: 340px * $scale_modifier-pro;
+    height: 340px * $scale_modifier-pro;
+    max-width: 340px * $scale_modifier-pro;
+  }
+}
+
+$scale_modifier: 768 / 1024;
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/cxc@2x.png') 75px 0 no-repeat;
+    background-size: 93% 78px * $scale_modifier;
+  }
+
+  .g-dialog__content.g-dialog__content-1 img {
+    left: 20px * $scale_modifier;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 515px * $scale_modifier;
+    top: 285px * $scale_modifier;
+    width: 340px * $scale_modifier;
+    height: 340px * $scale_modifier;
+    max-width: 340px * $scale_modifier;
+  }
+}

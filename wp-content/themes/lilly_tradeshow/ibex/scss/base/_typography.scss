@@ -1,0 +1,942 @@
+/* font-face setup -> Din */
+//   @font-face {
+// 	font-family: "DIN Regular";
+// 	src: url("../fonts/din/5426089/a397c752-ee83-47cf-b8a8-b476511dd2c9.eot?#iefix");
+// 	src: url("../fonts/din/5426089/a397c752-ee83-47cf-b8a8-b476511dd2c9.eot?#iefix") format("eot"), url("../fonts/din/5426089/53fb9c60-2054-4c31-9283-5562244b4935.woff2") format("woff2"), url("../fonts/din/5426089/45831ca8-93bd-4808-aa5f-3c915944f727.woff") format("woff"), url("../fonts/din/5426089/429a3e29-88da-4603-94ff-c1450c089c88.ttf") format("truetype")
+//   }
+//   @font-face {
+// 	font-family: "DIN Italic";
+// 	src: url("../fonts/din/5426053/e72945c4-5029-4c68-859b-74bc6429ccd6.eot?#iefix");
+// 	src: url("../fonts/din/5426053/e72945c4-5029-4c68-859b-74bc6429ccd6.eot?#iefix") format("eot"), url("../fonts/din/5426053/59fe4d12-8c74-457e-aa68-b9ad885f8f8f.woff2") format("woff2"), url("../fonts/5426053/39432a06-ab95-4bf7-bbb6-cb84e51170e8.woff") format("woff"), url("../fonts/din/5426053/e93afcb1-b4f4-4177-94ab-97c66a9bb9ee.ttf") format("truetype")
+//   }
+//   @font-face {
+// 	font-family: "DIN Medium";
+// 	src: url("../fonts/din/5426076/9f48a411-8295-4ad8-b97a-f4cc38cef43d.eot?#iefix");
+// 	src: url("../fonts/din/5426076/9f48a411-8295-4ad8-b97a-f4cc38cef43d.eot?#iefix") format("eot"), url("../fonts/din/5426076/79949f65-d692-489f-bd6b-b62647297229.woff2") format("woff2"), url("../fonts/5426076/b9597dec-1d68-488e-87e0-d7824cf36028.woff") format("woff"), url("../fonts/din/5426076/964c9b01-5d07-4ef1-8b71-3b173b54fbcc.ttf") format("truetype")
+//   }
+//   @font-face {
+// 	font-family: "DIN Cond Medium";
+// 	src: url("../fonts/din/5425864/0329a25e-6878-415d-bde2-c014b4a427fd.eot?#iefix");
+// 	src: url("../fonts/din/5425864/0329a25e-6878-415d-bde2-c014b4a427fd.eot?#iefix") format("eot"), url("../fonts/din/5425864/0c1424f1-df5f-4bf5-b9f5-e637305f9da1.woff2") format("woff2"), url("../fonts/5425864/0449f93a-6600-48eb-8434-7a45d2112b54.woff") format("woff"), url("../fonts/din/5425864/a3e99b9a-fe07-4fe5-8a29-0485438127c3.ttf") format("truetype")
+//   }
+//   @font-face {
+// 	font-family: "DIN Light";
+// 	src: url("../fonts/din/light/DINOT-Light.eot?#iefix");
+// 	src: url("../fonts/din/light/DINOT-Light.eot?#iefix") format("eot"), url("../fonts/din/light/DINOT-Light.woff") format("woff"), url("../fonts/din/light/aDINOT-Light.ttf") format("truetype")
+//   }
+
+// ======================================
+// Typography
+// ======================================
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e4984");
+@font-face {
+  font-family: "ArialMTPro-Regular";
+  src: url('ibex/fonts/Lilly_Arial/webFonts/ArialMTProRegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Arial/webFonts/ArialMTProRegular/font.woff') format('woff');
+}
+
+@import url("//hello.myfonts.net/count/3e4985");
+@font-face {
+  font-family: "FFClanWebProThin";
+  src: url('ibex/fonts/Lilly_FF_Clan/webFonts/FFClanWebProThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_Clan/webFonts/FFClanWebProThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFClanWebProBold";
+  src: url('ibex/fonts/Lilly_FF_Clan/webFonts/FFClanWebProBold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_Clan/webFonts/FFClanWebProBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFClanWebProMedium";
+  src: url('ibex/fonts/Lilly_FF_Clan/webFonts/FFClanWebProMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_Clan/webFonts/FFClanWebProMedium/font.woff') format('woff');
+}
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e498d");
+@font-face {
+  font-family: "FFDINStdThinItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdThinItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdThin";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProExtraLight";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProExtraLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdExtraLight";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdExtraLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedBoldItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedBoldItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedRegular";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedRegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProThinItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProThinItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedBlackItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedBlackItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedLight";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProBlackItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProBlackItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProBoldItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProBoldItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProBlack";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProBlack/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProLightItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProLightItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProMedium";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProThin";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedBlackItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedBlackItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedBlack";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedBlack/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedBlack";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedBlack/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedBold";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedBold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedBold";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedBold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedMediumItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedMediumItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedMedium";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedMediumItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedMediumItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedBoldItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedBoldItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedMedium";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedRegular";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedRegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedLightItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedLightItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedRegularItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedRegularItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedRegularItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedRegularItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedLight";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedLightItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedLightItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedExtraLightItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedExtraLightItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedExtraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedExtraLight";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedExtraLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedExtraLight";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedExtraLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedThinItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedThinItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedThin";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProCondensedThinItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedThinItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProCondensedThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedThin";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdBlackItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdBlackItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdBold";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdBold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdBlack";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdBlack/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProBold";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProBold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdBoldItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdBoldItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdMediumItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdMediumItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProMediumItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProMediumItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdMedium";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdRegularItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdRegularItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdRegular";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdRegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProRegularItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProRegularItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProRegular";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProRegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdLight";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdLightItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdLightItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProLight";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINWebProExtraLightItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProExtraLightItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINWebProExtraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINStdCondensedExtraLightItalic";
+  src: url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedExtraLightItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_FF_DIN/webFonts/FFDINStdCondensedExtraLightItalic/font.woff') format('woff');
+}
+
+/* Antonio */
+@font-face {
+  font-family: "AntonioBold";
+  src: url('ibex/fonts/Antonio/static/Antonio-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: "AntonioExLight";
+  src: url('ibex/fonts/Antonio/static/Antonio-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: "AntonioLight";
+  src: url('ibex/fonts/Antonio/static/Antonio-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: "AntonioMedium";
+  src: url('ibex/fonts/Antonio/static/Antonio-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: "AntonioRegular";
+  src: url('ibex/fonts/Antonio/static/Antonio-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "AntonioSemiBold";
+  src: url('ibex/fonts/Antonio/static/Antonio-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: "AntonioThin";
+  src: url('ibex/fonts/Antonio/static/Antonio-Thin.ttf') format('truetype');
+}
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e499b");
+@font-face {
+  font-family: "TradeGothicNextLTPro-It";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-LtIt";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProLtIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Lt";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProLt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProLt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Bd";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBd/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Rg";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProRg/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProRg/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-HvCm";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHvCm/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHvCm/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Cm";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProCm/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProCm/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-HvCnIt";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHvCnIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHvCnIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-HvCn";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHvCn/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHvCn/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-BdCm";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBdCm/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBdCm/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-BdCnIt";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBdCnIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBdCnIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-CnIt";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProCnIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProCnIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Cn";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProCn/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProCn/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-BdCn";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBdCn/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBdCn/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Hv";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHv/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHv/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-HvIt";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHvIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProHvIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-BdIt";
+  src: url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBdIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Gothic/webFonts/TradeGothicNextLTProBdIt/font.woff') format('woff');
+}
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e4993");
+@font-face {
+  font-family: "ProximaNova-Light";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Medium";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaBold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSemibold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSemibold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Extrabld";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaExtrabld/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaExtrabld/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-RegularIt";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSRegularIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSRegularIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-BoldIt";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSBoldIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSBoldIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-RegularIt";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaARegularIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaARegularIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-RegularIt";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaRegularIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaRegularIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Regular";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSRegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-BoldIt";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaABoldIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaABoldIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Black";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSBlack/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Medium";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-BoldIt";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaBoldIt/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaBoldIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Semibold";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSSemibold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSSemibold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Bold";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSBold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Extrabld";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSExtrabld/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSExtrabld/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Thin";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Light";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaALight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaALight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Light";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaSLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Medium";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaAMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaAMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Semibold";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaASemibold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaASemibold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Bold";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaABold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaABold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Regular";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaARegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaARegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Thin";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaAThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaAThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaRegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Extrabld";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaAExtrabld/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaAExtrabld/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Black";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaBlack/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Black";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaABlack/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaABlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaT-Thin";
+  src: url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaTThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Proxima/webFonts/ProximaNovaTThin/font.woff') format('woff');
+}
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e4995");
+@font-face {
+  font-family: "Swiss721BT-ThinItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTThinItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-LightItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLightItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Light";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLight/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BoldExtended";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldExtended/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldExtended/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Extended";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTExtended/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTExtended/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BlackExtended";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackExtended/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackExtended/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Regular";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTRegular/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Thin";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTThin/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BlackCondensedItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackCondensedItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackCondensedItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-LightExtended";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLightExtended/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLightExtended/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BoldCondensedOutline";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldCondensedOutline/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldCondensedOutline/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BlackCondensed";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackCondensed/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackCondensed/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BoldCondensed";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldCondensed/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldCondensed/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Condensed";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTCondensed/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTCondensed/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BoldCondensedItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldCondensedItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldCondensedItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-ItalicCondensed";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTItalicCondensed/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTItalicCondensed/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-LightCondensed";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLightCondensed/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLightCondensed/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BlackOutline";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackOutline/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackOutline/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-LightCondensedItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLightCondensedItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTLightCondensedItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BoldOutline";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldOutline/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldOutline/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BlackItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Black";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlack/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BlackNo2";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackNo2/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBlackNo2/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-HeavyItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTHeavyItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTHeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Heavy";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTHeavy/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTHeavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-BoldItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Bold";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBold/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-MediumItalic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTMediumItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Italic";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTItalic/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Swiss721BT-Medium";
+  src: url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTMedium/font.woff2') format('woff2'), url('ibex/fonts/Lilly_Swiss_721/webFonts/Swiss721BTMedium/font.woff') format('woff');
+}
+
+@font-face {
+	font-family: "GothamBookOLD";
+	src: url('ibex/fonts/GothamBook/GothamBook.woff') format('woff'), url('ibex/fonts/GothamBook/GothamBook.ttf') format('ttf'), url('ibex/fonts/GothamBook/GothamBook.eot') format('eot');
+}
+@font-face {
+	font-family: "GothamBoldOLD";
+	src: url('ibex/fonts/gothambold1/gothambold1.woff') format('woff'), url('ibex/fonts/gothambold1/gothambold1.ttf') format('ttf'), url('ibex/fonts/gothambold1/gothambold1.eot') format('eot');
+}
+
+@font-face {
+	font-family: "GothamBook";
+	src: url('ibex/fonts/Gotham/woff/Gotham-Book_Web.woff') format('woff'), url('ibex/fonts/Gotham/woff2/Gotham-Book_Web.woff') format('woff2');
+}
+@font-face {
+	font-family: "GothamBold";
+	src: url('ibex/fonts/Gotham/woff/Gotham-Bold_Web.woff') format('woff'), url('ibex/fonts/Gotham/woff2/Gotham-Bold_Web.woff2') format('woff2');
+}
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e6418");
+  
+@font-face {
+  font-family: "MuseoSans-100";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans100/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans100/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-700";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans700/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans700/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-900Italic";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans900Italic/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans900Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-500";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans500/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans500/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-300";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans300/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans300/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-500Italic";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans500Italic/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans500Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-900";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans900/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans900/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-100Italic";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans100Italic/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans100Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-700Italic";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans700Italic/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans700Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-300Italic";
+  src: url('ibex/fonts/Museo_Sans/webFonts/MuseoSans300Italic/font.woff2') format('woff2'), url('ibex/fonts/Museo_Sans/webFonts/MuseoSans300Italic/font.woff') format('woff');
+}
+
+
+// font-family: museo-sans, sans-serif;
+
+// font-weight: 300;
+
+// font-style: normal;
+
+
+// Museo Sans 700
+
+// font-family: museo-sans, sans-serif;
+
+// font-weight: 700;
+
+// font-style: normal;
+
+
+// Museo Sans 900
+
+// font-family: museo-sans, sans-serif;
+
+// font-weight: 900;
+
+// font-style: normal;
+
+// @font-face {
+// 	font-family: "DIN";
+// 	src: local(":relaxed:"), url("ibex/fonts/DINOffc-Light.95e8f364.ttf") format("opentype");
+// 	font-weight: 300;
+// 	font-style: normal;
+//   }
+//   @font-face {
+// 	font-family: "DIN";
+// 	src: local(":relaxed:"), url("ibex/fonts/DINOffc-LightIta.e4ff2ae4.ttf") format("opentype");
+// 	font-weight: 300;
+// 	font-style: italic;
+//   }
+//   @font-face {
+// 	font-family: "DIN";
+// 	src: local(":relaxed:"), url("ibex/fonts/DINOffc.f7e66d3d.ttf") format("opentype");
+// 	font-weight: normal;
+// 	font-style: normal;
+//   }
+//   @font-face {
+// 	font-family: "DIN";
+// 	src: local(":relaxed:"), url("ibex/fonts/DINOffc-Ita.55a18394.ttf") format("opentype");
+// 	font-weight: normal;
+// 	font-style: italic;
+//   }
+//   @font-face {
+// 	font-family: "DIN";
+// 	src: local(":relaxed:"), url("ibex/fonts/DINOffc-Medi.ab01d22a.ttf") format("opentype");
+// 	font-weight: 500;
+// 	font-style: normal;
+//   }
+//   @font-face {
+// 	font-family: "DIN";
+// 	src: local(":relaxed:"), url("ibex/fonts/DINOffc-MediIta.bdbcf219.ttf") format("opentype");
+// 	font-weight: 500;
+// 	font-style: italic;
+//   }
+//   @font-face {
+// 	font-family: "DIN";
+// 	src: local(":relaxed:"), url("ibex/fonts/DINOffc-Bold.2e42a294.ttf") format("opentype");
+// 	font-weight: 600;
+// 	font-style: normal;
+//   }
+//   @font-face {
+// 	font-family: "DIN";
+// 	src: local(":relaxed:"), url("ibex/fonts/DINOffc-BoldIta.c2cb5799.ttf") format("opentype");
+// 	font-weight: 600;
+// 	font-style: italic;
+//   }
+
+// Typography Variables
+$primary-font-family:     "FFDINWebProRegular", sans-serif;
+$secondary-font-family:   "FFDINWebProMedium", sans-serif;
+$blockquote-font-family:  "FFDINWebProMedium", sans-serif;
+$isi-font-family:         proxima-nova, sans-serif;
+
+$heading-font-family:	  "FFDINWebProRegular", sans-serif;
+$heading-weight:		  bold;
+$sub-heading-weight :     400;
+$body-font-family:		  $primary-font-family;
+$body-weight:			  normal;
+
+$base-font-unitless:	  17;
+$base-font-size:		  $base-font-unitless + px;
+$base-line-height:		  30px;
+
+$body-copy-size:		  1rem;
+
+$dinlight: "FFDINWebProLight", sans-serif;
+$dinlightitalic: "FFDINWebProLightItalic", sans-serif;
+$dinregular: "FFDINWebProRegular", sans-serif;
+$dinregularitalic: "FFDINWebProRegularItalic";
+$dinmedium: "FFDINWebProMedium", sans-serif;
+$dinbold: "FFDINWebProBold", sans-serif;
+$dincondbold: "FFDINWebProCondensedBold", sans-serif;
+
+$antonioBold: "AntonioBold", sans-serif;
+$antonioExLight: "AntonioExLight", sans-serif;
+$antonioLight: "AntonioLight", sans-serif; 
+$antonioMedium: "AntonioMedium", sans-serif;
+$antonioRegular: "AntonioRegular", sans-serif;
+$antonioSemiBold: "AntonioSemiBold", sans-serif;
+$antonioThin: "AntonioThin", sans-serif;
+
+$proximalight: "ProximaNova-Light", sans-serif;
+$proximasemibold: "ProximaNova-Semibold", sans-serif;
+
+$gothiccond: "TradeGothicNextLTPro-Cn", sans-serif;
+$gothiclight: "TradeGothicNextLTPro-Lt", sans-serif;
+
+$gothambook: "GothamBook", sans-serif;
+$gothambold: "GothamBold", sans-serif;
+
+$dinotlight: "FFDINStdCondensedLight", sans-serif;
+$dinotreular: "FFDINStdCondensedRegular", sans-serif;
+$dinotbold: "FFDINStdCondensedBold", sans-serif;
+
+$roboto: 'Roboto', sans-serif;
+
+
+* {
+	font-family: $primary-font-family;
+}
+
+body {
+	font-family: $body-font-family;
+	font-size: $base-font-size;
+	//Better font rendering for Firefox on OSX
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 28px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; 
+}
+
+ul {
+	padding: 0 0 0 30px;
+}
+
+li,
+p {
+	font-family: $body-font-family;
+	font-weight: $body-weight;
+	line-height: 28px;
+	font-size: $base-font-size;
+	margin: 15px 0;
+	color: $black;
+}
+
+li {
+	color: $black;
+}
+
+a {
+	color: $body-link-color;
+}
+
+p {
+	max-width: 935px;
+
+	& + h3 {
+		margin: 25px 0 15px;
+	}
+
+	img {
+		margin: 15px 0;
+	}
+}
+
+strong, b {
+	font-weight: bold;
+	font-family: $dinbold;
+}
+
+sup {
+  font-size: 70%;
+  vertical-align: super;
+  line-height: 0;
+}
+
+sub {
+	font-size: 75%;
+	vertical-align: sub;
+}
+
+em, i {
+	font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	//font-weight: bold;
+	font-family: $heading-font-family;
+
+	@include respond-to('tablet') {
+		margin: 25px 0;
+	}
+}
+
+h1 {
+	@include fluid-type(36px, 48px);
+	@include fluid-line-height(40px, 58px);
+	font-family: $heading-font-family;
+	font-weight: 300;
+	color: $black;
+	margin: 15px 0 30px;
+}
+
+h2 {
+	@include fluid-type(28px, 48px);
+	@include fluid-line-height(36px, 45px);
+	font-size: 48px;
+	font-weight: 300;
+	color: $dark-gray;
+	margin: 15px 0;
+}
+
+
+h3, h4, h5, h6 {
+	@include fluid-type(20px, 24px);
+	line-height: 32px;
+	color: $dark-gray;
+	margin: 15px 0 5px;
+}
+
+.light_text {
+	color: $white;
+}
+
+blockquote {
+	@include responsive-width (1100px);
+
+	.quote {
+		font-style: italic;
+	}
+
+	.attribution {
+		width: 100%;
+		font-weight: bold;
+		text-align: right;
+	}
+}
+
+.gte {
+	font-family: Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+.criteria .gte {
+  font-family: Arial;
+  font-size: 17px;
+}

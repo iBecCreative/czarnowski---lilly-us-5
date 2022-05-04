@@ -1,0 +1,90 @@
+.g-header {
+  background: #fff url('../../shared/img/headers/il-23@2x.png') 100px 0 no-repeat;
+  background-size: 1366px 78px;
+}
+
+.swiper-button-next {
+  right: 0px;
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png");
+}
+
+.swiper-button-prev {
+  left: 0px;
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png");
+}
+
+.g-dialog__content-inner-wrapper {
+  background-image: url("../img/popup.png");
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #263f6a;
+}
+
+.swiper-slide.swiper-slide {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.g-dialog__content.g-dialog__content-1 img {
+  bottom: 13px;
+  position: absolute;
+  left: 45px;
+  width: 585px;
+}
+
+.study-link-1 {
+  margin-top: 184px; }
+.study-link-2,
+.study-link-4,
+.study-link-6 {
+  margin-top: 0; }
+.study-link-3 {
+  margin-top: 77px; }
+.study-link-5 {
+  margin-top: 80px; }
+
+$scale_modifier-pro: 834 / 1024;
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/il-23@2x.png') 82px 0 no-repeat;
+    background-size: 1112px 78px * $scale_modifier-pro;
+  }
+
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 13px * $scale_modifier-pro;
+    left: 45px * $scale_modifier-pro;
+    width: 585px * $scale_modifier-pro;
+  }
+
+  .study-link-1 {
+    margin-top: 184px * $scale_modifier-pro; }
+  .study-link-3 {
+    margin-top: 77px * $scale_modifier-pro; }
+  .study-link-5 {
+    margin-top: 80px * $scale_modifier-pro; }
+}
+
+$scale_modifier: 768 / 1024;
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/il-23@2x.png') 75px 0 no-repeat;
+    background-size: 1024px 78px * $scale_modifier;
+  }
+
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 13px * $scale_modifier;
+    left: 45px * $scale_modifier;
+    width: 585px * $scale_modifier;
+  }
+
+  .study-link-1 {
+    margin-top: 184px * $scale_modifier; }
+  .study-link-3 {
+    margin-top: 77px * $scale_modifier; }
+  .study-link-5 {
+    margin-top: 80px * $scale_modifier; }
+}

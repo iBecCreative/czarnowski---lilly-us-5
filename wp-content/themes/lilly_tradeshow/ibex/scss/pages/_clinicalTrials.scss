@@ -1,0 +1,187 @@
+.page-template-clinical__trials {
+    .resource {
+        max-width: 1186px;
+        margin-top: 75px;
+    }
+}
+
+.ct-background {
+    background-image: url('ibex/images/CT_background.jpg');
+    background-size: 100% 875px;
+}
+    
+    .content {
+        &.clinical {
+            max-width: 1186px;//1380px;
+            // padding: 50px 0;
+
+            h1 {
+                color: $white;
+                margin-bottom: 70px;
+            }
+    
+            .content__wrapper {
+                p {
+                    max-width: 100%;
+                    color: $ous-gray;
+                }
+                
+      
+                &--btextfull {
+                    margin-top: 50px;
+                    width: 100%;
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+
+                &--btextsplit {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-top: 2rem;
+                    
+                    flex-wrap: wrap;
+                    .left {
+                        flex: 1;
+
+                        p {
+                            font-size: 12px;
+                            line-height: 1.2;
+                        }
+                        a {
+                            color: $ous-gray;
+                            &:hover {
+                                opacity: .8;
+                            }
+                        }
+                    }
+                    .right {
+                        flex: 1;
+        
+                        display: flex;
+                        align-items: flex-start;
+                        margin-left: 10px;
+
+                        @media(max-width:$bp-large) {
+                            margin-top: 50px;
+                        }
+                        
+                        img {
+                            margin-right: 1rem;
+                        }
+
+                        p {
+                            font-size: 13px;
+                            margin: 0;
+                            font-weight: 600;
+                            line-height: 1.2;
+                        }
+
+                        ul {
+                            margin: 0;
+
+                            li {
+                                margin: 0;
+                                color: $ous-gray;
+                                font-size: 13px;
+                                line-height: 1.2;
+                                font-weight: 600;
+
+                                a {
+                                    color: $ous-gray;
+
+                                    &:hover {
+                                        opacity: .8;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .copyright-line {
+                        color: $white;
+                        margin-top: 75px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .resource { 
+        @include responsive-width($max-width);
+        margin: 0 auto 100px auto;
+        
+        h2 {
+            color: $black;
+            font-size: 48px;
+            margin-bottom: 50px;
+            font-family: $dinlight;
+        }
+
+        &__container {
+            display: flex;
+            min-height: 400px;
+            width: 100%;
+
+            @media(max-width:$bp-large) {
+                min-height: 600px;
+                flex-direction: column;
+            }
+
+            &--left {
+                background-image: url('ibex/images/background-left.jpg');
+                background-size: cover;
+                flex: 1;
+            }
+            &--right {
+                background-image: url('ibex/images/resource_background-right.jpg');
+                background-size: cover;
+                flex: 1;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+
+                h3 {
+                    color: $black;
+                    font-family: $dinlight;
+                    font-size: 30px;
+                    font-weight: 100;
+                }
+                a {
+                    color: $black;
+                    display: flex;
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    margin-top: 45px;
+                    align-items: center;
+
+                    img {
+                        margin-right: 5px;
+                    }
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                        margin-right: 8px;
+                        fill: $black;
+
+                        path {
+                            fill: $black;
+                        }
+                    }
+                    &:hover {
+                        color: $lilly-red;
+
+                        svg {
+                            path {
+                                fill: $lilly-red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

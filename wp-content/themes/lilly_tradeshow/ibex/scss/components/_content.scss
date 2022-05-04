@@ -1,0 +1,35 @@
+// ======================================
+// General Content
+// ======================================
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  margin: 50px auto 0;
+  @include responsive-width ($max-width);
+}
+
+.wysiwyg-wrapper {
+  @include responsive-width ($max-width);
+}
+
+
+.section_gray {
+    background: rgb(200,200,200);
+    background: linear-gradient(180deg, rgb(226, 226, 226) 0%, rgba(242,241,239,1) 30%);
+    
+    &--transparent {
+      background: rgba(200,200,200,0.3);
+    }
+    
+    > h2 {
+      max-width: 1300px;
+      margin: 0 auto;
+      color: #82786F;
+      font-size: 48px;
+      font-family: $dinlight;
+      padding:50px 20px 30px; 
+    }
+}

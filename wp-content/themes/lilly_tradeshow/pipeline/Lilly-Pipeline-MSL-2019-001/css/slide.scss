@@ -1,0 +1,213 @@
+@import "../../shared/css/variables";
+
+.g-header {
+  background: #fff url(../img/Tap_on_a_Pipeline_Molecule.png@2x.png) 0 0 no-repeat;
+  background-size: 55% auto;
+}
+
+.g-header {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 78px;
+}
+
+.g-background {
+  position: relative;
+  background-color: #fff;
+  z-index: 0;
+}
+
+$background-top: 84px;
+$background-left: -5px;
+$background-width: 1386px;
+
+.g-background video {
+  display: block;
+  position: absolute;
+  top: $background-top;
+  left: $background-left;
+  width: $background-width;
+  height: auto;
+  z-index: 0;
+}
+
+.g-background img {
+  display: block;
+  position: absolute;
+  top: $background-top;
+  left: $background-left;
+  width: $background-width;
+  height: auto;
+  margin: 0;
+  opacity: 0;
+  z-index: 0;
+}
+
+.g-content {
+  background: transparent url(../img/background.png) 0 73px no-repeat;
+  background-size: 1366px 960px;
+  z-index: 1;
+}
+.g-footer {
+  z-index: 2;
+}
+
+.link {
+  position: absolute;
+  cursor: pointer;
+  width: 220px;
+  height: 117px;
+}
+
+.row {
+  &-1 {
+    top: getRow("row-1");
+  }
+  &-2 {
+    top: getRow("row-2");
+  }
+  &-3 {
+    top: getRow("row-3");
+  }
+}
+
+.col {
+  &-1 {
+    left: getCol("col-1");
+  }
+  &-2 {
+    left: getCol("col-2");
+  }
+  &-3 {
+    left: getCol("col-3");
+  }
+  &-4 {
+    left: getCol("col-4");
+  }
+  &-5 {
+    left: getCol("col-5");
+  }
+}
+
+$scale_modifier-pro: 834 / 1024;
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    width: 1112px;
+    height: scaleValue(78px, "iPad-Pro-10");
+  }
+
+  .g-background video,
+  .g-background img {
+    top: scaleValue($background-top, "iPad-Pro-10");
+    left: scaleValue($background-left, "iPad-Pro-10");
+    width: scaleValue($background-width, "iPad-Pro-10");
+  }
+
+  .g-content {
+    background: transparent url(../img/background.png) 0 scaleValue(73px, "iPad-Pro-10") no-repeat;
+    background-size: 1112px scaleValue(960px, "iPad-Pro-10");
+  }
+
+  .blocker {
+    top: scaleValue(640px, "iPad-Pro-10");
+    left: scaleValue(590px, "iPad-Pro-10");
+    width: scaleValue(220px, "iPad-Pro-10");
+    height: scaleValue(250px, "iPad-Pro-10");
+  }
+
+  .link {
+    width: scaleValue(265px, "iPad-Pro-10");
+    height: scaleValue(117px, "iPad-Pro-10");
+  }
+
+  .row {
+    &-1 {
+      top: scaleValue(map-get($row-top, "row-1"), "iPad-Pro-10");
+    }
+    &-2 {
+      top: scaleValue(map-get($row-top, "row-2"), "iPad-Pro-10");
+    }
+    &-3 {
+      top: scaleValue(map-get($row-top, "row-3"), "iPad-Pro-10");
+    }
+  }
+
+  .col {
+    &-1 {
+      left: scaleValue(map-get($col-left, "col-1"), "iPad-Pro-10");
+    }
+    &-2 {
+      left: scaleValue(map-get($col-left, "col-2"), "iPad-Pro-10");
+    }
+    &-3 {
+      left: scaleValue(map-get($col-left, "col-3"), "iPad-Pro-10");
+    }
+    &-4 {
+      left: scaleValue(map-get($col-left, "col-4"), "iPad-Pro-10");
+    }
+  }
+}
+
+$scale_modifier: 768 / 1024;
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    width: 1024px;
+    height: scaleValue(78px, "iPad");
+  }
+
+  .g-background video,
+  .g-background img {
+    top: scaleValue($background-top, "iPad");
+    left: scaleValue($background-left, "iPad");
+    width: scaleValue($background-width, "iPad");
+  }
+
+  .g-content {
+    background: transparent url(../img/background.png) 0 scaleValue(73px, "iPad") no-repeat;
+    background-size: 1024px scaleValue(960px, "iPad");
+  }
+
+  .blocker {
+    top: scaleValue(640px, "iPad");
+    left: scaleValue(590px, "iPad");
+    width: scaleValue(220px, "iPad");
+    height: scaleValue(250px, "iPad");
+  }
+
+  .link {
+    width: scaleValue(265px, "iPad");
+    height: scaleValue(117px, "iPad");
+  }
+
+  .row {
+    &-1 {
+      top: scaleValue(map-get($row-top, "row-1"), "iPad");
+    }
+    &-2 {
+      top: scaleValue(map-get($row-top, "row-2"), "iPad");
+    }
+    &-3 {
+      top: scaleValue(map-get($row-top, "row-3"), "iPad");
+    }
+  }
+
+  .col {
+    &-1 {
+      left: scaleValue(map-get($col-left, "col-1"), "iPad");
+    }
+    &-2 {
+      left: scaleValue(map-get($col-left, "col-2"), "iPad");
+    }
+    &-3 {
+      left: scaleValue(map-get($col-left, "col-3"), "iPad");
+    }
+    &-4 {
+      left: scaleValue(map-get($col-left, "col-4"), "iPad");
+    }
+  }
+}

@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210518T173030Z
+DESCRIPTION:Join us to learn about our molecules under development\, FDA-ap
+	proved products\, and advocacy efforts. We look forward to your virtual pa
+	rticipation! https://lilly-virtual.com/oncology/us-congress-june2021\n
+DTEND;TZID="Eastern Standard Time":20210604T180000
+DTSTAMP:20210518T172748Z
+DTSTART;TZID="Eastern Standard Time":20210604T090000
+LAST-MODIFIED:20210518T173030Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Lilly Virtual Experience at #ASCO21
+TRANSP:OPAQUE
+UID:23084m10lne08mauo2m56uqmdb@google.com
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.13929.20280">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
+	 from text/plain format -->\n\n<P><FONT SIZE=2>Join us to learn about our 
+	molecules under development\, FDA-approved products\, and advocacy efforts
+	. We look forward to your virtual participation! <A HREF="https://lilly-vi
+	rtual.com/oncology/us-congress-june2021">https://lilly-virtual.com/oncolog
+	y/us-congress-june2021</A></FONT></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+END:VCALENDAR

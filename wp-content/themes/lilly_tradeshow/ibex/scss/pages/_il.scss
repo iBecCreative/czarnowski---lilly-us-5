@@ -1,0 +1,56 @@
+.overlay-banner.il {
+    position: relative;
+    background-image: url('ibex/images/placeholder-img.jpg');
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   .overlay-banner__overlay {
+      @include sitePadding;
+      z-index: 1;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  
+      .play__container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+
+        .videoThumb.vidLink {
+          transition: all .3s;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+
+      h1 {
+        font-family: $dinlight;
+        max-width: 100%;
+        color: $white;
+        font-weight: 100;
+        margin-bottom: 0;
+        font-size: 48px;
+        line-height: 1.15;
+        margin-top: 5rem;
+      }
+  
+    }
+  
+    .overlay-banner__banner {
+      width: 100%;
+      height: 56.25vw;
+      object-fit: cover;
+      display: block;
+      z-index: 0;
+    }
+  }

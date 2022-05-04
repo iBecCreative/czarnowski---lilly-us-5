@@ -1,0 +1,112 @@
+.g-header {
+  background: #fff url('../../shared/img/headers/pd-1@2x.png') 100px 0 no-repeat;
+  background-size: 1366px 78px;
+}
+
+.swiper-button-next {
+  right: 0;
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png");
+}
+
+.swiper-button-prev {
+  left: 0;
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png");
+}
+
+.g-dialog__content-inner-wrapper {
+  background-image: url("../img/popup.png");
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #00b040;
+}
+
+.g-dialog__content.g-dialog__content-1 img {
+  bottom: 13px;
+  position: absolute;
+  left: 64px;
+  width: 585px;
+  margin-left: 0;
+}
+
+.swiper-slide:nth-child(1) video,
+#f-video-overlay {
+  display: none; // Need video
+  position: absolute;
+  left: 525px;
+  top: 320px;
+  width: 310px;
+  height: 310px;
+  z-index: -1;
+  max-width: 340px;
+}
+
+.swiper-wrapper img {
+  left: 64px;
+}
+
+.study-link-1 {
+  margin-top: 185px; }
+
+$scale_modifier-pro: 834 / 1024;
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/pd-1@2x.png') 82px 0 no-repeat;
+    background-size: 1112px 78px * $scale_modifier-pro;
+  }
+
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 13px * $scale_modifier-pro;
+    left: 45px * $scale_modifier-pro;
+    width: 585px * $scale_modifier-pro;
+  }
+
+  .swiper-wrapper img {
+    left: 64px * $scale_modifier-pro;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 525px * $scale_modifier-pro;
+    top: 320px * $scale_modifier-pro;
+    width: 310px * $scale_modifier-pro;
+    height: 310px * $scale_modifier-pro;
+    max-width: 340px * $scale_modifier-pro;
+  }
+
+  .study-link-1 {
+    margin-top: 185px * $scale_modifier-pro; }
+}
+
+$scale_modifier: 768 / 1024;
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/pd-1@2x.png') 75px 0 no-repeat;
+    background-size: 1024px 78px * $scale_modifier;
+  }
+
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 13px * $scale_modifier;
+    left: 45px * $scale_modifier;
+    width: 585px * $scale_modifier;
+  }
+
+  .swiper-wrapper img {
+    left: 64px * $scale_modifier;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 525px * $scale_modifier;
+    top: 320px * $scale_modifier;
+    width: 310px * $scale_modifier;
+    height: 310px * $scale_modifier;
+    max-width: 340px * $scale_modifier;
+  }
+
+  .study-link-1 {
+    margin-top: 185px * $scale_modifier; }
+}

@@ -1,0 +1,86 @@
+// ======================================
+// Font Stacks
+// ======================================
+
+/* @import must be at top of file, otherwise CSS will not work */
+/* @import url("//hello.myfonts.net/count/38b444"); */
+
+
+// Avenir Font Stack
+// =============================
+// Normal
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Avenir-Medium"),
+    url('../../fonts/38B444_2_0.woff2') format('woff2'),
+    url('../../fonts/38B444_2_0.woff') format('woff');
+}
+
+// Italic
+@font-face {
+  font-family: 'Avenir';
+  font-style: italic;
+  font-weight: normal;
+  src:
+    local("Avenir-MediumOblique"),
+    url('../../fonts/38B444_3_0.woff2') format('woff2'),
+    url('../../fonts/38B444_3_0.woff') format('woff');
+}
+
+// Bold
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: bold;
+  src:
+  local("Avenir-Heavy"),
+  url('../../fonts/38B444_4_0.woff2') format('woff2'),
+  url('../../fonts/38B444_4_0.woff') format('woff');
+}
+
+// Bold Italic
+@font-face {
+  font-family: 'Avenir';
+  font-style: italic;
+  font-weight: bold;
+  src:
+    local("Avenir-HeavyOblique"),
+    url('../../fonts/38B444_5_0.woff2') format('woff2'),
+    url('../../fonts/38B444_5_0.woff') format('woff');
+}
+
+
+// Avenir Book Font Stack
+// =============================
+// Normal Light
+@font-face {
+  font-family: 'AvenirBook';
+  font-style: normal;
+  font-weight: lighter;
+  src: local("Avenir-Book"),
+    url('../../fonts/38B444_0_0.woff2') format('woff2'),
+    url('../../fonts/38B444_0_0.woff') format('woff');
+}
+
+// Normal Italic
+@font-face {
+  font-family: 'AvenirBook';
+  font-style: italic;
+  font-weight: lighter;
+  src: local("Avenir-BookOblique"),
+    url('../../fonts/38B444_1_0.woff2') format('woff2'),
+    url('../../fonts/38B444_1_0.woff') format('woff');
+}
+
+
+// Georgia Font Stack
+// =============================
+@font-face {
+  font-family: 'Georgia Italic';
+  font-style: italic;
+  font-weight: normal;
+  src: local("Georgia Italic");
+}

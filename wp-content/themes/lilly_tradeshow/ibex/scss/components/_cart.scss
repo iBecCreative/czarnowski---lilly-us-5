@@ -1,0 +1,213 @@
+// ======================================
+// Cart Modal
+// ======================================
+
+.cart {
+  //display: none;
+  //background: $lighter-gray;
+  padding: 15px 30px;
+  height: calc(100vh - 110px);
+  width: 100%;
+  max-width: 683px;
+  position: absolute;
+  right: 0;
+  transform: translateX(100%);
+  width: 0px;
+  padding: 0px;
+  overflow: hidden;
+  transition: 0.25s ease all;
+  z-index: 12;
+  //border: 3px solid #000;
+
+  @include respond-to('1025') {
+    height: calc(100vh - 138px);
+  }
+
+  &.active {
+    width: 100%;
+    max-width: 683px;
+    transform: translateX(0%);
+    overflow: auto;
+  }
+
+  .emptyText {
+    display: none; 
+  }
+
+  &__close {
+    position: absolute;
+    top: 75px;
+    right: 40px;
+    transform: scale(0.75);
+    color: #EE3A29;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 200;
+    transition: 0.2s ease all;
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  &__inner {
+    position: relative;
+    height: 100%;
+    //background: #F7F7F7;
+    padding: 20px;
+  }
+
+  .cartDownload {
+    display: block;
+    width: calc(100% - 40px);
+    background: $lilly-red;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.documentList {
+  p {
+    font-size: 15px;
+    font-family: "FFDINWebProRegular";
+    padding-left: 45px;
+
+    sup {
+      font-size: 75%;
+      vertical-align: super;
+    }
+  }
+
+  ul {
+    padding: 20px 45px 45px;
+    list-style: none;
+    background: #F7F6F5;
+    border-radius: 9px;
+
+    li {
+      font-size: 16px;
+      font-family: "FFDINWebProRegular";
+      color: #82786F;
+      border-bottom: 1px solid #D8D4D1;
+      margin: 0;
+      padding: 10px 0px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      .cartRemove {
+        display: block;
+        margin-top: 30px;
+        font-size: 11px;
+        font-family: "FFDINWebProRegular";
+      }
+    }
+  }
+}
+
+.cartTab {
+  height: calc(100% - 60px);//200px;
+  position: absolute;
+  width: calc(100% - 40px);
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  //overflow: scroll;
+  padding: 20px;
+  margin-top: 40px;
+  z-index:1;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  &--medical {
+    border-top-right-radius: 10px;
+
+    .documentList {
+      margin-top: 43px;
+    }
+  }
+
+  &--products {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  &--empty {
+    .cartDownload {
+      background: #9B9B9B;
+      pointer-events: none;
+    }
+    .emptyText {
+      display: block;
+      color: #82786F;
+    }
+  }
+
+  &.active {
+    z-index:2;
+    //overflow: scroll;
+
+    .cartTab__tab span {
+      color: $lilly-red;
+      font-family: $dinbold;
+    }
+  }
+
+  &__tab {
+    margin-top: -48px;
+    background-repeat: no-repeat;
+
+    span {
+      display: block;
+      margin-top: -10px;
+      padding-bottom: 10px;
+      color: #82786F;
+    }
+
+    &--medical {
+      background-image: url(ibex/images/med-tab.png);
+      background-size: 100%;
+      background-position: 0px 0px;
+      margin-top: -76px;
+      padding-top: 30px;
+      padding-left: 60px;
+      padding-right: 91px;
+      cursor: pointer;
+      left: -15px;
+      position: absolute;
+    }
+
+    &--products {
+      background-image: url(ibex/images/fda-tab.png);
+      background-size: 100%;
+      background-position: 0px 0px;
+      margin-top: -78px;
+      padding-top: 30px;
+      padding-left: 85px;
+      padding-right: 85px;
+      cursor: pointer;
+      left: 210px;
+      position: absolute;
+
+      span {
+        margin-top:-6px;
+        padding-bottom: 6px;
+      }
+    }
+
+  }
+}
+
+.documentList {
+  overflow: scroll;
+  max-height: calc(100% - 100px)
+}

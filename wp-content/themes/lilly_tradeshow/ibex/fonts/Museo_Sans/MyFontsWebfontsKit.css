@@ -1,0 +1,91 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4088856, 2021-05-14T15:31:27-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: MuseoSans-700 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/700/
+ * 
+ * Webfont: MuseoSans-300 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/300/
+ * 
+ * Webfont: MuseoSans-900Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/900-italic/
+ * 
+ * Webfont: MuseoSans-500 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/500/
+ * 
+ * Webfont: MuseoSans-100 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/100/
+ * 
+ * Webfont: MuseoSans-700Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/700-italic/
+ * 
+ * Webfont: MuseoSans-300Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/300-italic/
+ * 
+ * Webfont: MuseoSans-100Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/100-italic/
+ * 
+ * Webfont: MuseoSans-500Italic by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/500-italic/
+ * 
+ * Webfont: MuseoSans-900 by exljbris
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/900/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2008 by Jos Buivenga. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e6418");
+  
+@font-face {
+  font-family: "MuseoSans-100";
+  src: url('webFonts/MuseoSans100/font.woff2') format('woff2'), url('webFonts/MuseoSans100/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-700";
+  src: url('webFonts/MuseoSans700/font.woff2') format('woff2'), url('webFonts/MuseoSans700/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-900Italic";
+  src: url('webFonts/MuseoSans900Italic/font.woff2') format('woff2'), url('webFonts/MuseoSans900Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-500";
+  src: url('webFonts/MuseoSans500/font.woff2') format('woff2'), url('webFonts/MuseoSans500/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-300";
+  src: url('webFonts/MuseoSans300/font.woff2') format('woff2'), url('webFonts/MuseoSans300/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-500Italic";
+  src: url('webFonts/MuseoSans500Italic/font.woff2') format('woff2'), url('webFonts/MuseoSans500Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-900";
+  src: url('webFonts/MuseoSans900/font.woff2') format('woff2'), url('webFonts/MuseoSans900/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-100Italic";
+  src: url('webFonts/MuseoSans100Italic/font.woff2') format('woff2'), url('webFonts/MuseoSans100Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-700Italic";
+  src: url('webFonts/MuseoSans700Italic/font.woff2') format('woff2'), url('webFonts/MuseoSans700Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "MuseoSans-300Italic";
+  src: url('webFonts/MuseoSans300Italic/font.woff2') format('woff2'), url('webFonts/MuseoSans300Italic/font.woff') format('woff');
+}
+

@@ -1,0 +1,101 @@
+// Variables
+// Author:iBec Creative;
+// Updated: 03/02/2020, by: Rayna Winters
+
+//Utility Colors
+$white:               #FFFFFF;
+// $light-gray:          #D8D8D3;
+$light-gray:          #F2F1EF;
+$lighter-gray:        #F5F5F5;
+$seashell:            #F1F1F1;
+$gray:                #93A8AC;
+$dark-gray:           #4C5760;
+$ous-gray:           #606060;
+$black:   	          #000000;
+$off-black:           #2B2A29;
+$navy:                #363B4F;
+$royal-blue:          #1D3B6C;
+$urgency-gray:        #EAEBEB;
+$urgency-blue:        #494E5F;
+
+$font-gray: #82786F;
+
+$orange:              #EE3A29; // Orange from design #EE3A29
+$lilly-red:           #EE3A29;
+$lilly-dark-red:      #D52B1E;
+$blue:                #A9BCD0;
+$purple:              #966B9D;
+$green:               #294936;
+$red:                 #468189; // not red :')
+
+//Theme Colors #D52B1E
+
+$aqua:                #00ABBC;
+$gray-bdr:            #BEBDBD;
+$light-gray-bdr:      rgba(68, 60, 62, .35);
+
+//Copy Colors
+$text-color:			    $black;
+$light-text-color:	  $white;
+$body-link-color:     $orange;
+$verzenio: #00ABBC;
+$alimta: #131183;
+$cyramza: #D2451B;
+$erbitux: #074592;
+$retevmo: #662D91;
+
+// $wp-accent:           $blue;
+// $wp-rows:             $light-gray;
+
+// Animations
+$transition:              .2s ease all;
+$opacity:                 .75;
+
+// Units
+$spacing:                 1rem;
+$max-width:               1300px;
+$force-margin:            calc((100vw - 1300px)/2);
+
+
+// Typography - Moving typography variables to _typography.scss for sanity reasons
+// $primary-font-family:     'DIN', sans-serif;
+// $secondary-font-family:   'DIN', sans-serif;
+// $blockquote-font-family:  'DIN', sans-serif;
+// $isi-font-family:         proxima-nova, sans-serif;
+
+// $heading-font-family:		  'DIN', sans-serif;
+// $heading-weight:				  bold;
+// $sub-heading-weight :     400;
+// $body-font-family:			  $primary-font-family;
+// $body-weight:				      normal;
+
+// $base-font-unitless:			17;
+// $base-font-size:				  $base-font-unitless + px;
+// $base-line-height:			  30px;
+
+// $body-copy-size:				  1rem;
+
+$bp-x-small:              300px;
+$bp-landscape:            480px;
+$bp-small:                600px;
+$bp-tablet:               768px;
+$bp-medium:               900px;
+$bp-large:                1025px;
+$bp-huge:                 1200px;
+$bp-full:                 1300px;
+$bp-max:                  1400px;
+
+
+//Breakpoints
+$breakpoints: (
+  'x-small':    (min-width: $bp-x-small),
+  'landscape':  (min-width: $bp-landscape),
+  'small':      (min-width: $bp-small),
+  'tablet':     (min-width: $bp-tablet),
+  'medium':     (min-width: $bp-medium),
+  'large':      (min-width: $bp-large),
+  '1025':       (min-width: $bp-large),
+  'huge':       (min-width: $bp-huge),
+  'full':       (min-width: $bp-full),
+  'max':        (min-width: $bp-max),
+);

@@ -1,0 +1,46 @@
+$scale-modifiers: () !default;
+$scale-modifiers: map_merge((
+        "iPad": 768 / 1024,
+        "iPad-Pro-10": 834 / 1024,
+        "iPad-Pro-12": 1
+), $scale-modifiers);
+
+@function scaleValue($value, $viewport) {
+  @return map_get($scale-modifiers, $viewport) * $value;
+}
+
+$row-top: () !default;
+$row-top: map-merge((
+        "row-1": 242px,
+        "row-2": 510px,
+        "row-3": 776px
+), $row-top);
+
+@function getRow($row) {
+  @return map_get($row-top, $row);
+}
+
+$col-left: () !default;
+$col-left: map-merge((
+        "col-1": 70px,
+        "col-2": 314px,
+        "col-3": 590px,
+        "col-4": 860px,
+        "col-5": 1090px
+), $col-left);
+
+@function getCol($col) {
+  @return map_get($col-left, $col);
+}
+
+@mixin getButton($button) {
+  #g-menu ul li.g-menu__#{$button} {
+    background: transparent url("../img/hamburger/#{$button}.png") 0 0 no-repeat;
+    background-size: contain;
+
+    &.active {
+      background: transparent url("../img/hamburger/#{$button}-ACTIVE.png") 0 0 no-repeat;
+      background-size: contain;
+    }
+  }
+}

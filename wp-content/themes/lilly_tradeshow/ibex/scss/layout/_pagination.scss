@@ -1,0 +1,47 @@
+// ======================================
+// Pagination
+// ======================================
+.pagination {
+  display: flex;
+    justify-content: center;
+  width: auto;
+  max-width: $max-width;
+  margin: 0 auto;
+
+  h2 {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+
+    a, span {
+      display: flex;
+        justify-content: center;
+        align-items: center;
+      color: $dark-gray;
+      height:40px;
+      width: 40px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .current {
+      background-color: $light-gray;
+      border-radius: 50%;
+    }
+  }
+
+  .nav-next {
+    width: 12px;
+    height: auto;
+  }
+
+  .nav-prev {
+    width: 12px;
+    height: auto;
+    transform: rotate(180deg);
+  }
+}

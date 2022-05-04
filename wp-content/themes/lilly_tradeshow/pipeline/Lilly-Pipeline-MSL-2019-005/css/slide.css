@@ -1,0 +1,82 @@
+.g-header {
+  background: #fff url("../../shared/img/headers/jak1-2@2x.png") 100px 0 no-repeat;
+  background-size: 1366px 78px; }
+
+.swiper-button-next {
+  right: 0px;
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png"); }
+
+.swiper-button-prev {
+  left: 0px;
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png"); }
+
+.g-dialog__content-inner-wrapper {
+  background-image: url("../img/popup.png"); }
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #00a1de; }
+
+.swiper-slide.swiper-slide-active {
+  text-align: center;
+  padding-left: 0px; }
+
+.g-dialog__content.g-dialog__content-1 img {
+  bottom: 10px;
+  position: absolute;
+  left: 45px;
+  width: 620px; }
+
+.swiper-wrapper img {
+  width: 888px;
+  height: auto;
+  left: 50%;
+  margin: 0 0 0 -444px; }
+
+.swiper-slide:nth-child(1) video,
+#f-video-overlay {
+  position: absolute;
+  left: 525px;
+  top: 255px;
+  z-index: -1;
+  max-width: 340px; }
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url("../../shared/img/headers/jak1-2@2x.png") 82px 0 no-repeat;
+    background-size: 1112px 63.52734px; }
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 8.14453px;
+    position: absolute;
+    left: 36.65039px;
+    width: 504.96094px; }
+  .swiper-wrapper img {
+    width: 723.23438px;
+    height: auto;
+    left: 50%;
+    margin: 0 0 0 -361.61719px; }
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 427.58789px;
+    top: 207.68555px;
+    max-width: 276.91406px; } }
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url("../../shared/img/headers/jak1-2@2x.png") 75px 0 no-repeat;
+    background-size: 1024px 58.5px; }
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 7.5px;
+    position: absolute;
+    left: 33.75px;
+    width: 465px; }
+  .swiper-wrapper img {
+    width: 666px;
+    height: auto;
+    left: 50%;
+    margin: 0 0 0 -333px; }
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    left: 393.75px;
+    top: 191.25px;
+    max-width: 255px; } }

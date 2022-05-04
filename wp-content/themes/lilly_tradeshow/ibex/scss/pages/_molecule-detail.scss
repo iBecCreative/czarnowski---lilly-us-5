@@ -1,0 +1,206 @@
+// ======================================
+// Molecule Detail Page
+// ======================================
+.page-template-molecule_detail {
+    .discover {
+        padding-top: 40px;
+        margin-top: 20px;
+        background: rgba(200,200,200,0.2);
+        max-width: none;
+
+        .section_white {
+            max-width: 1160px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.page-template-molecule_detail,
+.page-template-clinical_trial {
+
+    h1 {
+        font-family: $dinlight;
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-family: $dinbold;
+        color: $lilly-dark-red;
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 0;
+        margin-bottom: 80px;
+
+        &.videoTitle {
+            color: #fff;
+        }
+    }
+
+    h5 {
+        font-family: $dinbold;
+        font-size: 19px;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 0;
+
+        + p {
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+    }
+
+    h4 {
+        font-family: $dincondbold;
+        font-size: 25px;
+        line-height: 44px;
+        margin-top: 40px;
+        color: $lilly-dark-red;
+    }
+
+    p {
+        font-family: $dinregular;
+        font-size: 17px;
+        line-height: 25px;
+
+        sup, sub {
+            vertical-align: baseline;
+            position: relative;
+            top: -6px;
+        }
+        sub { 
+            top: 6px;
+        }
+    }
+
+    .wp-caption-text {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: $dinregularitalic;
+    }
+
+    .references {
+
+        p {
+            font-family: $dinregular;
+            font-size: 12px;
+            line-height: 18px;
+            margin: 5px 0px;
+
+            strong {
+                font-family: $dinbold;
+            }
+
+            em {
+                font-family: $dinlightitalic;
+            }
+        }
+    }
+
+    .awYeah {
+        margin-top: 20px;
+        cursor: pointer;
+
+        a {
+            font-family: $dinmedium;
+            font-size: 14px;
+            line-height: 14px;
+            min-width: 150px;
+            padding: 10px 15px;
+        }
+    }
+
+}
+
+.content {
+
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+
+
+    &__left {
+        width: 50%;
+        padding-right: 123px;
+    }
+
+    &__right {
+        width: 50%;
+        max-width: 550px;
+    }
+}
+
+.backLink {
+    display: block;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 20px 10px;
+    font-size: 10px;
+    font-family: $dinbold;
+    position: relative;
+    text-transform: uppercase;
+    margin-left: 25px;
+
+    @include respond-to('huge') {
+        margin-left: auto;
+    }
+
+    &:hover {
+        color: $lilly-dark-red;
+    }
+
+    &:before {
+        content: url('ibex/svg/red-arrow.svg');
+        position: absolute;
+        left: 0px;
+    }
+}
+
+.trialLinks {
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+
+        li {
+            width: calc(50% - 20px);
+            margin: 0px 20px 20px 0px;
+            border: 1px solid $lilly-dark-red;
+            border-radius: 10px;
+
+            a {
+                display: block;
+                text-decoration: none;
+                padding: 15px 15px 30px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            h6 {
+                font-family: $dinmedium;
+                font-size: 19px;
+                line-height: 22px;
+                color: $lilly-dark-red;
+                margin: 0;
+            }
+
+            span {
+                font-family: $dinmedium;
+                font-size: 13px;
+                line-height: 15px;
+                margin: 0;
+                color: $lilly-dark-red;
+                display:block;
+            }
+
+        }
+    }
+}

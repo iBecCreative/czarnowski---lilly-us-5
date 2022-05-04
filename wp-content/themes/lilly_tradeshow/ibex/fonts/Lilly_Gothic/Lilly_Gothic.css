@@ -1,0 +1,156 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4082075, 2021-05-05T11:52:41-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TradeGothicNextLTPro-Lt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-light/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-LtIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-light-italic/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-Rg by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-regular/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-It by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-italic/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-Bd by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-bold/
+ * Copyright: Copyright &amp;#x00A9; 2008-2018 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-BdIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-bold-italic/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-Hv by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-heavy/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-HvIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-heavy-italic/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-Cn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-condensed/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-CnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-condensed-italic/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-BdCm by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-compressed-bold/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-BdCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-condensed-bold/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-BdCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-condensed-bold-italic/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-HvCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-condensed-heavy/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-Cm by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-compressed/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-HvCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-condensed-heavy-italic/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * Webfont: TradeGothicNextLTPro-HvCm by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic-next/pro-compressed-heavy/
+ * Copyright: Copyright &amp;#x00A9; 2008-2015 Monotype GmbH.  All rights reserved.
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e499b");
+  
+@font-face {
+  font-family: "TradeGothicNextLTPro-It";
+  src: url('webFonts/TradeGothicNextLTProIt/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-LtIt";
+  src: url('webFonts/TradeGothicNextLTProLtIt/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Lt";
+  src: url('webFonts/TradeGothicNextLTProLt/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProLt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Bd";
+  src: url('webFonts/TradeGothicNextLTProBd/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProBd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Rg";
+  src: url('webFonts/TradeGothicNextLTProRg/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProRg/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-HvCm";
+  src: url('webFonts/TradeGothicNextLTProHvCm/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProHvCm/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Cm";
+  src: url('webFonts/TradeGothicNextLTProCm/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProCm/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-HvCnIt";
+  src: url('webFonts/TradeGothicNextLTProHvCnIt/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProHvCnIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-HvCn";
+  src: url('webFonts/TradeGothicNextLTProHvCn/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProHvCn/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-BdCm";
+  src: url('webFonts/TradeGothicNextLTProBdCm/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProBdCm/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-BdCnIt";
+  src: url('webFonts/TradeGothicNextLTProBdCnIt/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProBdCnIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-CnIt";
+  src: url('webFonts/TradeGothicNextLTProCnIt/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProCnIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Cn";
+  src: url('webFonts/TradeGothicNextLTProCn/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProCn/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-BdCn";
+  src: url('webFonts/TradeGothicNextLTProBdCn/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProBdCn/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-Hv";
+  src: url('webFonts/TradeGothicNextLTProHv/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProHv/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-HvIt";
+  src: url('webFonts/TradeGothicNextLTProHvIt/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProHvIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicNextLTPro-BdIt";
+  src: url('webFonts/TradeGothicNextLTProBdIt/font.woff2') format('woff2'), url('webFonts/TradeGothicNextLTProBdIt/font.woff') format('woff');
+}
+

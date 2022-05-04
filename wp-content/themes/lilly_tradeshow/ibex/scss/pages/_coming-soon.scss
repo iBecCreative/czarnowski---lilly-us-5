@@ -1,0 +1,259 @@
+html {
+  min-height: 100vh;
+}
+
+.page-template-coming_soon {
+  min-height: 100vh;
+  background: url('ibex/images/coming-soon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .mobileModal {
+    display: none !important;
+  }
+
+  #site-footer,
+  #site-header,
+  .crisp-client,
+  .modal--hcp {
+    display: none;
+  }
+
+  &.modalActive {
+    overflow: auto;
+  }
+
+  #site-content {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-start;
+    padding: 2rem;
+    margin-top: 0;
+  }
+
+  .footer {
+    background: transparent;
+    //padding: 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+
+
+    @include respond-to('1025'){
+      //position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      flex-wrap: nowrap;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+
+    .footer_disclaimer {
+      color: #826F6F;
+      font-size: 16px;
+      font-family: "FFDINWebProRegular";
+    }
+
+    .footer-container {
+
+      @include respond-to('max'){
+        width: auto;
+      }
+
+      .logo {
+        flex: inherit;
+        margin-left: auto;
+      }
+    }
+
+    svg {
+      fill: $lilly-dark-red;
+    }
+  }
+
+  hr {
+    border: 1px solid #979797;
+  }
+
+}
+
+.comingSoon {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+
+  @include respond-to('1025'){
+    flex-wrap: nowrap;
+  }
+
+  &__countdown {
+    width: 100%;
+  }
+  &__content {
+    max-width: 418px;
+
+    h2 {
+      font-size: 24px !important;
+      line-height: 32px !important;
+      font-family: $dinmedium !important;
+      color: $ous-gray !important;
+
+      .welcome {
+        display: block;
+        margin-bottom: 1rem;
+      }
+      .red {
+        color: $lilly-red;
+      }
+    }
+
+
+    h2 {
+      font-size: 30px;
+      color: #000000;
+      font-family: "FFDINWebProRegular";
+    }
+
+    p {
+      color: #826F6F;
+      font-size: 18px;
+      font-family: "FFDINWebProRegular";
+
+      strong {
+        font-family: "FFDINWebProMedium";
+      }
+    }
+  }
+}
+
+.countdown {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+
+  &__value {
+    padding: 20px 15px 0px;
+    display: block;
+    flex-direction: column;
+    width: 25%;
+    margin-top: 0;
+
+    @include respond-to('landscape'){
+      padding: 0px 20px 0px;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
+
+  &__digit {
+    font-family: $dinregular;
+    color: $lilly-dark-red;
+    text-align: center;
+    @include fluid-type(30px, 200px);
+    line-height: 1;
+    margin-top: 0;
+    border-bottom: 3px solid $lilly-dark-red;
+  }
+
+  &__label {
+    font-family: $dinmedium;
+    color: #826F6F;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0;
+  }
+}
+
+.calendar {
+  margin-left: 30px;
+  position: relative;
+
+  &:before {
+    content: url('/wp-content/themes/lilly_tradeshow/ibex/svg/calendar.svg');
+    position: absolute;
+    left: -30px;
+  }
+  
+  .red {
+    color: $lilly-dark-red;
+  }
+}
+
+.calendarLinks {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  .calendarLink {
+    padding: 15px;
+
+    img {
+      width: 42px;
+      height: auto;
+      filter: grayscale(100%);
+
+      &:hover {
+        filter: grayscale(0%);
+      }
+    }
+  }
+}
+
+.event_block {
+  background: url('ibex/images/event_block.png');
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 930px;
+  min-height: 276px;
+  margin-top: 2rem;
+
+  @include respond-to('medium') {
+    flex-direction: row;
+  }
+
+  &--left {
+    flex: 0 1 100%;
+    background: url('ibex/images/overlay.png');
+    background-size: cover;
+    padding: 1rem 2rem;
+
+    @include respond-to('medium') {
+      flex: 0 1 50%;
+      padding: 1rem 4rem;
+    }
+  }
+  &--right  {
+    flex: 0 1 100%;
+    padding: 1rem 2rem;
+
+    @include respond-to('medium') {
+      flex: 0 1 50%;
+      padding: 1rem 4rem;
+    }
+  }
+
+  &--full {
+    flex: 0 1 100%;
+  }
+}

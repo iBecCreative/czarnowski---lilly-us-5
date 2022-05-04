@@ -1,0 +1,149 @@
+// clinical trial pages
+
+//override typography styles inherited from _molecule-detail .scss
+.page-template.page-template-clinical_trial {
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    h3 {
+        margin-bottom: 30px;
+        line-height: 29px;
+    }
+
+    h5 {
+        line-height: 29px;
+
+        + p {
+            margin-bottom: 60px;
+        }
+    }
+
+    .small {
+        font-family: $dinregular;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .content {
+        padding-top: 90px;
+
+        &__right {
+            max-width: 555px;
+
+            p {
+                font-family: $dinmedium;
+                font-size: 24px;
+                line-height: 31px;
+                margin-bottom: 100px;
+
+                &.footnote {
+                    font-family: $dinregular;
+                    font-size: 13px;
+                    line-height: 18px;
+                    margin: 5px 0px;
+                }
+            }
+            p:not(.footnote):first-of-type {
+                display: flex;
+                align-items: baseline;
+                justify-content: flex-end;
+                margin-bottom: 10px;
+
+                img {
+                    margin: 0 0 15px 130px;
+                }
+            }
+            //p:nth-child(2) {
+                //clear: right;
+                //margin: 10px 0px;
+            //}
+        }
+    }
+
+    .criteria {
+
+        > ul {
+            margin-bottom: 70px;
+        }
+
+        ul {
+            padding: 0px 0 0 20px;
+            margin-top: 5px;
+            
+            li {
+                font-family: $dinregular;
+                font-size: 17px;
+                line-height: 21px;
+                margin: 5px 0px;
+
+                ul {
+                    margin: 15px 0px;
+                    padding-left: 30px;
+
+                    //how deep can we go?
+
+                    li ul li {
+                        list-style: none;
+                        position: relative;
+
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            left: -12px;
+                            top: 8px;
+                            width: 4px;
+                            height: 4px;
+                            background-color: #000;
+                          }
+                    }
+                }
+            }
+        }
+    }
+
+    //clippy
+    .clippy {
+
+        .sidebar-text {
+            margin-bottom: 25px;
+            max-width: 200px;
+        }
+
+        .trialLinks ul li {
+            width: 100%;
+            margin-left: 50px;
+            margin-right: 0;
+            margin-bottom: 15px;
+
+            &.back {
+
+                a {
+                    font-family: $dinmedium;
+                    font-size: 9px;
+                    line-height: 22px;
+                    display: block;
+                    position: relative;
+                    color: $lilly-dark-red;
+                    padding: 5px 5px 5px 30px;
+
+                    &:before {
+                        content: url('ibex/svg/redBack.svg');
+                        position: absolute;
+                        left: 7px;
+                        top: 8px;
+                    }
+                }
+            }
+
+            a {
+                padding-bottom: 20px;
+            }
+        }
+
+        &--buttons {
+            width: 320px;
+        }
+    }
+}

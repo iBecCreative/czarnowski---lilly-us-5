@@ -1,0 +1,80 @@
+.g-header {
+  background: #fff url("../../shared/img/headers/il-17@2x.png") 100px 0 no-repeat;
+  background-size: 93% 78px; }
+
+.swiper-button-next {
+  right: 0px;
+  background-image: url("../../shared/img/buttons/swipe-right-purple@2x.png"); }
+
+.swiper-button-prev {
+  left: 0px;
+  background-image: url("../../shared/img/buttons/swipe-left-purple@2x.png"); }
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #b1059d; }
+
+.swiper-slide img {
+  margin-left: 2%; }
+
+.swiper-slide:nth-child(2) img {
+  margin-left: 2.5%; }
+
+.swiper-slide:nth-child(3) img {
+  margin-left: 4.5%; }
+
+.swiper-slide:nth-child(4) {
+  background-image: url("../img/content/il-17-pathway-overview-4@2x.png");
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: 70px 50%;
+  text-align: center;
+  padding-left: 0px; }
+
+/* VideoJS styling start */
+.vjs-controls-disabled .vjs-big-play-button,
+.vjs-has-started .vjs-big-play-button,
+.vjs-using-native-controls .vjs-big-play-button,
+.vjs-error .vjs-big-play-button {
+  display: inline-block;
+  position: absolute;
+  border: 0px solid transparent;
+  top: calc(50% - 40px);
+  left: calc(50% - 34px);
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  opacity: 0.01;
+  cursor: pointer; }
+
+.swiper-slide:nth-child(4) #myvideo {
+  position: absolute;
+  outline: none;
+  top: 155px;
+  left: 50%;
+  width: 860px;
+  height: 481px;
+  margin-left: -415px;
+  overflow: hidden; }
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url("../../shared/img/headers/il-17@2x.png") 82px 0 no-repeat;
+    background-size: 93% 63.52734px; }
+  .swiper-slide:nth-child(4) #myvideo {
+    position: absolute;
+    top: 126.24023px;
+    width: 700.42969px;
+    height: 391.75195px;
+    margin-left: -337.99805px; } }
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url("../../shared/img/headers/il-17@2x.png") 75px 0 no-repeat;
+    background-size: 93% 58.5px; }
+  .swiper-slide:nth-child(4) #myvideo {
+    position: absolute;
+    top: 116.25px;
+    width: 645px;
+    height: 360.75px;
+    margin-left: -311.25px; } }

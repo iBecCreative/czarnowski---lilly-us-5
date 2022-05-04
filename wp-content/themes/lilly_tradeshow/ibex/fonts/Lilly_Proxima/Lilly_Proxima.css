@@ -1,0 +1,231 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4082067, 2021-05-05T11:48:37-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ProximaNova-Medium by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/medium/
+ * 
+ * Webfont: ProximaNova-Extrabld by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/extrabld/
+ * 
+ * Webfont: ProximaNova-Light by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+ * 
+ * Webfont: ProximaNova-Bold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+ * 
+ * Webfont: ProximaNova-Semibold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+ * 
+ * Webfont: ProximaNovaT-Thin by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/thin/
+ * 
+ * Webfont: ProximaNova-Regular by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+ * 
+ * Webfont: ProximaNova-Black by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/black/
+ * 
+ * Webfont: ProximaNovaA-Extrabld by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-extrabld/
+ * 
+ * Webfont: ProximaNovaA-Black by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-black/
+ * 
+ * Webfont: ProximaNovaA-Medium by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-medium/
+ * 
+ * Webfont: ProximaNovaA-Bold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold/
+ * 
+ * Webfont: ProximaNovaA-Semibold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-semibold/
+ * 
+ * Webfont: ProximaNovaA-Thin by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-thin/
+ * 
+ * Webfont: ProximaNovaA-Regular by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-regular/
+ * 
+ * Webfont: ProximaNovaA-Light by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-light/
+ * 
+ * Webfont: ProximaNovaS-Light by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-light/
+ * 
+ * Webfont: ProximaNovaS-Extrabld by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-extrabld/
+ * 
+ * Webfont: ProximaNovaS-Thin by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-thin/
+ * 
+ * Webfont: ProximaNovaS-Bold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold/
+ * 
+ * Webfont: ProximaNovaS-Semibold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-semibold/
+ * 
+ * Webfont: ProximaNovaS-Medium by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-medium/
+ * 
+ * Webfont: ProximaNovaS-Black by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-black/
+ * 
+ * Webfont: ProximaNovaS-Regular by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-regular/
+ * 
+ * Webfont: ProximaNova-BoldIt by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+ * 
+ * Webfont: ProximaNova-RegularIt by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+ * 
+ * Webfont: ProximaNovaA-BoldIt by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold-it/
+ * 
+ * Webfont: ProximaNovaA-RegularIt by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-regular-it/
+ * 
+ * Webfont: ProximaNovaS-BoldIt by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold-it/
+ * 
+ * Webfont: ProximaNovaS-RegularIt by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-regular-it/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e4993");
+  
+@font-face {
+  font-family: "ProximaNova-Light";
+  src: url('webFonts/ProximaNovaLight/font.woff2') format('woff2'), url('webFonts/ProximaNovaLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Medium";
+  src: url('webFonts/ProximaNovaMedium/font.woff2') format('woff2'), url('webFonts/ProximaNovaMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url('webFonts/ProximaNovaBold/font.woff2') format('woff2'), url('webFonts/ProximaNovaBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url('webFonts/ProximaNovaSemibold/font.woff2') format('woff2'), url('webFonts/ProximaNovaSemibold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Extrabld";
+  src: url('webFonts/ProximaNovaExtrabld/font.woff2') format('woff2'), url('webFonts/ProximaNovaExtrabld/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-RegularIt";
+  src: url('webFonts/ProximaNovaSRegularIt/font.woff2') format('woff2'), url('webFonts/ProximaNovaSRegularIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-BoldIt";
+  src: url('webFonts/ProximaNovaSBoldIt/font.woff2') format('woff2'), url('webFonts/ProximaNovaSBoldIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-RegularIt";
+  src: url('webFonts/ProximaNovaARegularIt/font.woff2') format('woff2'), url('webFonts/ProximaNovaARegularIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-RegularIt";
+  src: url('webFonts/ProximaNovaRegularIt/font.woff2') format('woff2'), url('webFonts/ProximaNovaRegularIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Regular";
+  src: url('webFonts/ProximaNovaSRegular/font.woff2') format('woff2'), url('webFonts/ProximaNovaSRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-BoldIt";
+  src: url('webFonts/ProximaNovaABoldIt/font.woff2') format('woff2'), url('webFonts/ProximaNovaABoldIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Black";
+  src: url('webFonts/ProximaNovaSBlack/font.woff2') format('woff2'), url('webFonts/ProximaNovaSBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Medium";
+  src: url('webFonts/ProximaNovaSMedium/font.woff2') format('woff2'), url('webFonts/ProximaNovaSMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-BoldIt";
+  src: url('webFonts/ProximaNovaBoldIt/font.woff2') format('woff2'), url('webFonts/ProximaNovaBoldIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Semibold";
+  src: url('webFonts/ProximaNovaSSemibold/font.woff2') format('woff2'), url('webFonts/ProximaNovaSSemibold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Bold";
+  src: url('webFonts/ProximaNovaSBold/font.woff2') format('woff2'), url('webFonts/ProximaNovaSBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Extrabld";
+  src: url('webFonts/ProximaNovaSExtrabld/font.woff2') format('woff2'), url('webFonts/ProximaNovaSExtrabld/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Thin";
+  src: url('webFonts/ProximaNovaSThin/font.woff2') format('woff2'), url('webFonts/ProximaNovaSThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Light";
+  src: url('webFonts/ProximaNovaALight/font.woff2') format('woff2'), url('webFonts/ProximaNovaALight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaS-Light";
+  src: url('webFonts/ProximaNovaSLight/font.woff2') format('woff2'), url('webFonts/ProximaNovaSLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Medium";
+  src: url('webFonts/ProximaNovaAMedium/font.woff2') format('woff2'), url('webFonts/ProximaNovaAMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Semibold";
+  src: url('webFonts/ProximaNovaASemibold/font.woff2') format('woff2'), url('webFonts/ProximaNovaASemibold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Bold";
+  src: url('webFonts/ProximaNovaABold/font.woff2') format('woff2'), url('webFonts/ProximaNovaABold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Regular";
+  src: url('webFonts/ProximaNovaARegular/font.woff2') format('woff2'), url('webFonts/ProximaNovaARegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Thin";
+  src: url('webFonts/ProximaNovaAThin/font.woff2') format('woff2'), url('webFonts/ProximaNovaAThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url('webFonts/ProximaNovaRegular/font.woff2') format('woff2'), url('webFonts/ProximaNovaRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Extrabld";
+  src: url('webFonts/ProximaNovaAExtrabld/font.woff2') format('woff2'), url('webFonts/ProximaNovaAExtrabld/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNova-Black";
+  src: url('webFonts/ProximaNovaBlack/font.woff2') format('woff2'), url('webFonts/ProximaNovaBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaA-Black";
+  src: url('webFonts/ProximaNovaABlack/font.woff2') format('woff2'), url('webFonts/ProximaNovaABlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ProximaNovaT-Thin";
+  src: url('webFonts/ProximaNovaTThin/font.woff2') format('woff2'), url('webFonts/ProximaNovaTThin/font.woff') format('woff');
+}
+

@@ -1,0 +1,67 @@
+/* Urgency Layout Elements */
+
+.page-template-urgency_home,.page-template-ask_about_urgency {
+    .header {
+      background-color: $urgency-gray;
+    }
+
+    .logo__title {
+      svg {
+        fill: $lilly-red;
+      }
+     }
+
+  /* Nav */
+  .nav {
+    &-menu {
+      &--top {
+        a {
+          color:$navy;
+        }
+      }
+    }
+
+    .menu-main-navigation-container > .nav-menu > li {
+      > a {
+        color:$navy;
+      }
+    }
+  }
+
+  .nav li#menu-item-398 {
+    border-left: solid 1px $navy;
+  }
+
+  .logo__subtitle {
+    color: #383838;
+  }
+  
+  /* Urgency Anonymous Page Footer */
+    footer {
+      background-color: $urgency-gray;
+
+      .footer_disclaimer {
+        &--urgency {
+          display: block;
+        }
+        color: $navy;
+      }
+
+      h4, p, a {
+        color: $navy;
+      }
+      a {
+        color: $black;
+      }
+      p {
+        color: $black;
+      }
+    }    
+}
+
+
+
+.kWidgetIframeContainer {
+  height: 100%;
+  width: 100%;
+}

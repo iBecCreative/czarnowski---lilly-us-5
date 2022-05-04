@@ -1,0 +1,222 @@
+// ======================================
+// Buttons
+// ======================================
+
+.button {
+  display: inline-block;
+  background-color: $orange;
+  color: $white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: 1px solid $orange;
+  border-radius: 5px;
+  transition: $transition;
+  min-width: 180px;
+  text-align: center;
+
+  &:hover {
+    background-color: darken($orange, 20%);
+    color: white;
+  }
+
+  &--white {
+    background-color: $white;
+    color: $dark-gray;
+    border: 1px solid $dark-gray;
+
+    &:hover {
+      background-color: rgba(255,255,255,0.5);
+      color: $dark-gray;
+    }
+  }
+
+} 
+.btn {
+  color: $royal-blue !important;
+  background-color: $white;
+  padding: .5rem 2.5rem;
+  border: 1px solid $royal-blue;
+  text-decoration: none;
+  font-weight: 600;
+  min-width: 244px;
+  text-align: center;
+  text-decoration: none;
+ 
+  &.contactUs {
+    border-radius: 4px;
+    min-width: 0;
+    line-height: 21px;
+    color: #383838 !important;
+    border: 0.75px solid #7D716D;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0px 1px 3px #00000029;
+
+  }
+
+  &:hover {
+      color: $white !important;
+      background-color: $royal-blue;
+      border: 1px solid $royal-blue;
+  }
+}
+
+.btn-red {
+  color: $lilly-red !important;
+  background-color: $white;
+  padding: .5rem 2.5rem;
+  border: 1px solid $lilly-red;
+  text-decoration: none;
+  font-weight: 600;
+  width: 244px;
+  margin: auto; 
+  text-align: center; 
+  text-decoration: none !important;
+
+  &:hover { 
+      color: $white !important;
+      background-color: $lilly-red;
+      border: 1px solid $lilly-red;
+  }
+}
+//button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  @extend .button;
+}
+
+// [for="heart"] {
+//   background-image: url('ibex/svg/icon-heart-outline.svg');
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   height: 23px;
+//   width: 25px;
+
+//   position: absolute;
+//   right: 0;
+//   bottom: 0;
+//   background-color: transparent;
+//   border: none;
+
+//   &:hover {
+//     cursor: pointer;
+//     background-image: url('ibex/svg/icon-heart-fillwhite.svg');
+//   }
+
+//   &:focus {
+//     cursor: pointer;
+//     background-image: url('ibex/svg/icon-heart-fillred.svg');
+//   }
+
+#checkbox {
+  &:hover {
+    ~ .heart {
+        svg {
+        fill: $lilly-red;
+        color: $lilly-red;
+        stroke: $lilly-red;
+      }
+    }
+  }
+}
+.likeContainer {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+
+  @media(max-width:479px) {
+    max-width: 90%;
+  }
+}
+svg{
+  width: 100%;
+  height: 100%;
+}
+#heart {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  border: none;
+
+  height: 23px;
+  width: 25px;
+}
+
+.heartSymbol {
+  position: relative;
+  width: 32px;
+  height: 25px;
+  margin-left: auto;
+  .heart{
+    width: 55px;
+    height: 45px;
+    display: inline-block;
+    cursor: pointer;
+    animation-duration: .45s;
+    animation-timing-function: ease; 
+    animation-direction: alternate;
+    svg{
+      fill: transparent;
+      color: transparent;
+      stroke: #fff;
+      transition: all .55s ease;
+    }
+  }
+  // === Adding a behind the symbol heart to animate and more!
+  .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 55px;
+    height: 45px;
+    display: inline-block;
+    transform: scale(0);
+    pointer-events: none;
+    svg{
+      fill: #fff;
+      color: #fff;
+    }
+  }
+
+  // === Checkbox hack!
+  .hackyBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    //&:checked,
+    &.active {
+      ~ .heart {
+        animation-name: love;
+      }
+      ~ .layer {
+        transform: scale(1);
+        opacity: 1;
+        z-index: -1;
+        transition: transform .35s ease, opacity .35s ease;
+      }
+    }
+  }
+}
+
+@keyframes love {
+  0% {
+    transform: scale(1);
+  }
+  25%{
+    transform: scale(0.94);
+  }
+  50%{
+     transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 31 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,0.052,0)">
+        <g transform="matrix(1,0,0,1,0.698,5.6)">
+            <path d="M27.059,21L1.546,21C1.545,21 1.544,21 1.543,21C0.698,21 0.002,20.305 0,19.46L0,1.54C0.002,0.695 0.698,-0 1.543,-0C1.544,-0 1.545,-0 1.546,0L27.059,0C27.904,0.001 28.598,0.695 28.6,1.54L28.6,19.46C28.598,20.305 27.904,20.999 27.059,21" style="fill:none;fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0.698,5.6)">
+            <path d="M27.059,21L1.546,21C1.545,21 1.544,21 1.543,21C0.698,21 0.002,20.305 0,19.46L0,1.54C0.002,0.695 0.698,-0 1.543,-0C1.544,-0 1.545,-0 1.546,0L27.059,0C27.904,0.001 28.598,0.695 28.6,1.54L28.6,19.46C28.598,20.305 27.904,20.999 27.059,21Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.5px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1.395,6.3)">
+            <path d="M27.907,0.225L23.015,8.6C22.847,8.908 22.523,9.1 22.172,9.1L5.271,9.1C4.908,9.099 4.574,8.893 4.412,8.568L0,0" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.5px;"/>
+        </g>
+        <rect x="0" y="0" width="30" height="28" style="fill:none;fill-rule:nonzero;"/>
+        <g>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="30" height="28"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1,0,0,1,11.163,13.3)">
+                    <rect x="0" y="0" width="6.977" height="3.5" style="fill:none;fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,11.163,13.3)">
+                    <rect x="0" y="0" width="6.977" height="3.5" style="fill:rgb(216,54,46);fill-rule:nonzero;stroke:white;stroke-width:1.5px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,9.767,1.4)">
+                    <path d="M0,4.2L0,1.841C-0,1.836 -0,1.83 -0,1.825C-0,0.83 0.814,0.009 1.809,-0L8.656,0C9.651,0.009 10.465,0.83 10.465,1.825C10.465,1.83 10.465,1.836 10.465,1.841L10.465,4.2" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.5px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

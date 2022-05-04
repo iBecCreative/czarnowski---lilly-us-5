@@ -1,0 +1,47 @@
+// ======================================
+// Accordions
+// ======================================
+
+.accordion {
+  position: relative;
+  background-color: #FFFFFF;
+  margin: 25px 0px 25px 0px;
+  padding: 20px;
+  border-radius: 3px;
+  // box-shadow: 0 0 15px 0 rgba(0,0,0,0.12);
+  @include box-shadow;
+
+  @include responsive-width ($max-width);
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.collapsable {
+  h3 {
+    display: block;
+    width: 100%;
+    background-image: url('/wp-content/themes/lilly_tradeshow/ibex/svg/arrow-black-down.svg');
+      background-position: right center;
+      background-repeat: no-repeat;
+  }
+
+  .accordion-interior {
+    display: none;
+  }
+
+  &-expanded {
+    h3 {
+      display: block;
+      width: 100%;
+      background-image: url('/wp-content/themes/lilly_tradeshow/ibex/svg/arrow-black-up.svg');
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+
+    .accordion-interior {
+      display: block;
+    }
+  }
+}

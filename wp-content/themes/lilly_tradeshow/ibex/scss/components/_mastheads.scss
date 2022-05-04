@@ -1,0 +1,25 @@
+// ======================================
+// Mastheads
+// ======================================
+
+.masthead {
+  position: relative;
+  display: inline-block;
+  background-color: $gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 100%;
+  // height: auto;
+  //max-height: 642px;
+
+  &__container {
+    position: relative;
+    height: 100%;
+    //@include responsive-width ($max-width);
+  }
+
+  &.masthead--1 {
+    background-position:top;
+  }
+}

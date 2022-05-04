@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="593px" height="555px" viewBox="0 0 593 555" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M110.181 313.876C64.8071 299.47 26.1295 270.028 -2.50827e-05 231.403L0.732422 230.709L5.45678 220.866L33.8033 208.661L42.8584 191.732L53.0946 140.551L70.0238 111.417L73.9608 67.3229L101.52 43.3071L97.9766 12.9921L109 11.0236L113.331 0L136.559 42.5197L142.858 44.0945L157.032 72.441L135.378 106.299L129.473 157.874L126.323 194.094L116.874 223.622L121.992 275.591L110.181 292.913L110.181 313.876Z" transform="matrix(0.9998477 0.01745241 -0.01745241 0.9998477 5.477905 0)" id="path_1" />
+    <path d="M282.945 200.256C247.324 265.072 178.402 309 99.2197 309C76.082 309 53.8203 305.249 33.0096 298.322L0 210.945L50.7875 45.1968L49.1102 0L57.1102 0L73.2284 9.76376L81.4961 24.3307L127.559 62.9134L135.827 114.882L152.11 129L167.717 149.921L178.346 160.157L242.52 173.15L282.945 200.256Z" transform="translate(72.5752 0.2992249)" id="path_2" />
+    <path d="M257.288 183.053C228.608 264.568 150.933 323 59.6102 323C53.6993 323 47.8456 322.755 42.0586 322.275L0 210.945L50.7875 45.1968L49.1102 0L57.1102 0L73.2284 9.76376L81.4961 24.3307L127.559 62.9134L135.827 114.882L152.11 129L167.717 149.921L178.346 160.157L242.52 173.15L257.288 183.053Z" transform="translate(69.578 0.2992554)" id="path_3" />
+    <path d="M41.7166 0L51.9685 17.6849L79.5276 70.8345L69.7166 94L70.4724 120.834L62.9922 110.992L32.7166 94L0 79.1022L16.9292 2.33057L41.7166 0Z" transform="translate(119.1652 69.29922)" id="path_4" />
+    <path d="M113.64 323.058C66.1354 307.846 26.01 276.141 1.04336e-06 234.682L4.19073 230.709L8.91509 220.866L37.2616 208.661L46.3167 191.732L56.5529 140.551L73.4821 111.417L77.4191 67.3229L104.978 43.3071L101.435 12.9921L112.458 11.0236L116.789 0L140.018 42.5197L146.317 44.0945L160.49 72.441L138.836 106.299L132.931 157.874L129.781 194.094L120.332 223.622L125.451 275.591L113.64 292.913L113.64 323.058Z" transform="translate(2.198425 0.2992249)" id="path_5" />
+    <path d="M0 209.5C0 93.7963 93.7963 0 209.5 0C325.204 0 419 93.7963 419 209.5C419 325.204 325.204 419 209.5 419C93.7963 419 0 325.204 0 209.5Z" transform="translate(73.60693 4.000031)" id="path_6" />
+    <path d="M56.8047 47.3373L40.2367 69.8225L43.1952 84.0237L2.9585 160.355L2.9585 160.355L0 181.657L14.7928 196.45L24.852 198.817L24.852 198.817L39.0532 200.592L53.2544 200.592L53.2544 200.592L67.4556 218.935L67.4556 230.769L77.208 236.318L85.7988 209.467L77.208 185.318L115.976 160.947L141.622 172.379L158.252 177.347L178.475 187.147L231.953 113.609L170.414 43.1953L175.74 24.2604L168.639 0L137.87 20.1184L117.751 15.9764L56.8047 47.3373Z" transform="matrix(0.9961947 -0.08715571 0.08715571 0.9961947 0 203.6201)" id="path_7" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+    <clipPath id="clip_3">
+      <use xlink:href="#path_3" />
+    </clipPath>
+    <clipPath id="clip_4">
+      <use xlink:href="#path_4" />
+    </clipPath>
+    <clipPath id="clip_5">
+      <use xlink:href="#path_5" />
+    </clipPath>
+    <clipPath id="clip_6">
+      <use xlink:href="#path_6" />
+    </clipPath>
+    <clipPath id="clip_7">
+      <use xlink:href="#path_7" />
+    </clipPath>
+  </defs>
+  <g id="Group-5-Copy" transform="translate(1.660004 1.660004)">
+    <g id="Group-4" transform="translate(78.70508 152.0652)">
+      <g id="New-shape-Intersect-Copy">
+        <use stroke="none" fill="#000000" xlink:href="#path_1" fill-rule="evenodd" />
+        <g clip-path="url(#clip_1)">
+          <use xlink:href="#path_1" fill="none" stroke="#000000" stroke-width="2" />
+        </g>
+      </g>
+      <g id="New-shape-2-Intersect">
+        <use stroke="none" fill="#FFFFFF" xlink:href="#path_2" fill-rule="evenodd" />
+        <g clip-path="url(#clip_2)">
+          <use xlink:href="#path_2" fill="none" stroke="#FFFFFF" stroke-width="10" />
+        </g>
+      </g>
+      <g id="New-shape-2-Intersect-Copy">
+        <use stroke="none" fill="#B8B8B8" xlink:href="#path_3" fill-rule="evenodd" />
+        <g clip-path="url(#clip_3)">
+          <use xlink:href="#path_3" fill="none" stroke="#B8B8B8" stroke-width="10" />
+        </g>
+      </g>
+      <path d="M143.458 149.67C141.44 151.172 139.394 152.638 137.322 154.068L88 119L55.9213 52.9605L22.8505 26.5825L0 0L18.5197 16.3463L75.2126 50.992L79 61L88 92L143.458 149.67Z" transform="translate(111.6882 132.2993)" id="New-shape-4-Intersect" fill="#FFFFFF" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1" />
+      <g id="New-shape-3">
+        <use stroke="none" fill="#3C3C3C" xlink:href="#path_4" />
+        <g clip-path="url(#clip_4)">
+          <use xlink:href="#path_4" fill="none" stroke="#3C3C3C" stroke-width="10" />
+        </g>
+      </g>
+      <g id="New-shape-Intersect">
+        <use stroke="none" fill="#686868" xlink:href="#path_5" fill-rule="evenodd" />
+        <g clip-path="url(#clip_5)">
+          <use xlink:href="#path_5" fill="none" stroke="#686868" stroke-width="2" />
+        </g>
+      </g>
+    </g>
+    <g id="Group-5" transform="matrix(-0.9659259 0.258819 0.258819 0.9659259 475.8218 0)">
+      <path d="M209.5 3.33165e-05C93.7963 3.17707e-05 0 93.7964 -2.79892e-06 209.5C-4.34473e-06 325.204 93.7963 419 209.5 419C325.204 419 419 325.204 419 209.5C419 93.7964 325.204 3.48623e-05 209.5 3.33165e-05ZM196.801 57.2429C107.041 79.6225 53.3934 174.439 76.9755 269.022C100.558 363.605 192.439 422.137 282.199 399.757C371.959 377.378 425.607 282.561 402.025 187.978C378.442 93.3954 286.561 34.8633 196.801 57.2429Z" transform="translate(73.60699 -3.051758E-05)" id="Ellipse-Difference" fill="#000000" fill-rule="evenodd" stroke="none" />
+      <g id="Ellipse-Copy-2">
+        <g clip-path="url(#clip_6)">
+          <use xlink:href="#path_6" fill="none" stroke="#000000" stroke-width="10" />
+        </g>
+      </g>
+      <g id="New-shape">
+        <use stroke="none" fill="#000000" xlink:href="#path_7" />
+        <g clip-path="url(#clip_7)">
+          <use xlink:href="#path_7" fill="none" stroke="#000000" stroke-width="2" />
+        </g>
+      </g>
+      <path d="M40.2867 5.77933L207.362 85.8144L181.793 101.576L142.674 114.039L79.3409 118.214L30.6543 109.107C30.6543 109.107 0.721234 82.6619 0.0206724 82.6619C-0.679889 82.6619 16.6581 13.1348 16.6581 13.1348L28.567 0L40.2867 5.77933Z" transform="translate(200.933 290.961)" id="New-shape-2" fill="#000000" stroke="#000000" stroke-width="1" />
+    </g>
+  </g>
+</svg>

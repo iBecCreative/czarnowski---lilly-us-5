@@ -1,0 +1,31 @@
+.quiz {
+
+    &__hero {
+        height: 90vh;
+        background-image:url('ibex/images/quiz_hero.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+
+        &--container {
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            h1 {
+                color: $black;
+                font-family: $dinlight;
+            }
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+            .vidLink {
+                text-decoration: underline;
+                color: $black;
+                font-family: $dinbold;
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.g-header {
+  background: #fff url('../../shared/img/headers/interleukin-2-il-2-@2x.png') 100px 0 no-repeat;
+  background-size: 1366px 78px;
+}
+
+.swiper-button-next {
+  right: 0px;
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png");
+}
+
+.swiper-button-prev {
+  left: 0px;
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png");
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #00b040;
+}
+
+.g-dialog__content-inner-wrapper {
+  background-image: url("../img/popup.png");
+}
+
+.g-dialog__content.g-dialog__content-1 img {
+  bottom: 13px;
+  position: absolute;
+  left: 45px;
+  width: 585px;
+}
+
+.swiper-wrapper img {
+  height: 88%;
+  margin: 0;
+}
+
+$scale_modifier-pro: 834 / 1024;
+
+@media screen and (max-width: 1112px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/interleukin-2-il-2-@2x.png') 82px 0 no-repeat;
+    background-size: 1112px 78px * $scale_modifier-pro;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    top: 320px * $scale_modifier-pro;
+    width: 280px * $scale_modifier-pro;
+    height: 280px * $scale_modifier-pro;
+    margin-left: -110px * $scale_modifier-pro;
+  }
+
+  .swiper-wrapper img {
+    top: 40px * $scale_modifier-pro;
+    height: 90%;
+  }
+}
+
+$scale_modifier: 768 / 1024;
+
+@media screen and (max-width: 1024px) {
+  .g-header {
+    background: #fff url('../../shared/img/headers/interleukin-2-il-2-@2x.png') 75px 0 no-repeat;
+    background-size: 1024px 78px * $scale_modifier;
+  }
+
+  .swiper-slide:nth-child(1) video,
+  #f-video-overlay {
+    top: 320px * $scale_modifier;
+    width: 280px * $scale_modifier;
+    height: 280px * $scale_modifier;
+    margin-left: -110px * $scale_modifier;
+  }
+
+  .swiper-wrapper img {
+    top: 40px * $scale_modifier;
+    height: 90%;
+  }
+}

@@ -1,0 +1,138 @@
+//sitemap
+.page-template-sitemap {
+
+  .sidebar h1 {
+    font-family: $dinlight;
+  }
+
+  .content__main {
+
+    padding-top: 250px;
+
+    h3 a {
+      color: #000;
+      text-decoration: none;
+      font-family: $dinbold;
+      font-size: 25px;
+      line-height: 32px;
+
+      &:hover {
+        color: $lilly-red;
+      }
+    }
+
+    hr {
+      outline: 0;
+      border: 0;
+      border-bottom: 1px solid #707070;
+      margin: 40px 0px;
+      clear: both;
+    }
+
+  }
+
+}
+.columns_sitemap {
+  display: flex;
+  
+}
+.sitemapLinks {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  list-style: none;
+  padding: 30px 0px 0px;
+  width: 50%;
+
+  li {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0px;
+    min-height: 92px;
+
+    a {
+      color: $lilly-red;
+      font-family: $dinbold;
+      font-size: 20px;
+      line-height: 32px;
+      display: block;
+
+      &:hover {
+        //color: $lilly-dark-red;
+
+        p {
+          font-family: $dinmedium;
+        }
+      }
+    }
+
+    p,
+    p a {
+      color: $lilly-red;
+      font-family: $dinregular;
+      font-size: 15px;
+      line-height: 20px;
+      margin: 0;
+    }
+
+    .sublink {
+      color: #4A4A4A;
+
+      &:hover {
+        font-family: $dinmedium;
+        a {
+          color: $lilly-dark-red;
+          font-family: $dinmedium;
+        }
+      }
+    }
+
+    sup {
+      display: inline-block;
+    }
+
+  }
+
+  &--wrapper {
+    padding-top: 0;
+
+    > li {
+      padding-top: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &--small {
+    padding: 0px 40px 50px 0px;
+    width: 50%;
+    
+    li {
+      width: 100%;
+      padding: 5px 0px;
+      line-height: 15px;
+
+      &:first-child a {
+        color: $lilly-red;
+        font-family: $dinbold;
+
+        &:hover {
+          color: $lilly-dark-red;
+        }
+      }
+
+      a {
+        font-size: 12px;
+        font-family: $dinregular;
+        line-height: 15px;
+        color: #707070;
+
+        &:hover {
+          color: $lilly-red;
+        }
+      }
+    }
+  }
+}

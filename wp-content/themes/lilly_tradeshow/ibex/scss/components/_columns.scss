@@ -1,0 +1,88 @@
+
+.columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  // @include responsive-width($max-width);
+
+  .col1 {
+    width: 75%;
+    // padding-left: $force-margin;
+    // border: 1px solid red;
+  }
+
+  .col2 {
+    width: 25%;
+  }
+}
+
+//
+// .three-columns {
+//   display: block;
+//   justify-content: space-between;
+//   align-items: flex-start;
+//   //flex-basis: 32%;
+//
+//   @include responsive-width ($max-width);
+//
+//   @include respond-to('tablet') {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//   }
+//
+//   .column {
+//     flex-basis: 32%;
+//     position: relative;
+//
+//     img {
+//       width: 100%;
+//       margin: 0;
+//     }
+//
+//     &:nth-child(2) {
+//       p {
+//         padding: 0;
+//         margin:0;
+//       }
+//       &:after {
+//         content: "test";
+//         position: absolute;
+//         top:0;
+//         left:0;
+//         height: 100%;
+//         width: 100%;
+//         background-color: $gray;
+//         opacity: .7;
+//         z-index: 2;
+//       }
+//     }
+//   }
+// }
+//
+// .two-columns {
+//   display: block;
+//   justify-content: space-between;
+//   align-items: flex-start;
+//
+//   @include responsive-width ($max-width);
+//
+//   @include respond-to('tablet') {
+//     display: flex;
+//       align-items: center;
+//       justify-content: space-between;
+//     padding: 0 41px 41px 41px;
+//   }
+//
+//   .column {
+//     flex-basis: 49%;
+//     @include respond-to('tablet') {
+//       padding: 0 41px 41px 41px;
+//     }
+//
+//     img {
+//       width: 100%;
+//       margin: 0;
+//     }
+//   }
+// }

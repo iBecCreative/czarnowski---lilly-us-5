@@ -1,0 +1,51 @@
+.g-background img {
+  display: block;
+  width: 1366px;
+  height: 1024px;
+  margin-top: 0px; }
+
+.link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 1024px; }
+
+.s-disclaimer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  .s-disclaimer img {
+    width: 100%;
+    height: 100%; }
+  .s-disclaimer__close {
+    display: block;
+    position: absolute;
+    top: 682px;
+    left: 545px;
+    width: 20%;
+    height: 8%; }
+
+@media screen and (max-width: 1112px) {
+  .g-background img {
+    width: 1112px;
+    height: 834px; }
+  .link {
+    width: 1112px;
+    height: 834px; }
+  .s-disclaimer__close {
+    top: 555.45703px;
+    left: 443.87695px; } }
+
+@media screen and (max-width: 1024px) {
+  .g-background img {
+    width: 1024px;
+    height: 768px; }
+  .link {
+    width: 1024px;
+    height: 768px; }
+  .s-disclaimer__close {
+    top: 511.5px;
+    left: 408.75px; } }

@@ -1,0 +1,211 @@
+// ======================================
+// Molecule Landing Page
+// ======================================
+
+.page-template-molecule_landing,
+.page-template-sitemap {
+  
+  .sidebar {
+    width: 30%;
+  
+    &--left {
+      padding-right: 40px;
+    }
+  }
+
+  .content {
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 100px 20px; 
+
+    &__main {
+      width: 70%;
+    }
+  }
+
+}
+
+.molecules {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .molecule {
+    padding: 10px 10px 50px;
+    width: 50%;
+    position: relative;
+
+    &:last-of-type {
+      margin-left: auto;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h3 a {
+      font-family: $dinlight;
+      color: #82786F;
+      font-size: 30px;
+      line-height: 36px;
+      margin: 5px 0px;
+      text-decoration: underline;
+      text-decoration-skip-ink: auto;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+
+    p {
+      margin: 0;
+      color: #82786F;
+      font-family: $dinregular;
+      font-size: 14px;
+      line-height: 18px;
+      display: block;
+      margin-top: -5px;
+
+      &:empty {
+        height: 0px;
+      }
+
+      &.molecule__references {
+        //position: absolute;
+        //bottom: 50px;
+        margin-top:255px;
+        width: 100%;
+        display: block;
+      }
+
+      img {
+        margin: 0;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .redLink {
+      color: $lilly-red;
+      text-decoration: underline;
+      display: block;
+      font-family: $dinbold;
+      margin-top: 10px;
+
+      &:after {
+        content: url('ibex/images/redLink.png');
+        margin-left: 5px;
+      }
+    }
+
+  }
+}
+
+.clinicalTrials {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: 95px;
+  position: relative;
+  margin-top:15px;
+
+  li {
+    color: #82786F;
+    font-family: $dinregular;
+    font-size: 12px;
+    line-height: 18px;   
+    margin: 3px; 
+
+    a {
+      color: #82786F;
+
+      strong {
+        font-family: $dinbold;
+        font-size: 12px;
+      }
+    }
+
+    &.clinicalTrials__title {
+      color: $lilly-red;
+      font-family: $dinbold;
+      font-size: 10px;
+      margin: 0;
+      position: absolute;
+      left: -95px;
+      top: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+//had to scope this... didn't want to affect the product detail pages
+.page-template-molecule_landing,
+.page-template-molecule_detail,
+.page-template-clinical_trial,
+.page-template-program_page,
+.page-template-medical_info,
+.page-template-medical_home {
+  
+  .discover {
+
+    max-width: 1160px;
+    margin: 0 auto;
+
+    &__disclaimer {
+      background: #ffffff;
+      border-color: rgba(130,120,111,0.5);
+
+      p {
+        color: #000000;
+        font-family: $dinmedium;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    .product_grid {
+      margin-bottom: 0;
+      padding-bottom: 80px;
+    }
+    
+    .product_containter {
+
+      h3 {
+        font-family: $dinlight;
+        color: #82786F;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 5px 0px;
+        // text-decoration: underline;
+        // text-decoration-skip-ink: auto;
+        // text-decoration-thickness: 2px;
+        // text-underline-offset: 3px;
+      }
+
+      p {
+        margin: 0;
+        color: #82786F;
+        font-family: $dinregular;
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      &:hover {
+        h3,
+        p {
+          text-decoration: underline;
+        }
+      }
+
+    }
+
+    h2 {
+      width: auto;
+      font-family: $dinlight;
+      font-size: 48px;
+      margin: 50px 0px 50px 10px;
+    }
+
+  }
+}

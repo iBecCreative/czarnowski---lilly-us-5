@@ -1,0 +1,74 @@
+.cta {
+    background-color: $white;
+    padding: 5rem 0;
+
+    .section_white {
+        @include responsive-width($max-width);
+    }
+
+    h2 {
+        font-family: $roboto;
+        font-weight: 100 !important;
+        font-weight: normal;
+        font-size: 30px;
+        color: black;
+
+        @media only screen and (min-width: 765px) { 
+            width: 50%;
+            font-size: 50px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        height: 400px;
+        align-items: center;
+        margin-top: 3rem;
+
+        @media(max-width:$bp-tablet) {
+            flex-direction: column;
+            height: 100%;
+        }
+
+        &--left {
+            flex: 1;
+            width: 100%;
+            padding: 4rem;
+            background-image: url('ibex/images/urgency_cta.jpg');
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        &--right {
+            flex: 1;
+            align-items: center;
+            display: flex;
+            padding: 4rem;
+            background-image: url('ibex/images/cta_blur.png');
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+
+            h3 {
+                font-family: $roboto;
+                font-weight: 400;
+                line-height: 1.4;
+                color: #fff;
+                text-align: center;
+                font-size: 28px;
+                max-width: 400px;
+                margin: auto;
+            }
+            a {
+                color: #fff;
+
+                &:hover {
+                    color: $lilly-red;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4082053, 2021-05-05T11:29:51-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FF Clan Web Pro Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/clan-pro/pro-bold/
+ * 
+ * Webfont: FF Clan Web Pro Medium by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/clan-pro/pro-medium/
+ * 
+ * Webfont: FF Clan Web Pro Thin by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/clan-pro/pro-thin/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2007-2019 Monotype GmbH. All rights reserved
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e4985");
+  
+@font-face {
+  font-family: "FFClanWebProThin";
+  src: url('webFonts/FFClanWebProThin/font.woff2') format('woff2'), url('webFonts/FFClanWebProThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFClanWebProBold";
+  src: url('webFonts/FFClanWebProBold/font.woff2') format('woff2'), url('webFonts/FFClanWebProBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "FFClanWebProMedium";
+  src: url('webFonts/FFClanWebProMedium/font.woff2') format('woff2'), url('webFonts/FFClanWebProMedium/font.woff') format('woff');
+}
+
