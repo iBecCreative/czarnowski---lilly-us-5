@@ -5968,29 +5968,16 @@ html {
 }
 .page-template-coming_soon .footer {
   background: transparent;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  align-items: center;
   width: 100%;
-  max-width: 1300px;
   margin: auto;
-}
-@media (min-width: 1025px) {
-  .page-template-coming_soon .footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    flex-wrap: nowrap;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
+  padding: 30px 0 0;
 }
 .page-template-coming_soon .footer .footer_disclaimer {
-  color: #826F6F;
-  font-size: 16px;
+  color: #383838;
+  font-size: 13;
   font-family: "FFDINWebProRegular";
+  margin-left: unset;
+  max-width: unset;
 }
 @media (min-width: 1400px) {
   .page-template-coming_soon .footer .footer-container {
@@ -6077,6 +6064,9 @@ html {
 .countdown__value:last-child {
   border-right: 0;
 }
+.countdown__value--seconds .countdown__digit {
+  color: #EE3A29;
+}
 .countdown__digit {
   font-family: "FFDINWebProRegular", sans-serif;
   color: #D52B1E;
@@ -6101,8 +6091,13 @@ html {
   color: #826F6F;
   margin-bottom: 0;
   text-align: center;
-  font-size: 16px;
+  font-size: 11px;
   margin-top: 0;
+}
+@media (min-width: 900px) {
+  .countdown__label {
+    font-size: 16px;
+  }
 }
 
 .calendar {
@@ -6146,6 +6141,11 @@ html {
   max-width: 930px;
   min-height: 276px;
   margin-top: 2rem;
+  position: relative;
+}
+.event_block * {
+  color: #606060;
+  font-family: "FFDINWebProMedium", sans-serif;
 }
 @media (min-width: 900px) {
   .event_block {
@@ -6176,6 +6176,52 @@ html {
 }
 .event_block--full {
   flex: 0 1 100%;
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  width: 100%;
+  line-height: 1.2;
+  padding: 5px 1rem 1rem;
+}
+@media (min-width: 900px) {
+  .event_block--full {
+    position: absolute;
+    bottom: 0%;
+    margin: auto;
+    padding: 2rem 1rem 1rem;
+  }
+}
+.event_block--full em {
+  color: #383838 !important;
+  font-family: "FFDINWebProRegular", sans-serif;
+}
+.event_block .event-date {
+  font-size: 16px;
+}
+.event_block .event-content {
+  font-size: 30px;
+  line-height: 37px;
+  margin-top: 6px;
+}
+.event_block .event-space {
+  font-family: "FFDINWebProRegular", sans-serif;
+  line-height: 23px;
+  font-size: 18px;
+}
+.event_block .event-chair {
+  line-height: 23px;
+  font-size: 18px;
+}
+.event_block .event-button {
+  font-size: 16px;
+  background-color: #FFFFFF;
+  color: #383838;
+  border: 1px solid #606060;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin-top: 1rem;
+  display: inline-block;
 }
 
 .page-template-social_impact #site-footer .columns {

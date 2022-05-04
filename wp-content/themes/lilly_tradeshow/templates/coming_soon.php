@@ -63,7 +63,7 @@ get_header();
     <div class="event_block">
         <div class="event_block--left">
             <p class="event-date">EVENT — 23 MAY 2022</p>
-            <p class="event-content">Elevating Ulcerative Colitis Treatment Expectations
+            <p class="event-content">Elevating Ulcerative Colitis Treatment Expectations<br>
             <em>Time to Expect More</em></p>
         </div>
         <div class="event_block--right">
