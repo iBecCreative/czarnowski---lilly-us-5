@@ -8040,6 +8040,7 @@ p .dinLight {
   font-size: 20px;
   font-family: "FFDINWebProMedium", sans-serif;
   line-height: 26px;
+  max-width: 450px;
 }
 @media (max-width: 768px) {
   .masthead .inner-container .sub-text-white {

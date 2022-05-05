@@ -37,7 +37,7 @@
         font-size: 20px;
         font-family: $dinmedium;
         line-height: 26px;
-
+        max-width: 450px;
         @media(max-width:768px) {
             font-size: 16px;
             line-height: 16px;
