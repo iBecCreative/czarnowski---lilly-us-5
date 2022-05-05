@@ -1,56 +1,74 @@
 .g-header {
   background: #fff url("../../shared/img/headers/interleukin-2-il-2-@2x.png") 100px 0 no-repeat;
-  background-size: 1366px 78px; }
+  background-size: 1366px 78px;
+}
 
 .swiper-button-next {
   right: 0px;
-  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png"); }
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png");
+}
 
 .swiper-button-prev {
   left: 0px;
-  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png"); }
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png");
+}
 
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #00b040; }
+  background: #00b040;
+}
 
 .g-dialog__content-inner-wrapper {
-  background-image: url("../img/popup.png"); }
+  background-image: url("../img/popup.png");
+}
 
 .g-dialog__content.g-dialog__content-1 img {
   bottom: 13px;
   position: absolute;
   left: 45px;
-  width: 585px; }
+  width: 585px;
+}
 
 .swiper-wrapper img {
   height: 88%;
-  margin: 0; }
+  margin: 0;
+}
 
 @media screen and (max-width: 1112px) {
   .g-header {
     background: #fff url("../../shared/img/headers/interleukin-2-il-2-@2x.png") 82px 0 no-repeat;
-    background-size: 1112px 63.52734px; }
-  .swiper-slide:nth-child(1) video,
-  #f-video-overlay {
-    top: 260.625px;
-    width: 228.04688px;
-    height: 228.04688px;
-    margin-left: -89.58984px; }
-  .swiper-wrapper img {
-    top: 32.57812px;
-    height: 90%; } }
+    background-size: 1112px 63.52734375px;
+  }
 
+  .swiper-slide:nth-child(1) video,
+#f-video-overlay {
+    top: 260.625px;
+    width: 228.046875px;
+    height: 228.046875px;
+    margin-left: -89.58984375px;
+  }
+
+  .swiper-wrapper img {
+    top: 32.578125px;
+    height: 90%;
+  }
+}
 @media screen and (max-width: 1024px) {
   .g-header {
     background: #fff url("../../shared/img/headers/interleukin-2-il-2-@2x.png") 75px 0 no-repeat;
-    background-size: 1024px 58.5px; }
+    background-size: 1024px 58.5px;
+  }
+
   .swiper-slide:nth-child(1) video,
-  #f-video-overlay {
+#f-video-overlay {
     top: 240px;
     width: 210px;
     height: 210px;
-    margin-left: -82.5px; }
+    margin-left: -82.5px;
+  }
+
   .swiper-wrapper img {
     top: 30px;
-    height: 90%; } }
+    height: 90%;
+  }
+}

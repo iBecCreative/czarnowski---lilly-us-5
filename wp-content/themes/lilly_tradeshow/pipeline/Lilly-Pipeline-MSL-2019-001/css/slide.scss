@@ -211,3 +211,9 @@ $scale_modifier: 768 / 1024;
     }
   }
 }
+
+.adjusted {
+  .g-background video, .g-background img {
+    left: -19% !important;
+  }
+}

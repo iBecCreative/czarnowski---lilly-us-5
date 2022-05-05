@@ -131,13 +131,13 @@ html {
   display: flex;
 
   &__value {
-    padding: 20px 15px 0px;
+    padding: 0px 10px 0px;
     display: block;
     flex-direction: column;
     width: 25%;
     margin-top: 0;
 
-    @include respond-to('landscape'){
+    @include respond-to('small'){
       padding: 0px 20px 0px;
     }
 

@@ -1,46 +1,60 @@
 .g-header {
   background: #fff url("../../shared/img/headers/il-23@2x.png") 100px 0 no-repeat;
-  background-size: 1366px 78px; }
+  background-size: 1366px 78px;
+}
 
 .swiper-button-next {
   right: 0px;
-  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png"); }
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png");
+}
 
 .swiper-button-prev {
   left: 0px;
-  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png"); }
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png");
+}
 
 .g-dialog__content-inner-wrapper {
-  background-image: url("../img/popup.png"); }
+  background-image: url("../img/popup.png");
+}
 
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #00b040; }
+  background: #00b040;
+}
 
 .swiper-slide.swiper-slide {
   text-align: center;
-  padding-left: 0px; }
+  padding-left: 0px;
+}
 
 .g-dialog__content.g-dialog__content-1 img {
   bottom: 13px;
   position: absolute;
   left: 45px;
-  width: 585px; }
+  width: 585px;
+}
 
 @media screen and (max-width: 1112px) {
   .g-header {
     background: #fff url("../../shared/img/headers/il-23@2x.png") 82px 0 no-repeat;
-    background-size: 1112px 63.52734px; }
-  .g-dialog__content.g-dialog__content-1 img {
-    bottom: 10.58789px;
-    left: 36.65039px;
-    width: 476.45508px; } }
+    background-size: 1112px 63.52734375px;
+  }
 
+  .g-dialog__content.g-dialog__content-1 img {
+    bottom: 10.587890625px;
+    left: 36.650390625px;
+    width: 476.455078125px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .g-header {
     background: #fff url("../../shared/img/headers/il-23@2x.png") 75px 0 no-repeat;
-    background-size: 1024px 58.5px; }
+    background-size: 1024px 58.5px;
+  }
+
   .g-dialog__content.g-dialog__content-1 img {
     bottom: 9.75px;
     left: 33.75px;
-    width: 438.75px; } }
+    width: 438.75px;
+  }
+}

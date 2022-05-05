@@ -26,22 +26,30 @@ get_header();
 			the_post();
 
 			?> 
-    
     <section class="overlay-banner convo">
+      <div class="overlay-banner__overlay">
+        <h1>Bowel Urgency Conversation Gap</h1>
+        <div class="play__container">
+         <div class="videoThumb vidLink" data-vidLink="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/video/close-gap.mp4"><img src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/play.png"></div>
+        </div>
+      </div>
+    </section>
+            
+    <!-- <section class="overlay-banner convo">
       <div class="overlay-banner__overlay">
         <div class="inner-container left-side-text">
         <h1 class="large-white-text">Closing the Gap:<br>
           <strong>A Candid Conversation About Bowel Urgency</strong></h1>
           <h2 class="sub-text-white" style="max-width:500px;">Dr David T. Rubin shares his perspective on the importance of addressing bowel urgency with his patients with ulcerative colitis and how he approaches this sensitive topic </h2>
             <div class="play__container">
-            <div class="videoThumb vidLink" data-vidLink="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/video/close-gap.mp4"><img src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/play.png"></div>
+            <div class="videoThumb vidLink" data-vidLink="< ?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/video/close-gap.mp4"><img src="< ?php echo bloginfo('stylesheet_directory');?>/ibex/images/play.png"></div>
             </div>
             <div class="disclaimer">
                 <p>Speakers were encouraged to include their own experience where appropriate. Some of the content in this video may reflect the speaker’s personal opinion, may be specific to their own practice and does not reflect an official view or position of Eli Lilly and Company.</p>
             </div>
         </div>
 
-    </section>
+    </section> -->
             
       <?php
 			// additional links to other pages (will be the same on all pages)

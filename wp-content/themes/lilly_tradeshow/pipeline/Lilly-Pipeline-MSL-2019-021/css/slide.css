@@ -1,18 +1,22 @@
 .g-header {
   background: #fff url("../../shared/img/headers/interleukin-2-il-2-@2x.png") 100px 0 no-repeat;
-  background-size: 1366px 78px; }
+  background-size: 1366px 78px;
+}
 
 .swiper-button-next {
   right: 0px;
-  background-image: url("../../shared/img/buttons/swipe-right-purple@2x.png"); }
+  background-image: url("../../shared/img/buttons/swipe-right-purple@2x.png");
+}
 
 .swiper-button-prev {
   left: 0px;
-  background-image: url("../../shared/img/buttons/swipe-left-purple@2x.png"); }
+  background-image: url("../../shared/img/buttons/swipe-left-purple@2x.png");
+}
 
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #b1059d; }
+  background: #b1059d;
+}
 
 .swiper-slide:nth-child(1) video,
 #f-video-overlay {
@@ -22,36 +26,49 @@
   z-index: -1;
   width: 280px;
   height: 280px;
-  margin-left: -130px; }
+  margin-left: -130px;
+}
 
 .swiper-wrapper img {
   top: 40px;
-  height: 90%; }
+  height: 90%;
+}
 
 @media screen and (max-width: 1112px) {
   .g-header {
     background: #fff url("../../shared/img/headers/interleukin-2-il-2-@2x.png") 82px 0 no-repeat;
-    background-size: 1112px 63.52734px; }
-  .swiper-slide:nth-child(1) video,
-  #f-video-overlay {
-    top: 260.625px;
-    width: 228.04688px;
-    height: 228.04688px;
-    margin-left: -105.87891px; }
-  .swiper-wrapper img {
-    top: 32.57812px;
-    height: 90%; } }
+    background-size: 1112px 63.52734375px;
+  }
 
+  .swiper-slide:nth-child(1) video,
+#f-video-overlay {
+    top: 260.625px;
+    width: 228.046875px;
+    height: 228.046875px;
+    margin-left: -105.87890625px;
+  }
+
+  .swiper-wrapper img {
+    top: 32.578125px;
+    height: 90%;
+  }
+}
 @media screen and (max-width: 1024px) {
   .g-header {
     background: #fff url("../../shared/img/headers/interleukin-2-il-2-@2x.png") 75px 0 no-repeat;
-    background-size: 1024px 58.5px; }
+    background-size: 1024px 58.5px;
+  }
+
   .swiper-slide:nth-child(1) video,
-  #f-video-overlay {
+#f-video-overlay {
     top: 240px;
     width: 210px;
     height: 210px;
-    margin-left: -97.5px; }
+    margin-left: -97.5px;
+  }
+
   .swiper-wrapper img {
     top: 30px;
-    height: 90%; } }
+    height: 90%;
+  }
+}

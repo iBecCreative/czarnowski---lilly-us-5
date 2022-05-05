@@ -20,13 +20,13 @@
             });
         });
 
-        $('body').on('click', '.event-button', function(){
-            gtag('event', 'Coming Soon', {
-                'event_label': 'Register',
-                'event_category': 'Coming Soon',
-                'non_interaction': false
-            });
-        });
+        // $('body').on('click', '.event-button', function(){
+        //     gtag('event', 'Coming Soon', {
+        //         'event_label': 'Register',
+        //         'event_category': 'Coming Soon',
+        //         'non_interaction': false
+        //     });
+        // });
     
         // MOVED TO SCRIPTS.JS EVENT LISTENER
         // $('body').on('click', '.modal--hcp .dismissModal--hcp', function(){

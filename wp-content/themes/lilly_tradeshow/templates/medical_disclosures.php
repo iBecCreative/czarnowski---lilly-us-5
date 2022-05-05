@@ -90,37 +90,23 @@ $resources = get_field('resources');
     <div class="flex">
 
         <div class="flex__left">
-            <h1>Medical Disclosures</h1>
-            <h6 style="font-style: italic;">Presentation Compendium</h6>
-            <p>October 3-5, 2021</p>
+            <h1>Scientific Disclosures</h1>
+            <h6 style="font-style: italic;">LILLY’S PRESENTATIONS AND POSTERS</h6>
+            <p>Saturday, May 21, 2022, 12:30-6:30 p.m. PST </p>
+            <p>Sunday, May 22, 2022, 12:30-1:30 p.m. PST </p>
+            <p>Monday, May 23, 2022, 12:30-1:30 p.m. PST</p>
+            <p>Tuesday, May 24, 2022, 12:30-1:30 p.m. PST </p>
         </div>
 
         <div class="flex__right">
-            <p style="max-width: 450px;"><img style="cursor:pointer;" onclick="window.open('https://lillyscience.lilly.com/congress/uegw2021','_blank');" class="alignleft size-full wp-image-1875" src="../../wp-content/uploads/2021/09/qr.png" alt="QR Code" width="80" height="80" />For a complete list of Eli Lilly’s e-posters and presentations, please click this QR code or visit <a style="display: inline; text-transform: none; font-size: 12px; margin-left: 0;" href="https://lillyscience.lilly.com/congress/uegw2021" target="_blank">https://lillyscience.lilly.com/congress/uegw2021</a>. This selection will remain active for 180 days after the congress presentation date.</p>
-            
-            <?php 
-        foreach ($resources as $resource) {
-            // print '<pre>';
-            // print_r($resource);
-            // print '</pre>';
-          ?>
-
-    <?php if (is_array($resource['file'])) { ?>
-      <div class="flex">
-          <a class="card__view openModal" href="#0" data-resource="<?= $resource['title'] ?>"><img src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/glasses.png">View Document</a>
-          <a class="download_doc" href="<?= $resource['file']['url'] ?>" target="_blank" download><img src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/download-gray.svg">Download Document</a>
-        </div>
-     <?php } ?>
-
-      <?php
-        }//end foreach resource
-      ?>
+            <p style="max-width: 450px;"><img style="cursor:pointer;" onclick="window.open('https://lillyscience.lilly.com/congress/ddw2022','_blank');" class="alignleft size-full wp-image-1875" src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/qr.png" alt="QR Code" width="80" height="80" />For a complete list of Lilly’s presentations and posters, please scan this QR code or visit <a style="display: inline; text-transform: none; font-size: 12px; margin-left: 0;" href="https://lillyscience.lilly.com/congress/ddw2022 " target="_blank">lillyscience.lilly.com/congress/ddw2022 </a></p>
+          
       
         </div>
 
     </div>
 
-    <div class="content__right" style="max-width: 710px !important;">
+    <div>
       <?php the_content(); ?>
     </div>
 

@@ -159,17 +159,40 @@
   }
 
   .page-template-medical_disclosures {
+    .x-background--left {
+      background-image: url('ibex/images/gray_background.png');
+    }
     p {
+      line-height: 20px;
+
       em {
-        padding-bottom: .5rem;
+        padding-bottom: 2.5rem;
+        line-height: 20px;
         display: block;
       }
     }
-    h6 {
-      font-size: 20px;
-      font-family: $dinregular;
+    h3 {
+     &.has-text-color {
+      font-family: "FFDINWebProBold", sans-serif;
+      text-transform: uppercase;
+      font-size: 30px;
+      text-decoration: underline;
+      margin: 15px 0 30px 0;
+      } 
+    }
+    h4 {
+      font-size: 22px;
+      font-family: $dinbold;
       color: #000000;
       text-transform: uppercase;
       font-weight: 100;
+    }
+    .wp-block-columns {
+      margin-top: 7rem;
+      justify-content: space-between;
+      
+      .wp-block-column {
+        max-width: 537px;
+      }
     }
   }

@@ -1,6 +1,7 @@
 .g-header {
   background: #fff url(../img/Tap_on_a_Pipeline_Molecule.png@2x.png) 0 0 no-repeat;
-  background-size: 55% auto; }
+  background-size: 55% auto;
+}
 
 .g-header {
   display: block;
@@ -8,12 +9,14 @@
   top: 0;
   left: 0;
   width: 1366px;
-  height: 78px; }
+  height: 78px;
+}
 
 .g-background {
   position: relative;
   background-color: #fff;
-  z-index: 0; }
+  z-index: 0;
+}
 
 .g-background video {
   display: block;
@@ -22,7 +25,8 @@
   left: -5px;
   width: 1386px;
   height: auto;
-  z-index: 0; }
+  z-index: 0;
+}
 
 .g-background img {
   display: block;
@@ -33,120 +37,155 @@
   height: auto;
   margin: 0;
   opacity: 0;
-  z-index: 0; }
+  z-index: 0;
+}
 
 .g-content {
   background: transparent url(../img/background.png) 0 73px no-repeat;
   background-size: 1366px 960px;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .g-footer {
-  z-index: 2; }
-
-.blocker {
-  position: absolute;
-  top: 640px;
-  left: 590px;
-  width: 220px;
-  height: 250px;
-  background-color: white; }
+  z-index: 2;
+}
 
 .link {
   position: absolute;
   cursor: pointer;
   width: 220px;
-  height: 117px; }
+  height: 117px;
+}
 
 .row-1 {
-  top: 242px; }
-
+  top: 242px;
+}
 .row-2 {
-  top: 510px; }
-
+  top: 510px;
+}
 .row-3 {
-  top: 776px; }
+  top: 776px;
+}
 
 .col-1 {
-  left: 70px; }
-
+  left: 70px;
+}
 .col-2 {
-  left: 314px; }
-
+  left: 314px;
+}
 .col-3 {
-  left: 590px; }
-
+  left: 590px;
+}
 .col-4 {
-  left: 860px; }
-
+  left: 860px;
+}
 .col-5 {
-  left: 1090px; }
+  left: 1090px;
+}
 
 @media screen and (max-width: 1112px) {
   .g-header {
     width: 1112px;
-    height: 63.52734px; }
+    height: 63.52734375px;
+  }
+
   .g-background video,
-  .g-background img {
-    top: 68.41406px;
-    left: -4.07227px;
-    width: 1128.83203px; }
+.g-background img {
+    top: 68.4140625px;
+    left: -4.072265625px;
+    width: 1128.83203125px;
+  }
+
   .g-content {
-    background: transparent url(../img/background.png) 0 59.45508px no-repeat;
-    background-size: 1112px 781.875px; }
+    background: transparent url(../img/background.png) 0 59.455078125px no-repeat;
+    background-size: 1112px 781.875px;
+  }
+
   .blocker {
     top: 521.25px;
-    left: 480.52734px;
-    width: 179.17969px;
-    height: 203.61328px; }
-  .link {
-    width: 215.83008px;
-    height: 95.29102px; }
-  .row-1 {
-    top: 197.09766px; }
-  .row-2 {
-    top: 415.37109px; }
-  .row-3 {
-    top: 632.01562px; }
-  .col-1 {
-    left: 57.01172px; }
-  .col-2 {
-    left: 255.73828px; }
-  .col-3 {
-    left: 480.52734px; }
-  .col-4 {
-    left: 700.42969px; } }
+    left: 480.52734375px;
+    width: 179.1796875px;
+    height: 203.61328125px;
+  }
 
+  .link {
+    width: 215.830078125px;
+    height: 95.291015625px;
+  }
+
+  .row-1 {
+    top: 197.09765625px;
+  }
+  .row-2 {
+    top: 415.37109375px;
+  }
+  .row-3 {
+    top: 632.015625px;
+  }
+
+  .col-1 {
+    left: 57.01171875px;
+  }
+  .col-2 {
+    left: 255.73828125px;
+  }
+  .col-3 {
+    left: 480.52734375px;
+  }
+  .col-4 {
+    left: 700.4296875px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .g-header {
     width: 1024px;
-    height: 58.5px; }
+    height: 58.5px;
+  }
+
   .g-background video,
-  .g-background img {
+.g-background img {
     top: 63px;
     left: -3.75px;
-    width: 1039.5px; }
+    width: 1039.5px;
+  }
+
   .g-content {
     background: transparent url(../img/background.png) 0 54.75px no-repeat;
-    background-size: 1024px 720px; }
+    background-size: 1024px 720px;
+  }
+
   .blocker {
     top: 480px;
     left: 442.5px;
     width: 165px;
-    height: 187.5px; }
+    height: 187.5px;
+  }
+
   .link {
     width: 198.75px;
-    height: 87.75px; }
+    height: 87.75px;
+  }
+
   .row-1 {
-    top: 181.5px; }
+    top: 181.5px;
+  }
   .row-2 {
-    top: 382.5px; }
+    top: 382.5px;
+  }
   .row-3 {
-    top: 582px; }
+    top: 582px;
+  }
+
   .col-1 {
-    left: 52.5px; }
+    left: 52.5px;
+  }
   .col-2 {
-    left: 235.5px; }
+    left: 235.5px;
+  }
   .col-3 {
-    left: 442.5px; }
+    left: 442.5px;
+  }
   .col-4 {
-    left: 645px; } }
+    left: 645px;
+  }
+}

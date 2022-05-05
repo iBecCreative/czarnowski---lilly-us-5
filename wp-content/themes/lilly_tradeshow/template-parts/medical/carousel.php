@@ -31,12 +31,20 @@
       <div class="inner-container left-side-text">
         <h1 class="large-blue-text">Welcome</h1>
         <h2 class="sub-text-blue" style="max-width:500px;">Thank you on behalf of the Lilly Medical Affairs Gastroenterology team for your commitment to quality patient care and excellence in clinical patient outcomes. The work you do is important in the field of inflammatory bowel disease — you improve the quality of life for all people worldwide. Please take a moment to watch this brief welcome video.</h2>
-        <a href="#0" class="watch_now videoThumb vidLink" data-id="kaltura_player_1555157968" data-vidlink="https://www.kaltura.com/p/1759891/sp/175989100/embedIframeJs/uiconf_id/34164591/partner_id/1759891?iframeembed=true&playerId=kaltura_player_1555157968&entry_id=1_1441qz6t&wid=_1759891&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true" style="color: #363B4F;">Watch Now</a>
+        <a href="#0" class="watch_now videoThumb vidLink" data-id="kaltura_player_1555157968" data-vidlink="https://www.kaltura.com/p/1759891/sp/175989100/embedIframeJs/uiconf_id/34164591/partner_id/1759891?iframeembed=true&playerId=kaltura_player_1555157968&entry_id=1_1441qz6t&wid=_1759891&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true" style="color: #1D3B6C;">Watch Now</a>
       </div>
     </div>
   </div>
-
-  <div class="masthead masthead--2">
+  <div class="masthead masthead--3">
+    <div class="masthead__container">
+      <img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/slide-3.jpeg" alt="Bowel Urgency Conversation Gap">
+      <div class="inner-container left-side-text">
+        <h1 class="large-white-text">Bowel Urgency<br>Conversation Gap</h1>
+        <a href="<?php echo get_page_link(2520);?>" class="watch_now">Watch Now</a>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="masthead masthead--2">
     <div class="masthead__container">
         <img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/gap-slide.png" alt="Bowel Urgency Conversation Gap">
         <div class="inner-container left-side-text">
@@ -51,7 +59,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="masthead masthead--1">
     <div class="masthead__container">

@@ -1,29 +1,36 @@
 .g-header {
   background: #fff url("../../shared/img/headers/cxc@2x.png") 100px 0 no-repeat;
-  background-size: 93% 78px; }
+  background-size: 93% 78px;
+}
 
 .swiper-button-next {
   right: 0px;
-  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png"); }
+  background-image: url("../../shared/img/buttons/swipe-right-blue@2x.png");
+}
 
 .swiper-button-prev {
   left: 0px;
-  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png"); }
+  background-image: url("../../shared/img/buttons/swipe-left-blue@2x.png");
+}
 
 .g-dialog__content-inner-wrapper {
-  background-image: url("../img/popup.png"); }
+  background-image: url("../img/popup.png");
+}
 
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #00a1de; }
+  background: #00a1de;
+}
 
 .g-dialog__content.g-dialog__content-1 img {
   bottom: 0px;
   position: absolute;
-  left: 20px; }
+  left: 20px;
+}
 
 .swiper-wrapper img {
-  margin-left: 1%; }
+  margin-left: 1%;
+}
 
 .swiper-slide:nth-child(1) video,
 #f-video-overlay {
@@ -33,32 +40,44 @@
   width: 340px;
   height: 340px;
   z-index: -1;
-  max-width: 340px; }
+  max-width: 340px;
+}
 
 @media screen and (max-width: 1112px) {
   .g-header {
     background: #fff url("../../shared/img/headers/cxc@2x.png") 82px 0 no-repeat;
-    background-size: 93% 63.52734px; }
-  .g-dialog__content.g-dialog__content-1 img {
-    left: 16.28906px; }
-  .swiper-slide:nth-child(1) video,
-  #f-video-overlay {
-    left: 419.44336px;
-    top: 232.11914px;
-    width: 276.91406px;
-    height: 276.91406px;
-    max-width: 276.91406px; } }
+    background-size: 93% 63.52734375px;
+  }
 
+  .g-dialog__content.g-dialog__content-1 img {
+    left: 16.2890625px;
+  }
+
+  .swiper-slide:nth-child(1) video,
+#f-video-overlay {
+    left: 419.443359375px;
+    top: 232.119140625px;
+    width: 276.9140625px;
+    height: 276.9140625px;
+    max-width: 276.9140625px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .g-header {
     background: #fff url("../../shared/img/headers/cxc@2x.png") 75px 0 no-repeat;
-    background-size: 93% 58.5px; }
+    background-size: 93% 58.5px;
+  }
+
   .g-dialog__content.g-dialog__content-1 img {
-    left: 15px; }
+    left: 15px;
+  }
+
   .swiper-slide:nth-child(1) video,
-  #f-video-overlay {
+#f-video-overlay {
     left: 386.25px;
     top: 213.75px;
     width: 255px;
     height: 255px;
-    max-width: 255px; } }
+    max-width: 255px;
+  }
+}
