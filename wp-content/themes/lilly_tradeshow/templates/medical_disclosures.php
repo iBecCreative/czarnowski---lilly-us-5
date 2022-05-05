@@ -92,14 +92,14 @@ $resources = get_field('resources');
         <div class="flex__left">
             <h1>Scientific Disclosures</h1>
             <h6 style="font-style: italic;">LILLY’S PRESENTATIONS AND POSTERS</h6>
-            <p>Saturday, May 21, 2022, 12:30-6:30 p.m. PST </p>
-            <p>Sunday, May 22, 2022, 12:30-1:30 p.m. PST </p>
+            <p>Saturday, May 21, 2022, 12:30-5:30 p.m. PST </p>
+            <p>Sunday, May 22, 2022, 12:30-1:30 p.m. PST</p>
             <p>Monday, May 23, 2022, 12:30-1:30 p.m. PST</p>
-            <p>Tuesday, May 24, 2022, 12:30-1:30 p.m. PST </p>
+            <p>Tuesday, May 24, 2022, 8:00-1:30 p.m. PST</p>
         </div>
 
         <div class="flex__right">
-            <p style="max-width: 450px;"><img style="cursor:pointer;" onclick="window.open('https://lillyscience.lilly.com/congress/ddw2022','_blank');" class="alignleft size-full wp-image-1875" src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/qr.png" alt="QR Code" width="80" height="80" />For a complete list of Lilly’s presentations and posters, please scan this QR code or visit <a style="display: inline; text-transform: none; font-size: 12px; margin-left: 0;" href="https://lillyscience.lilly.com/congress/ddw2022 " target="_blank">lillyscience.lilly.com/congress/ddw2022 </a></p>
+            <p style="max-width: 450px;"><img style="cursor:pointer;" onclick="window.open('https://lillyscience.lilly.com/congress/ddw2022','_blank');" class="alignleft size-full wp-image-1875" src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/qr.png" alt="QR Code" width="80" height="80" />For a complete list of Lilly’s presentations and posters, please scan this QR code or visit <a style="display: inline; text-transform: none; font-size: 16px; margin-left: 0;" href="https://lillyscience.lilly.com/congress/ddw2022 " target="_blank">lillyscience.lilly.com/congress/ddw2022 </a></p>
           
       
         </div>

@@ -7430,6 +7430,7 @@ p .dinLight {
 }
 .content .flex__left {
   flex: 1;
+  max-width: 537px;
 }
 .content .flex__left p {
   margin-top: 0;
@@ -7442,16 +7443,17 @@ p .dinLight {
 }
 .content .flex__right {
   flex: 1;
-  max-width: 450px;
+  max-width: 537px;
 }
 .content .flex__right p {
   margin-top: 0;
-  font-size: 12px;
+  font-size: 16px;
+  color: #000;
 }
 .content .flex__right a {
   display: flex;
   align-items: center;
-  color: #4A4A4A;
+  color: #EE3A29;
   margin-left: 5px;
   text-transform: uppercase;
   font-size: 11px;

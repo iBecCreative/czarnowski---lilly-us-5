@@ -19,18 +19,15 @@
 get_header();
 ?>
 
-<main id="site-content" class="x-background x-background--left" role="main">
-
-  <div class="content">
-            <h1>Medical Information</h1>
-
-    <div class="content__wrapper">
-        <img src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/medical_information-banner.jpg">
-        <a href="https://www.lillymedical.com" class="medical-info" target="_blank">Visit lillymedical.com</a>
-    </div>
-
+<main id="site-content" role="main">
+  <div class="med_background">
+    <div class="med_content">
+          <h1 class="med_title">Medical Information</h1>
+      </div>
   </div>
-
+  <div class="content__wrapper">
+        <a href="https://www.lillymedical.com" class="btn visit" target="_blank">Visit lillymedical.com</a>
+    </div>
   <?php
     // additional links to other pages (will be the same on all pages)
     get_template_part( 'template-parts/navigation/explore' );
