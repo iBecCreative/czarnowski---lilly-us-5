@@ -69,7 +69,7 @@ get_header();
         <div class="event_block--right">
           <p class="event-space">Grand Ballroom, Omni San Diego Hotel, San Diego, CA</p>
           <p class="event-chair"><strong>CHAIR</strong><br>David T Rubin, MD, AGAF, ASGE</p>
-          <a href="https://na.eventscloud.com/website/39052/" target="_blank" class="event-button">Register for the Symposium</a>
+          <a href="https://na.eventscloud.com/website/39052/" target="_blank" class="event-button">Sign up for Reminders</a>
         </div>
         <div class="event_block--full"><em>This program is not affiliated with Digestive Disease Week<sup>® / </sup>This activity is not approved for CME credit</em></div>
     </div>
