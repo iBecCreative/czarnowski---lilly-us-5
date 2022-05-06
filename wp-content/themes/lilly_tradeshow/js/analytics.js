@@ -20,14 +20,21 @@
             });
         });
 
-        // $('body').on('click', '.event-button', function(){
-        //     gtag('event', 'Coming Soon', {
-        //         'event_label': 'Register',
-        //         'event_category': 'Coming Soon',
-        //         'non_interaction': false
-        //     });
-        // });
-    
+        $('body').on('click', '.event-button', function(){
+            gtag('event', 'Coming Soon', {
+                'event_label': 'Register for the Symposium',
+                'event_category': 'Home',
+                'non_interaction': false
+            });
+        });
+        $('body').on('click', '.event-button', function(){
+            gtag('event', 'Lilly Logo', {
+                'event_label': 'lilly-virtual.com',
+                'event_category': 'Header',
+                'non_interaction': false
+            });
+        });
+
         // MOVED TO SCRIPTS.JS EVENT LISTENER
         // $('body').on('click', '.modal--hcp .dismissModal--hcp', function(){
         //     gtag('event', 'Healthcare Professional?', {

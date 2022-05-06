@@ -21,7 +21,7 @@ get_header();
 
 <main id="site-content" role="main">
 
-      <a href="/" class="logo">
+      <a href="#" class="logo">
         <div class="container">
           <div class="logo__title">
             <svg viewBox="0 0 631 344" version="1.1" xmlns="http://www.w3.org/2000/svg"
