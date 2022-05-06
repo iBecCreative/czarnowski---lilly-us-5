@@ -35,7 +35,7 @@
       </div>
     </div>
   </div>
-  <div class="masthead masthead--3">
+  <!-- <div class="masthead masthead--3">
     <div class="masthead__container">
       <img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/slide-3.jpeg" alt="Bowel Urgency Conversation Gap">
       <div class="inner-container left-side-text">
@@ -43,8 +43,8 @@
         <a href="<?php echo get_page_link(2520);?>" class="watch_now">Watch Now</a>
       </div>
     </div>
-  </div>
-  <!-- <div class="masthead masthead--2">
+  </div> -->
+  <div class="masthead masthead--2">
     <div class="masthead__container">
         <img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/gap-slide.png" alt="Bowel Urgency Conversation Gap">
         <div class="inner-container left-side-text">
@@ -59,7 +59,7 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <div class="masthead masthead--1">
     <div class="masthead__container">

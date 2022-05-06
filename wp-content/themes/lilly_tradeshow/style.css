@@ -8590,11 +8590,10 @@ p .dinLight {
 
 .overlay-banner.convo {
   position: relative;
-  background-image: url('ibex/images/conversation-banner.png"');
+  background-image: url("ibex/images/gap-slide.png");
   height: 75vh;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 }
 .overlay-banner.convo .overlay-banner__overlay {
   padding-left: 1rem;
@@ -8643,10 +8642,8 @@ p .dinLight {
   margin-bottom: 0;
   font-size: 48px;
   line-height: 1.15;
+  margin-top: 5rem;
   max-width: 534px;
-  position: absolute;
-  top: 47%;
-  transform: translateY(-50%);
 }
 .overlay-banner.convo .overlay-banner__banner {
   width: 100%;
