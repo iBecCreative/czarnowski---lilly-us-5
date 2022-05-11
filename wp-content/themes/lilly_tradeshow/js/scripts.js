@@ -154,7 +154,7 @@ $(document).ready(function(){
 //         console.log('slide');
 //         //$('.page-id-349 #slick-slide44 img').attr('usemap', '#image_map');
 //         //$('.page-id-349 #slick-slide44 img').after('<map name="image_map"><area alt="verzenioMap" title="verzenioMap" href="https://www.verzenio.com/hcp/safety-managing-diarrhea" coords="634,1210,1363,1313" shape="rect"></map>');
-//         $('.page-id-349 #slick-slide44 img').after('<a class="verzenioButton" target="_blank" href="https://www.verzenio.com/hcp/safety-managing-diarrhea"><img src="https://lilly-virtual.com/immunology/us/wp-content/themes/lilly_tradeshow/ibex/images/verzenioButton.jpg"></a>');
+//         $('.page-id-349 #slick-slide44 img').after('<a class="verzenioButton" target="_blank" href="https://www.verzenio.com/hcp/safety-managing-diarrhea"><img src="https://lilly-virtual.com/immunology/us-5/wp-content/themes/lilly_tradeshow/ibex/images/verzenioButton.jpg"></a>');
 //     }
 // });
 
@@ -306,7 +306,7 @@ $('.pdfModal__arrows .prev').on('click', function(e){
 
 //     //don't do this on the pipeline
 //     if ( $('.page-template-interactive_pipeline').length == 0 ) {
-//         $(this).html('<img src="https://lilly-virtual.com/immunology/us/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg"><img class="hover" src="https://lilly-virtual.com/immunology/us/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg">ADDED TO BRIEFCASE');
+//         $(this).html('<img src="https://lilly-virtual.com/immunology/us-5/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg"><img class="hover" src="https://lilly-virtual.com/immunology/us-5/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg">ADDED TO BRIEFCASE');
 //     }
 //     //$(this).find('img').attr('src', 'https://com.lilly/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg');
 
@@ -427,7 +427,7 @@ $('.pdfModal__arrows .prev').on('click', function(e){
 //             //set link state
 //             if ( $('.page-template-interactive_pipeline').length == 0 ) {
 //                 $('.addToCart[data-title="' + item['title'] + '"]').addClass('added');
-//                 $('.addToCart.added[data-title="' + item['title'] + '"]').html('<img src="https://lilly-virtual.com/immunology/us/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg"><img class="hover" src="https://lilly-virtual.com/immunology/us/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg">ADDED TO BRIEFCASE');
+//                 $('.addToCart.added[data-title="' + item['title'] + '"]').html('<img src="https://lilly-virtual.com/immunology/us-5/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg"><img class="hover" src="https://lilly-virtual.com/immunology/us-5/wp-content/themes/lilly_tradeshow/ibex/svg/added.svg">ADDED TO BRIEFCASE');
 //             }
 //         });
 
@@ -545,7 +545,7 @@ $('.pdfModal__arrows .prev').on('click', function(e){
 //     });
 
 //     $.ajax({
-//         url: "https://lilly-virtual.com/immunology/us/wp-content/pdf-bundle/bundle.php",
+//         url: "https://lilly-virtual.com/immunology/us-5/wp-content/pdf-bundle/bundle.php",
 //         data: {'medical-pdfs' : medical},
 //         method: 'POST',
 //         success: function( data, status, xhr ){
@@ -574,7 +574,7 @@ $('.pdfModal__arrows .prev').on('click', function(e){
 //     });
 
 //     $.ajax({
-//         url: "https://lilly-virtual.com/immunology/us/wp-content/pdf-bundle/bundle.php",
+//         url: "https://lilly-virtual.com/immunology/us-5/wp-content/pdf-bundle/bundle.php",
 //         data: {'product-pdfs' : products},
 //         method: 'POST',
 //         success: function( data, status, xhr ){
@@ -793,7 +793,7 @@ $('.pipelineMolecules a').on('click', function(e){
     e.preventDefault();
     let src = $(this).attr('data-slide');
     if (src) {
-        $('.pipelineModal__content').html('<iframe width="100%" height="100%" src="https://lilly-virtual.com/immunology/us/wp-content/themes/lilly_tradeshow/pipeline/' + src + '/index.html"></iframe>');
+        $('.pipelineModal__content').html('<iframe width="100%" height="100%" src="https://lilly-virtual.com/immunology/us-5/wp-content/themes/lilly_tradeshow/pipeline/' + src + '/index.html"></iframe>');
         //$('.pipelineModal__content').load('/wp-content/themes/lilly_tradeshow/pipeline/' + src + '/index.html');
         $('.pipelineModal').addClass('active');
         $('body').addClass('modalActive');

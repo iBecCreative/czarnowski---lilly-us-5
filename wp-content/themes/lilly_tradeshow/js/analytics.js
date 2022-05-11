@@ -540,7 +540,7 @@
         }
         
     
-        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us/medical-affairs/clinical-trials/"]', function(){
+        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us-5/medical-affairs/clinical-trials/"]', function(){
             gtag('event', action, {
                 'event_label': 'Explore Medical - Clinical Trials',
                 'event_category': 'Medical Affairs',
@@ -548,7 +548,7 @@
             });
         });
     
-        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us/medical-affairs/bowel-urgency-quiz/"]', function(){
+        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us-5/medical-affairs/bowel-urgency-quiz/"]', function(){
             gtag('event', action, {
                 'event_label': 'Explore Medical - Bowel Urgency Quiz',
                 'event_category': 'Medical Affairs',
@@ -556,7 +556,7 @@
             });
         });
     
-        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us/medical-affairs/il-23-and-pathophysiology-of-ibd/"]', function(){
+        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us-5/medical-affairs/il-23-and-pathophysiology-of-ibd/"]', function(){
             gtag('event', action, {
                 'event_label': 'Explore Medical - IL-23 and Pathophysiology of IBD',
                 'event_category': 'Medical Affairs',
@@ -564,7 +564,7 @@
             });
         });
     
-        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us/medical-affairs/pipeline/"]', function(){
+        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us-5/medical-affairs/pipeline/"]', function(){
             gtag('event', action, {
                 'event_label': 'Explore Medical - Experience Lilly Pipeline',
                 'event_category': 'Medical Affairs',
@@ -572,21 +572,21 @@
             });
         });
     
-        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us/medical-affairs/medical-information/"]', function(){
+        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us-5/medical-affairs/medical-information/"]', function(){
             gtag('event', action, {
                 'event_label': 'Explore Medical - Medical Information',
                 'event_category': 'Medical Affairs',
                 'non_interaction': false
             });
         });
-        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us/medical-affairs/conversations-about-bowel-urgency//"]', function(){
+        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us-5/medical-affairs/conversations-about-bowel-urgency//"]', function(){
             gtag('event', action, {
                 'event_label': 'Explore Medical - Candid Conversations',
                 'event_category': 'Medical Affairs',
                 'non_interaction': false
             });
         });
-        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us/medical-affairs/medical-disclosures/"]', function(){
+        $('body').on('click', '.product_carousel a[href="https://lilly-virtual.com/immunology/us-5/medical-affairs/medical-disclosures/"]', function(){
             gtag('event', action, {
                 'event_label': 'Explore Medical - Scientific Disclosures',
                 'event_category': 'Medical Affairs',

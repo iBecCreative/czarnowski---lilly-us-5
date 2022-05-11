@@ -41,7 +41,7 @@
         }
 
         //echo 'https://' . $_SERVER[HTTP_HOST] . '/wp-content/pdf-bundle/' . $zip_location;
-        echo 'https://lilly-virtual.com/immunology/us/wp-content/pdf-bundle/' . $zip_location;
+        echo 'https://lilly-virtual.com/immunology/us-5/wp-content/pdf-bundle/' . $zip_location;
 
     }
 
@@ -64,10 +64,10 @@
                 //$path = str_replace('https://lilly.ibec.me', '', $pdf['href']);
                 //$path = str_replace('https://com.lilly', '', $path);
                 //$path = str_replace('https://lilly-virtual.com/oncology/asco/dev/', '/home/czarlill/public_html/oncology/us-congress-june2021/dev/', $pdf['href']);
-                //$path = str_replace('https://lilly-virtual.com/immunology/us/', '/home/czarlill/public_html/oncology/us-congress-june2021/dev/', $path);
+                //$path = str_replace('https://lilly-virtual.com/immunology/us-5/', '/home/czarlill/public_html/oncology/us-congress-june2021/dev/', $path);
                 //$path = $_SERVER['DOCUMENT_ROOT'] . $path;
 
-                //https://lilly-virtual.com/immunology/us/wp-content/uploads/2021/05/PP-AL-US-2176_2020-OS-Leave-Behind-Digital_FINALresave.pdf
+                //https://lilly-virtual.com/immunology/us-5/wp-content/uploads/2021/05/PP-AL-US-2176_2020-OS-Leave-Behind-Digital_FINALresave.pdf
                 $path = str_replace('https://lilly-virtual.com/', '/home/czarlill/public_html/', $pdf['href']);
 
                 //echo ' trying to add ' . $path;
@@ -89,7 +89,7 @@
         }
 
         //echo 'https://' . $_SERVER[HTTP_HOST] . '/wp-content/pdf-bundle/' . $zip_location;
-        echo 'https://lilly-virtual.com/immunology/us/wp-content/pdf-bundle/' . $zip_location;
+        echo 'https://lilly-virtual.com/immunology/us-5/wp-content/pdf-bundle/' . $zip_location;
 
         // echo 'zip created? ' . $result . ' pdfs = ';
         // print_r($pdfs);
