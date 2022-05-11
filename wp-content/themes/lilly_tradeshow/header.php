@@ -50,6 +50,16 @@ $site_title = get_bloginfo('name');
 		gtag('config', 'UA-192772895-61');
 		</script>
 
+
+		<!-- Global site tag (gtag.js) - Google Analytics GA-4-->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1L7X48L3W9"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-1L7X48L3W9');
+		</script>
 	</head>
 
 	<?php 
