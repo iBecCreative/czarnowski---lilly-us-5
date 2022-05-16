@@ -10,7 +10,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  @include responsive-width($max-width);
+  // @include responsive-width($max-width);
 
   img {
     min-height: 300px;

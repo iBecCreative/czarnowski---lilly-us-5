@@ -1,0 +1,81 @@
+.ulc_background {
+    position: relative;
+    background-image: url('ibex/images/ulc_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 475px;
+    background-position: 50% 50%;
+    display: flex;
+
+    .ulc_content {
+        width: 100%;
+        max-width: 1300px;
+        margin: auto;
+
+        &--wrap {
+            max-width: 578px;
+
+            h1 {
+                &.ulc_title { 
+                    color: $white;
+                    font-family: $dinmedium;
+                }
+              }
+              .ulc_date {
+                color: $white;
+                font-family: $dinmedium;
+                font-size: 16px;
+                margin: 0;
+              }
+              .ulc_loc {
+                color: $white;
+                font-family: $dinmedium;
+                font-size: 20px;
+                margin: 0;
+              }
+            }
+        } 
+    }
+
+    .ulc {
+        max-width: 1300px;
+        margin: auto;
+        padding: 3rem 0;
+
+        h2 {
+            font-size: 30px;
+            font-family: $dinbold;
+            color: $lilly-red;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 94px;
+            height: 94px;
+        }
+
+        .ulc_btn {
+            display: inline-block;
+            color: $royal-blue;
+            border: 1px solid $royal-blue;
+            padding: .5rem;
+            width: 324px;
+            text-align: center;
+            font-size: 18px;
+            font-family: $dinbold;
+            text-decoration: none;
+            margin-top: 1rem;
+
+            &:hover {
+                background: $royal-blue;
+                color: $white;
+            }
+        }
+        .gray_text {
+            color: $font-gray;
+            font-family: $dinmedium;
+            font-size: 20px;
+        }
+    }

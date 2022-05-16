@@ -23,7 +23,7 @@ get_header();
     <div style="margin-top: 0px !important; padding-top: 25px; background-size: cover; background-repeat: no-repeat; box-shadow: inset 1px 4px 9px -6px #999;">
         <div class="schedule_page">
             <h1>Schedule a Meeting With an MSL</h1>
-            <p class="intro-paragraph">For US Physicians only. Please click on any of the links below to check availability and schedule a meeting. If you are an OUS Physician, please click <span class="formModal--open"><a href="#0">this link</a></span> to submit your request.</p>
+            <p class="intro-paragraph">For US Physicians only. Please click on any of the links below to check availability and schedule a meeting. If you are an OUS Physician, please click <span><a href="https://www.lillymedical.com/en-us/submitQuestion" target="_blank">this link</a></span> to submit your request.</p>
 
             <div class="column-container column-container-1">
                 <div class="column column-0">
