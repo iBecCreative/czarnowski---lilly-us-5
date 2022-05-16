@@ -154,6 +154,10 @@ $site_title = get_bloginfo('name');
 								<a href="tel:18005455979" class="mob">1-800-LillyRx</a>
 								<a href="tel:18005455979" class="mob">(1-800-545-5979)</a>
 							</li>
+							<li class="contactUsMenu__link contactUsMenu__link--schedule">
+								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/svg/schedule-a-meeting.svg" style="width: 18px;">Schedule a Meeting</h6>
+								<a href="<?php echo get_page_link(2537); ?>">Medical Science Liaison</a><br>
+							</li>
 							<li class="contactUsMenu__link contactUsMenu__link--submit">
 								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/submit.png">Submit a Request</h6>
 								<a target="_blank" href="https://www.lillymedical.com/en-us/submitQuestion">Information Request</a><br>
