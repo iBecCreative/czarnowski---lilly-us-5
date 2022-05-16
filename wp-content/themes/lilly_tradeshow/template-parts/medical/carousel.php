@@ -90,7 +90,7 @@
         <p class="ulc_date">EVENT — 23 MAY 2022</p>
         <h1 class="large-white-text">Elevating Ulcerative Colitis Treatment Expectations<br><em>Time to Expect More</em></h1>
         <h2 class="sub-text-white">Grand Ballroom, Omni San Diego Hotel,<br>San Diego, CA</h2>
-        <a href="<?php echo get_page_link(2570);?>" class="reminders">Sign Up for Reminders</a>
+        <a href="https://na.eventscloud.com/website/39052/"  target="_blank" class="reminders">Sign Up for Reminders</a>
 
       </div>
     </div>
