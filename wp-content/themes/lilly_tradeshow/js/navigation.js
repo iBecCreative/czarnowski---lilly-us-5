@@ -89,12 +89,12 @@ jQuery(document).ready(function($) {
       <p style="color: #fff;">By clicking into this link, you will be entering the Urgency Anonymous portion of this exhibit.</p>
     </div>`
   );
-  $('#primary-navigation .medical .sub-menu').append(
-    `<div class="references_container">
-      <p class="references"><strong>References</strong></br>
-      <strong>1.</strong> Hibi T, Ishibashi T, Ikenoue Y, Yoshihara R, Nihei A, Kobayashi T. Ulcerative colitis: disease burden, impact on daily life, and reluctance to consult medical professionals: results from a Japanese internet survey. <em>Inflamm Intest Dis.</em> 2020;5:27–35. doi:10.1159/000505092 <strong>2.</strong> Petryszyn PW, Paradowski L. Stool patterns and symptoms of disordered anorectal function in patients with inflammatory bowel diseases. <em>Adv Clin Exp Med.</em> 2018;27(6):813–818. doi:10.17219/acem/68986</p>
-    </div>`
-  );
+  // $('#primary-navigation .medical .sub-menu').append(
+  //   `<div class="references_container">
+  //     <p class="references"><strong>References</strong></br>
+  //     <strong>1.</strong> Hibi T, Ishibashi T, Ikenoue Y, Yoshihara R, Nihei A, Kobayashi T. Ulcerative colitis: disease burden, impact on daily life, and reluctance to consult medical professionals: results from a Japanese internet survey. <em>Inflamm Intest Dis.</em> 2020;5:27–35. doi:10.1159/000505092 <strong>2.</strong> Petryszyn PW, Paradowski L. Stool patterns and symptoms of disordered anorectal function in patients with inflammatory bowel diseases. <em>Adv Clin Exp Med.</em> 2018;27(6):813–818. doi:10.17219/acem/68986</p>
+  //   </div>`
+  // );
  
   //close menu event listener
   $('.megaMenu__close').on('click', function(e){
