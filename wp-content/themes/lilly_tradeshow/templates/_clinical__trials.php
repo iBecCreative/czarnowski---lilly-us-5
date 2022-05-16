@@ -33,9 +33,9 @@ get_header();
             <div class="left">
                 <p style="max-width: 476px;">Mirikizumab is currently in clinical development for ulcerative colitis and Crohn’s disease. LY3471851 is currently in clinical development for ulcerative colitis. Efficacy and safety have not yet been established, and commercial authorization has not been granted by the health authorities. The information provided here is for scientific purposes only. Information available on: <a href="https://clinicaltrials.gov" class="gov0" target="_blank">https://clinicaltrials.gov</a> and the EU Clinical Trial Register site.</p>
                 <p>
-                <span style="white-space:nowrap"><a href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=584617" class="gov1" target="_blank">https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=584617</a> (Accessed February 2021).</span><br>
-                <span style="white-space:nowrap"><a href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=577817" class="gov2" target="_blank">https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=577817</a> (Accessed February 2021).</span><br>
-                <span style="white-space:nowrap"><a href="https://clinicaltrials.gov" class="gov3" target="_blank">https://clinicaltrials.gov</a> (Accessed February 2021).</span><br>
+                <span style="white-space:nowrap"><a href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=584617" class="gov1" target="_blank">https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=584617</a> (Accessed April 2022].</span><br>
+                <span style="white-space:nowrap"><a href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=577817" class="gov2" target="_blank">https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=577817</a>(Accessed April 2022].</span><br>
+                <span style="white-space:nowrap"><a href="https://clinicaltrials.gov" class="gov3" target="_blank">https://clinicaltrials.gov</a> (Accessed April 2022].</span><br>
                 Tsai YC, Tsai TF. Ther Adv Musculoskelet Dis. 2017;9:277-294.</p>
             </div>
             <div class="right">
@@ -49,7 +49,7 @@ get_header();
                     </ul>
                 </div>
             </div>
-            <p class="copyright-line">VV-Centralized Congress-US-DEL-0296 March 2021. © 2021 Eli Lilly and Company. All rights reserved.</p>
+            <p class="copyright-line">VV-Centralized Congress-US-DEL-0604 April 2022. © 2022 Eli Lilly and Company. All rights reserved.</p>
         </div>
     </div>
 
