@@ -54,7 +54,7 @@ get_header();
 		</div>
 		<hr>
 
-		<h3><a href="<?php echo get_bloginfo('url'); ?>/ask-about-urgency">Bowel Urgency in UC</a></h3>
+		<h3><a href="<?php echo get_bloginfo('url'); ?>/ask-about-urgency">Ask About Urgency</a></h3>
 		<ul class="sitemapLinks">
 		    <li><a href="<?php echo get_bloginfo('url'); ?>/ask-about-urgency">Ask About Urgency</a></li>
 			<li><a href="<?php echo get_bloginfo('url'); ?>/urgency-anonymous">Urgency Anonymous</a></li>
