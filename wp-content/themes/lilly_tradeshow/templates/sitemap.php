@@ -49,6 +49,7 @@ get_header();
 
 			<ul class="sitemapLinks">
 				<li><a href="<?php echo get_bloginfo('url'); ?>/medical-affairs/medical-information/">Medical Information</a></li>
+				<li><a href="<?php echo get_bloginfo('url'); ?>/elevating-ulcerative-colitis-treatment-expectations/">DDW 2022 Symposium Event</a></li>
 			</ul>
 		</div>
 		<hr>
