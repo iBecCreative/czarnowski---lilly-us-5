@@ -8072,6 +8072,16 @@ p .dinLight {
   max-width: 988px;
 }
 
+.masthead--3 .masthead__container .inner-container h1 {
+  max-width: 586px;
+}
+.masthead--3 .masthead__container .inner-container .ulc_date {
+  color: #FFFFFF;
+  font-family: "FFDINWebProMedium", sans-serif;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
 .blocks {
   display: block;
   width: 100%;

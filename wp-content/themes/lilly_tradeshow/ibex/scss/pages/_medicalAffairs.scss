@@ -86,6 +86,22 @@
         }
     }
 }
+
+.masthead--3 {
+    .masthead__container {
+        .inner-container {
+            h1 {
+                max-width: 586px;
+            }
+            .ulc_date {
+                color: $white;
+                font-family: $dinmedium;
+                font-size: 16px;
+                margin-bottom: 1rem;
+              }
+        }
+    }
+}
 // End Carousel
 
 .blocks {
