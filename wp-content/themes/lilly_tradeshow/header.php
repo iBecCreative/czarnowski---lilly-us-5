@@ -147,7 +147,7 @@ $site_title = get_bloginfo('name');
 						</div>
 						<ul class="contactUsMenu__links">
 							<li class="contactUsMenu__link contactUsMenu__link--call">
-								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/call.png">Call:</h6>
+								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/call.png" style="width: 18px;">Call:</h6>
 								<p style="font-size:12px;color:#707070;">If you need information about a Lilly product or want to report an Adverse Event or Product Complaint, you may call us.</p>
 								<a class="desktop">1-800-LillyRx</a> 
 								<a class="desktop">(1-800-545-5979)</a>
@@ -159,13 +159,13 @@ $site_title = get_bloginfo('name');
 								<a href="<?php echo get_page_link(2537); ?>">Medical Science Liaison</a><br>
 							</li>
 							<li class="contactUsMenu__link contactUsMenu__link--submit">
-								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/submit.png">Submit a Request</h6>
+								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/submit.png" style="width: 18px;">Submit a Request</h6>
 								<a target="_blank" href="https://www.lillymedical.com/en-us/submitQuestion">Information Request</a><br>
 							</li>
 							<li class="contactUsMenu__link contactUsMenu__link--visit">
-								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/visit.png">Visit Us @LillyMedical</h6>
-								<a target="_blank" href="https://facebook.com/LillyMedical"><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/facebook.png" style="display: inline;">Facebook</a><br>
-								<a target="_blank" href="https://twitter.com/LillyMedical"><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/twitter.png" style="display: inline;">Twitter</a>
+								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/visit.png" style="width: 18px;">Visit Us @LillyMedical</h6>
+								<a target="_blank" href="https://facebook.com/LillyMedical"><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/facebook.png" style="display: inline;width:18px;">Facebook</a><br>
+								<a target="_blank" href="https://twitter.com/LillyMedical"><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/twitter.png" style="display: inline;width:18px;">Twitter</a>
 							</li>
 						</ul>
 					</nav>
