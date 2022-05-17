@@ -149,7 +149,7 @@ $site_title = get_bloginfo('name');
 							<li class="contactUsMenu__link contactUsMenu__link--call">
 								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/call.png">Call:</h6>
 								<p style="font-size:12px;color:#707070;">If you need information about a Lilly product or want to report an Adverse Event or Product Complaint, you may call us.</p>
-								<a class="desktop">1-800-LillyRx</a>
+								<a class="desktop">1-800-LillyRx</a> 
 								<a class="desktop">(1-800-545-5979)</a>
 								<a href="tel:18005455979" class="mob">1-800-LillyRx</a>
 								<a href="tel:18005455979" class="mob">(1-800-545-5979)</a>
