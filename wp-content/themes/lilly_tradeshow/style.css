@@ -2034,7 +2034,7 @@ a img.aligncenter {
 }
 @media (min-width: 480px) {
   .gates .gate p {
-    padding-right: 160px;
+    padding-right: 159px;
     padding-bottom: 0;
   }
 }
