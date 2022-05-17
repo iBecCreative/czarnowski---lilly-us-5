@@ -27,9 +27,9 @@
       </a>
     </div>
     <div class="gate gate--white">
-      <h1>Ask About Urgency</h1>
+      <h1>Bowel Urgency in UC</h1>
       <p>Many patients with ulcerative colitis (UC) find it hard to tell their stories of urgency and urgency accidents.<sup>1,2</sup> So, we found doctors to do it for them.</p> 
-      <p>Click to enter the Ask About Urgency area of this exhibit.</p>
+      <p>Click to enter the Bowel Urgency in UC area of this exhibit.</p>
       <a href="ask-about-urgency" class="gate__link">GO<br>
         <svg xmlns="http://www.w3.org/2000/svg" width="48.81" height="18.732" viewBox="0 0 48.81 18.732">
           <line id="Line_8" data-name="Line 8" x2="44.259" transform="translate(0 8.46)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
