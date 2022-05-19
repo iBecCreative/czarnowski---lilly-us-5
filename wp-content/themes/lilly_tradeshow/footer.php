@@ -62,7 +62,7 @@
 						<p>Prescribing information may vary depending on local approval in each country. Therefore, before prescribing any product, always refer to local materials such as the prescribing information and/or the Summary of Product Characteristics (SPC). Please <a target="_blank" href="https://lilly-virtual.com/docs/List-of-Countries_07May2021_03.pdf">click here</a> to view countries in which Lilly’s medicinal product is registered.</p>
 					</div>
 				</div> -->
-				<p>PP-LI-US-580 05/2022 © Lilly USA, LLC 2022. All rights reserved. This site is intended for US Healthcare Professionals Only.</p>
+				<p>PP-LI-US-0580 05/2022 © Lilly USA, LLC 2022. All rights reserved. This site is intended for US Healthcare Professionals Only.</p>
 				<p><strong>By viewing this site, you are agreeing to our <a target="_blank" href="<?php echo get_bloginfo('url'); ?>/wp-content/uploads/2021/07/Lilly_Web_Terms_and_Privacy-Policy_0040721_Final.pdf">terms</a>.</strong></p>
 			</div>
 			</div>

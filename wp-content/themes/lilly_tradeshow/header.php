@@ -164,7 +164,7 @@ $site_title = get_bloginfo('name');
 							</li>
 							<li class="contactUsMenu__link contactUsMenu__link--visit">
 								<h6><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/visit.png" style="width: 18px;">Visit Us @LillyMedical</h6>
-								<a target="_blank" href="https://facebook.com/LillyMedical"><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/facebook.png" style="display: inline;width:18px;">Facebook</a><br>
+								<a target="_blank" href="https://www.facebook.com/elilillyandco"><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/facebook.png" style="display: inline;width:18px;">Facebook</a><br>
 								<a target="_blank" href="https://twitter.com/LillyMedical"><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/lilly_tradeshow/ibex/images/twitter.png" style="display: inline;width:18px;">Twitter</a>
 							</li>
 						</ul>
