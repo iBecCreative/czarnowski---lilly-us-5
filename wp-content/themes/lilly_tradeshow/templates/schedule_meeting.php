@@ -24,7 +24,7 @@ get_header();
         <div class="schedule_page">
             <h1>Schedule a Meeting With an MSL</h1>
             <p class="intro-paragraph">For US Physicians only. Please click on any of the links below to check availability and schedule a meeting. If you are an OUS Physician, please click <span><a href="https://www.lillymedical.com/en-us/submitQuestion" target="_blank">this link</a></span> to submit your request.</p>
-
+            <p class="schedule_small">By providing my professional information, I agree that it may be used by Eli Lilly and Company (“Lilly”) and its affiliates and partners or third parties, working on Lilly’s behalf, for Lilly’s marketing or promotional purposes.<br>I may unsubscribe/opt-out by clicking the unsubscribe link within any email I receive<br>or by calling 1-800-LillyRx (1-800-545-5979)</p>
             <div class="column-container column-container-1">
                 <div class="column column-0">
                     <div class="doctor-block">

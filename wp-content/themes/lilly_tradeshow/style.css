@@ -7155,6 +7155,14 @@ p .dinLight {
   opacity: 1;
 }
 
+.schedule_small {
+  font-size: 12px;
+  font-family: "FFDINWebProLight", sans-serif;
+  width: 100%;
+  max-width: 620px;
+  line-height: 17px;
+}
+
 /* Columns */
 .column-container {
   display: flex;

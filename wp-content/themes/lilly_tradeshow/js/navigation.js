@@ -87,6 +87,8 @@ jQuery(document).ready(function($) {
       <h2 style="color:#fff;">Urgency Anonymous</h2>
       <p style="color:#fff;">There are patients with ulcerative colitis (UC) who suffer from bowel urgency in silence<sup>1,2</sup>. It’s time to hear their stories and break the silence. Ask about bowel urgency at every visit.</p>
       <p style="color: #fff;">By clicking into this link, you will be entering the Urgency Anonymous portion of this exhibit.</p>
+      <p class="references"><strong>References</strong></br>
+      <strong>1.</strong> Hibi T, Ishibashi T, Ikenoue Y, Yoshihara R, Nihei A, Kobayashi T. Ulcerative colitis: disease burden, impact on daily life, and reluctance to consult medical professionals: results from a Japanese internet survey. Inflamm Intest Dis. 2020;5:27–35. doi:10.1159/000505092 <strong>2.</strong> Petryszyn PW, Paradowski L. Stool patterns and symptoms of disordered anorectal function in patients with inflammatory bowel diseases. Adv Clin Exp Med. 2018;27(6):813–818. doi:10.17219/acem/68986</p>
     </div>`
   );
   // $('#primary-navigation .medical .sub-menu').append(

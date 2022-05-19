@@ -32,9 +32,7 @@ get_header();
         <img src="<?php echo bloginfo('stylesheet_directory');?>/ibex/images/clinical_trials-banner.png" width="100%">
 
         <div class="content__wrapper--btextfull">
-            <p><strong>The safety and efficacy of the agents under investigation has not been established. There is no guarantee that the agents will receive regulatory and become commercially available for the uses being investigated approval and become commercially available for the uses being investigated.</strong></p>
-
-            <p style="margin-top:20px;"><strong>Mirikizumab has been granted Orphan Drug Designation from the US FDA for the investigation of UC and CD in pediatric patients.</strong></p>
+            <p><strong>The safety and efficacy of the agents under investigation have not been established. There is no guarantee that the agents will receive regulatory approval and become commercially available for the uses being investigated.</strong></p>
         </div>
         <div class="content__wrapper--btextsplit">
             <div class="left">
